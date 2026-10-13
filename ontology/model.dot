@@ -1,0 +1,64 @@
+// Semantic data model of the FAIRified municipal results (Task 2).
+// Render: dot -Tsvg ontology/model.dot -o ontology/model.svg
+// Prefixes: d: = <BASE>data#   ont: = <BASE>ont#   (BASE in config.py)
+digraph model {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=11, nodesep=0.35, ranksep=0.9, pad=0.3,
+         label=<<b>Semantic data model</b>  ·  example: www.enschede.nl, test HSTS, begin-2026 edition<br/><font point-size="9">blue = EARL · orange = PROV-O · purple = project ontology (ont:) · green = SKOS · grey = external linked data (TOOI, Wikidata, NORA, IETF)</font>>,
+         labelloc=t];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, penwidth=1.2];
+  edge  [fontname="Helvetica", fontsize=9, color="#555555", arrowsize=0.7];
+
+  // EARL
+  assertion [fillcolor="#dbe9f6", color="#2f6fa8", label=<<b>earl:Assertion</b><br/><font face="Courier" point-size="9">d:2026H1-www.enschede.nl-hsts</font>>];
+  result    [fillcolor="#dbe9f6", color="#2f6fa8", label=<<b>earl:TestResult</b><br/><font face="Courier" point-size="9">d:2026H1-www.enschede.nl-hsts-result</font><br/><font point-size="9">dct:date "2025-12-31"^^xsd:date (reference date)</font>>];
+  automatic [fillcolor="#dbe9f6", color="#2f6fa8", label=<<b>earl:automatic</b><br/><font point-size="9">earl:TestMode</font>>];
+
+  // Project ontology (with EARL superclasses)
+  host      [fillcolor="#e8def3", color="#6b4c9a", label=<<b>ont:Host</b>  ⊑ earl:TestSubject<br/><font face="Courier" point-size="9">d:host-www.enschede.nl</font><br/><font point-size="9">ont:hostName "www.enschede.nl"</font>>];
+  test      [fillcolor="#e8def3", color="#6b4c9a", label=<<b>earl:TestCase</b>, ont:WebTest | ont:MailTest | ont:CoreMailTest<br/><font face="Courier" point-size="9">ont:hsts</font>  (14 tests)>];
+  attribution [fillcolor="#e8def3", color="#6b4c9a", label=<<b>ont:HostAttribution</b>  ⊑ prov:Entity<br/><font face="Courier" point-size="9">d:attribution-www.enschede.nl</font>>];
+  rule      [fillcolor="#e8def3", color="#6b4c9a", label=<<b>ont:AttributionRule</b>  ⊑ prov:Plan, skos:Concept<br/><font face="Courier" point-size="9">ont:R1-official-host … ont:R4-name-label</font>>];
+  servicedomain [fillcolor="#e8def3", color="#6b4c9a", label=<<b>ont:ServiceDomain</b><br/><font face="Courier" point-size="9">d:domain-bestuurlijkeinformatie.nl</font><br/><font point-size="9">(only for rule R4)</font>>];
+  province  [fillcolor="#e8def3", color="#6b4c9a", label=<<b>ont:Province</b><br/><font face="Courier" point-size="9">wd:Q773 (Overijssel)</font>>];
+
+  // SKOS outcome codes typed with EARL outcome classes
+  outcome   [fillcolor="#dff0dc", color="#3d8b37", label=<<b>skos:Concept</b> + <b>earl:Fail</b><br/><font face="Courier" point-size="9">ont:failed</font>  ∈ ont:OutcomeCodes (10 codes)<br/><font point-size="9">passed, info, warning → earl:Pass · failed → earl:Fail<br/>no_mx, not_applicable → earl:NotApplicable · not_tested → earl:NotTested<br/>error, unreachable, untestable → earl:CannotTell</font>>];
+
+  // PROV
+  agent     [fillcolor="#fbe5cf", color="#c06a12", label=<<b>earl:Software</b>, <b>prov:SoftwareAgent</b><br/><font face="Courier" point-size="9">d:internetnl</font>  (Internet.nl)>];
+  forum     [fillcolor="#fbe5cf", color="#c06a12", label=<<b>prov:Organization</b><br/><font face="Courier" point-size="9">d:forum-standaardisatie</font>>];
+  measurement [fillcolor="#fbe5cf", color="#c06a12", label=<<b>prov:Activity</b>  measurement<br/><font face="Courier" point-size="9">d:measurement-2026H1</font>>];
+  correction [fillcolor="#fbe5cf", color="#c06a12", label=<<b>prov:Activity</b>  label correction<br/><font face="Courier" point-size="9">d:label-correction-2026H1</font><br/><font point-size="9">(HTTPS redirect and HSTS only)</font>>];
+  linking   [fillcolor="#fbe5cf", color="#c06a12", label=<<b>prov:Activity</b>  linking<br/><font face="Courier" point-size="9">d:linking-2026H1</font>>];
+
+  // External linked data
+  municipality [fillcolor="#eeeeee", color="#777777", label=<<b>ont:Municipality</b>  ⊑ org:Organization<br/><font face="Courier" point-size="9">tooi:gemeente/gm0153</font>  (TOOI)<br/><font point-size="9">ont:cbsCode "GM0153" · rdfs:label "Enschede"@nl</font>>];
+  wikidata  [fillcolor="#eeeeee", color="#777777", label=<<b>Wikidata item</b><br/><font face="Courier" point-size="9">wd:Q134486510</font>>];
+  standard  [fillcolor="#eeeeee", color="#777777", label=<<b>skos:Concept</b>  (NORA standard)<br/><font face="Courier" point-size="9">nora:FS:Https-en-hsts</font>>];
+  rfc       [fillcolor="#eeeeee", color="#777777", label=<<b>Specification</b><br/><font face="Courier" point-size="9">RFC 6797, RFC 9110</font>>];
+  faq       [fillcolor="#eeeeee", color="#777777", label=<<b>Test documentation</b><br/><font face="Courier" point-size="9">en.internet.nl/faqs/https/</font>>];
+
+  assertion -> host        [label="earl:subject"];
+  assertion -> test        [label="earl:test"];
+  assertion -> result      [label="earl:result"];
+  assertion -> agent       [label="earl:assertedBy"];
+  assertion -> automatic   [label="earl:mode"];
+  assertion -> correction  [label="prov:wasInfluencedBy", style=dashed];
+  result    -> outcome     [label="earl:outcome"];
+  result    -> measurement [label="prov:wasGeneratedBy"];
+  measurement -> agent     [label="prov:wasAssociatedWith"];
+  agent     -> forum       [label="prov:actedOnBehalfOf"];
+  test      -> standard    [label="ont:checksStandard"];
+  test      -> faq         [label="rdfs:seeAlso"];
+  standard  -> rfc         [label="nora:Specificatiedocument"];
+
+  attribution -> host          [label="ont:attributedHost"];
+  attribution -> municipality  [label="ont:attributedTo"];
+  attribution -> rule          [label="ont:attributionRule"];
+  attribution -> servicedomain [label="ont:viaServiceDomain", style=dashed];
+  attribution -> linking       [label="prov:wasGeneratedBy"];
+  linking   -> rule            [label="prov:qualifiedAssociation / prov:hadPlan", style=dotted];
+  municipality -> host         [label="ont:websiteHost / ont:mainMailDomain"];
+  municipality -> province     [label="ont:inProvince"];
+  municipality -> wikidata     [label="schema:sameAs"];
+}
