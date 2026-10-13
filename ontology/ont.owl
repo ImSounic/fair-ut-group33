@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:ont="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:earl="http://www.w3.org/ns/earl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:vann="http://purl.org/vocab/vann/"
+>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#dmarc">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">DMARC policy</rdfs:label>
+    <rdfs:label xml:lang="nl">DMARC policy</rdfs:label>
+    <skos:notation>DMARC policy</skos:notation>
+    <skos:definition xml:lang="nl">Is DMARC aanwezig en is het strikt configureerd? (p=quarantine of p=reject)</skos:definition>
+    <skos:definition xml:lang="en">Checks whether DMARC is present with a strict policy (p=quarantine or p=reject).</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dmarc"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/mailauth/"/>
+    <rdfs:isDefinedBy>
+      <owl:Ontology rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont">
+        <dct:title xml:lang="en">Ontology for the FAIRified municipal results of the Dutch information security standards measurement</dct:title>
+        <dct:title xml:lang="nl">Ontologie voor de FAIR gemaakte gemeentelijke resultaten van de Meting Informatieveiligheidstandaarden</dct:title>
+        <dct:description xml:lang="en">Terms that extend the W3C Evaluation and Report Language (EARL), PROV-O and SKOS to describe the per-host results of the half-yearly measurement of mandatory internet security standards by Forum Standaardisatie: the security tests and the standards they check, the outcome codes of the measurement, and the explicit, rule-based attribution of internet hosts to Dutch municipalities.</dct:description>
+        <dct:description xml:lang="nl">Termen die de W3C Evaluation and Report Language (EARL), PROV-O en SKOS uitbreiden om de resultaten per host van de halfjaarlijkse Meting Informatieveiligheidstandaarden van Forum Standaardisatie te beschrijven: de beveiligingstests en de standaarden die zij toetsen, de resultaatcodes van de meting en de expliciete, op regels gebaseerde toewijzing van internethosts aan Nederlandse gemeenten.</dct:description>
+        <dct:creator>
+          <foaf:Person rdf:nodeID="n04462eb0c7214bb984a0e3b278769938b1">
+            <foaf:name>Sounic Akkaraju</foaf:name>
+          </foaf:Person>
+        </dct:creator>
+        <dct:publisher>
+          <foaf:Organization rdf:nodeID="n04462eb0c7214bb984a0e3b278769938b2">
+            <foaf:name>University of Twente, FAIR Data Engineering course, Group 33</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-13</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-13</dct:modified>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <vann:preferredNamespacePrefix>ont</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#</vann:preferredNamespaceUri>
+        <rdfs:seeAlso rdf:resource="https://www.w3.org/TR/EARL10-Schema/"/>
+        <rdfs:seeAlso rdf:resource="https://www.w3.org/TR/prov-o/"/>
+      </owl:Ontology>
+    </rdfs:isDefinedBy>
+  </earl:TestCase>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#mainMailDomain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">main mail domain</rdfs:label>
+    <rdfs:label xml:lang="nl">hoofdmaildomein</rdfs:label>
+    <skos:definition xml:lang="en">The host on which the e-mail tests of a municipality are read: the registrable domain of its main website, without www.</skos:definition>
+    <skos:definition xml:lang="nl">De host waarop de e-mailtests van een gemeente worden gelezen: het registreerbare domein van haar hoofdwebsite, zonder www.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Host"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#dnssec">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">DNSSEC</rdfs:label>
+    <rdfs:label xml:lang="nl">DNSSEC</rdfs:label>
+    <skos:notation>DNSSEC</skos:notation>
+    <skos:definition xml:lang="nl">Is DNSSEC aanwezig? Bij DNS verwijzingen middels CNAME geldt dit voor het gehele pad.</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the domain is signed with DNSSEC; with CNAME references this applies to the whole path.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dnssec"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/dnssec/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#warning">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#Pass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes">
+        <skos:prefLabel xml:lang="en">Outcome codes of the information security standards measurement</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Resultaatcodes van de Meting Informatieveiligheidstandaarden</skos:prefLabel>
+        <skos:definition xml:lang="en">The ten codes that the measurement reports per host and test. Each code is also an instance of an EARL outcome class, so that the original code is kept while EARL tools can read its meaning.</skos:definition>
+        <skos:definition xml:lang="nl">De tien codes die de meting per host en test rapporteert. Elke code is ook een instantie van een EARL-uitkomstklasse, zodat de oorspronkelijke code behouden blijft en EARL-tools de betekenis kunnen lezen.</skos:definition>
+        <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>warning</skos:notation>
+    <skos:prefLabel xml:lang="en">warning</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">waarschuwing</skos:prefLabel>
+    <skos:definition xml:lang="en">Failure on a recommended test.</skos:definition>
+    <skos:definition xml:lang="nl">De standaard is niet optimaal geconfigureerd, maar het betreft een aanbeveling en geen verplichting.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <skos:scopeNote xml:lang="en">Counted as adoption (earl:Pass), following the publisher's counting rule and the Internet.nl scoring, which keep a full score for recommended and optional tests. The original code is preserved.</skos:scopeNote>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#passed"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#tls">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">TLS NCSC web</rdfs:label>
+    <rdfs:label xml:lang="nl">TLS NCSC web</rdfs:label>
+    <skos:notation>TLS NCSC web</skos:notation>
+    <skos:definition xml:lang="nl">Als een bezoeker een onbeveiligde HTTP-verbinding heeft met een website, dan kan een kwaadwillende eenvoudig gegevens onderweg afluisteren of aanpassen, of zelfs het contact volledig overnemen. TLS behoort bovendien zodanig geconfigureerd te zijn dat deze voldoet aan de aanbevelingen van het Nationaal Cyber Security Center (NCSC). Zodat de vertrouwelijkheid, de authenticiteit en integriteit van een bezoek aan een website is gegarandeerd.</skos:definition>
+    <skos:definition xml:lang="en">Checks that the website is offered over TLS (HTTPS) configured according to the recommendations of the National Cyber Security Centre (NCSC), so that the confidentiality, authenticity and integrity of a visit are guaranteed.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Tls"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/https/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#cbsCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">CBS municipality code</rdfs:label>
+    <rdfs:label xml:lang="nl">CBS-gemeentecode</rdfs:label>
+    <skos:definition xml:lang="en">The municipality code of Statistics Netherlands (CBS), for example GM0153. CBS identifiers resolve to HTML only, so the code is recorded as a literal.</skos:definition>
+    <skos:definition xml:lang="nl">De gemeentecode van het CBS, bijvoorbeeld GM0153. CBS-identifiers verwijzen alleen naar HTML, daarom is de code als literal vastgelegd.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/P382"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:DatatypeProperty>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#dane">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">DANE</rdfs:label>
+    <rdfs:label xml:lang="nl">DANE</rdfs:label>
+    <skos:notation>DANE</skos:notation>
+    <skos:definition xml:lang="nl">Is DANE aanwezig (TLSA record op het MX domein)?</skos:definition>
+    <skos:definition xml:lang="en">Checks whether DANE is present (a TLSA record on the MX domain).</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Starttls-en-dane"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/starttls/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#passed">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#Pass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>passed</skos:notation>
+    <skos:prefLabel xml:lang="en">passed</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">geslaagd</skos:prefLabel>
+    <skos:definition xml:lang="en">The test was successful.</skos:definition>
+    <skos:definition xml:lang="nl">De standaard is toegepast.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#passed"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#untestable">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#CannotTell"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>untestable</skos:notation>
+    <skos:prefLabel xml:lang="en">untestable</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">niet testbaar</skos:prefLabel>
+    <skos:definition xml:lang="en">Errors were encountered during testing with at least one mailserver. These could be persistent SMTP errors and/or dropped connections that could not be overcome even after several retries. Instead of partial (and probably not correct) STARTTLS results, that mailserver is treated as non testable.</skos:definition>
+    <skos:definition xml:lang="nl">Door technische omstandigheden is de server niet bereikbaar met het geconfigureerde IPv4- en/of IPv6-adres. Dit kan één of meerdere van de volgende oorzaken hebben: er is sprake van rate limiting (vooral bij mailservers); de domeinnaam is incorrect uitgefaseerd (correcte uitfasering is het verwijderen van het A-, AAAA- en MX-record); een van de IPv4 en/of IPv6 adressen is onbereikbaar vanwege een configuratiefout of (tijdelijk) verbindingsprobleem.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/custom_results.py"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#cantTell"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <ont:AttributionRule rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#R1-official-host">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules">
+        <skos:prefLabel xml:lang="en">Rules for attributing hosts to municipalities</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Regels voor het toewijzen van hosts aan gemeenten</skos:prefLabel>
+        <skos:definition xml:lang="en">Deterministic rules, applied in order, that attribute a host to a municipality using the official websites recorded in Wikidata (P856). The first rule that matches applies.</skos:definition>
+        <skos:definition xml:lang="nl">Deterministische regels, in volgorde toegepast, die een host aan een gemeente toewijzen op basis van de officiële websites in Wikidata (P856). De eerste regel die past, wordt toegepast.</skos:definition>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:notation>R1</skos:notation>
+    <skos:prefLabel xml:lang="en">official host</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">officiële host</skos:prefLabel>
+    <skos:definition xml:lang="en">The host, without a leading www, equals the host of an official website of the municipality.</skos:definition>
+    <skos:definition xml:lang="nl">De host, zonder voorafgaand www, is gelijk aan de host van een officiële website van de gemeente.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </ont:AttributionRule>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#no_mx">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#NotApplicable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>no_mx</skos:notation>
+    <skos:prefLabel xml:lang="en">no mail server</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">geen mailserver</skos:prefLabel>
+    <skos:definition xml:lang="en">No mailservers are configured for the domain.</skos:definition>
+    <skos:definition xml:lang="nl">Bij de mailtest geeft dit resultaat aan dat er geen ontvangende mailserver (MX) is geconfigureerd, waardoor de standaard niet van toepassing is.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/custom_results.py"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <skos:scopeNote xml:lang="en">The tests that depend on a receiving mail server (STARTTLS, DNSSEC MX, DANE, IPv6 MX) do not apply; DKIM, SPF and DMARC are still evaluated.</skos:scopeNote>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#inapplicable"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <ont:AttributionRule rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#R2-official-domain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:notation>R2</skos:notation>
+    <skos:prefLabel xml:lang="en">official domain</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">officieel domein</skos:prefLabel>
+    <skos:definition xml:lang="en">The registrable domain (last two labels) of the host equals the registrable domain of an official website of the municipality.</skos:definition>
+    <skos:definition xml:lang="nl">Het registreerbare domein (laatste twee labels) van de host is gelijk aan het registreerbare domein van een officiële website van de gemeente.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </ont:AttributionRule>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#starttls">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">STARTTLS NCSC</rdfs:label>
+    <rdfs:label xml:lang="nl">STARTTLS NCSC</rdfs:label>
+    <skos:notation>STARTTLS NCSC</skos:notation>
+    <skos:definition xml:lang="nl">Is STARTTLS aanwezig en optimaal veilig geconfigureerd volgens de aanbevelingen van het NCSC?</skos:definition>
+    <skos:definition xml:lang="en">Checks whether STARTTLS is present and configured securely according to the recommendations of the NCSC.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Tls"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Starttls-en-dane"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/starttls/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:DatatypeProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#hostName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">host name</rdfs:label>
+    <rdfs:label xml:lang="nl">hostnaam</rdfs:label>
+    <skos:definition xml:lang="en">The DNS name of a host or service domain, in lower case and without a trailing dot.</skos:definition>
+    <skos:definition xml:lang="nl">De DNS-naam van een host of dienstdomein, in kleine letters en zonder afsluitende punt.</skos:definition>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:DatatypeProperty>
+  <ont:AttributionRule rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#R4-name-label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:notation>R4</skos:notation>
+    <skos:prefLabel xml:lang="en">name label</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">naamlabel</skos:prefLabel>
+    <skos:definition xml:lang="en">The host has at least three labels and its first label is the normalised name of exactly one municipality; the registrable domain is recorded as the service domain.</skos:definition>
+    <skos:definition xml:lang="nl">De host heeft ten minste drie labels en het eerste label is de genormaliseerde naam van precies één gemeente; het registreerbare domein wordt vastgelegd als dienstdomein.</skos:definition>
+    <skos:scopeNote xml:lang="en">The precision of this rule has not been measured; attributions by this rule can be filtered by their rule.</skos:scopeNote>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </ont:AttributionRule>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#not_tested">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#NotTested"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>not_tested</skos:notation>
+    <skos:prefLabel xml:lang="en">not tested</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">niet getest</skos:prefLabel>
+    <skos:definition xml:lang="en">Not tested; a related parent test already failed.</skos:definition>
+    <skos:definition xml:lang="nl">Bij de mailtest geeft dit resultaat aan dat er geen ontvangende mailserver (MX) is geconfigureerd, waardoor de standaard niet van toepassing is.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <skos:scopeNote xml:lang="en">The publisher's legend groups not_tested with no_mx (no receiving mail server configured). In the municipal e-mail table it occurs mostly for RPKI MX on hosts without a mail server.</skos:scopeNote>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#untested"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#ipv6_mx">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">IPv6 MX</rdfs:label>
+    <rdfs:label xml:lang="nl">IPv6 MX</rdfs:label>
+    <skos:notation>IPv6 MX</skos:notation>
+    <skos:definition xml:lang="nl">Is de e-mailserver volledig bereikbaar via IPv6?</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the mail server is fully reachable over IPv6.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Ipv6"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/ipv6/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#unreachable">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#CannotTell"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>unreachable</skos:notation>
+    <skos:prefLabel xml:lang="en">unreachable</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">onbereikbaar</skos:prefLabel>
+    <skos:definition xml:lang="en">Network connectivity was not possible with at least one mailserver for the STARTTLS tests. That mailserver is treated as non testable.</skos:definition>
+    <skos:definition xml:lang="nl">Door technische omstandigheden is de server niet bereikbaar met het geconfigureerde IPv4- en/of IPv6-adres. Dit kan één of meerdere van de volgende oorzaken hebben: er is sprake van rate limiting (vooral bij mailservers); de domeinnaam is incorrect uitgefaseerd (correcte uitfasering is het verwijderen van het A-, AAAA- en MX-record); een van de IPv4 en/of IPv6 adressen is onbereikbaar vanwege een configuratiefout of (tijdelijk) verbindingsprobleem.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/custom_results.py"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#cantTell"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#hsts">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">HSTS</rdfs:label>
+    <rdfs:label xml:lang="nl">HSTS</rdfs:label>
+    <skos:notation>HSTS</skos:notation>
+    <skos:definition xml:lang="nl">HSTS zorgt ervoor dat een browser eist dat een website altijd HTTPS blijft gebruiken na het eerste contact over HTTPS. Dit helpt voorkomen dat een derde -bijvoorbeeld een kwaadaardige WiFi-hotspot- een browser kan omleiden naar een valse website. Door HTTPS samen met HSTS te gebruiken wordt het gebruik van beveiligde verbindingen zoveel mogelijk afgedwongen.</skos:definition>
+    <skos:definition xml:lang="en">Checks for HTTP Strict Transport Security (HSTS), which makes a browser require that a website keeps using HTTPS after the first contact over HTTPS, so that a third party cannot redirect the browser to a fake website.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Https-en-hsts"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/https/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#not_applicable">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#NotApplicable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>not_applicable</skos:notation>
+    <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">niet van toepassing</skos:prefLabel>
+    <skos:definition xml:lang="en">In the mail test, DKIM is not applicable because DMARC and SPF are configured well (result not relevant).</skos:definition>
+    <skos:definition xml:lang="nl">Bij de mailtest geeft dit resultaat aan dat vanwege de goede configuratie van DMARC en SPF de standaard DKIM niet van toepassing is (resultaat niet relevant).</skos:definition>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#inapplicable"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#inProvince">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">in province</rdfs:label>
+    <rdfs:label xml:lang="nl">ligt in provincie</rdfs:label>
+    <skos:definition xml:lang="en">The province in which a municipality lies.</skos:definition>
+    <skos:definition xml:lang="nl">De provincie waarin een gemeente ligt.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Province"/>
+    <rdfs:seeAlso rdf:resource="https://identifier.overheid.nl/tooi/def/ont#ligtInProvincie"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#attributedTo">
+    <rdfs:label xml:lang="en">attributed to</rdfs:label>
+    <rdfs:label xml:lang="nl">toegewezen aan</rdfs:label>
+    <skos:definition xml:lang="en">The municipality to which a host attribution attributes its host.</skos:definition>
+    <skos:definition xml:lang="nl">De gemeente waaraan een toewijzing de host toewijst.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#websiteHost">
+    <rdfs:label xml:lang="en">website host</rdfs:label>
+    <rdfs:label xml:lang="nl">websitehost</rdfs:label>
+    <skos:definition xml:lang="en">A tested host of the main website of a municipality: the bare name and the www name of the website, as far as they occur in the web table. Derived from the official website in Wikidata (P856); a non-www subdomain is replaced by its registrable domain.</skos:definition>
+    <skos:definition xml:lang="nl">Een geteste host van de hoofdwebsite van een gemeente: de naam zonder en met www, voor zover zij in de webtabel voorkomen. Afgeleid van de officiële website in Wikidata (P856); een subdomein anders dan www wordt vervangen door het registreerbare domein.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Host"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#attributionRule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">attribution rule</rdfs:label>
+    <rdfs:label xml:lang="nl">toewijzingsregel</rdfs:label>
+    <skos:definition xml:lang="en">The rule that produced a host attribution.</skos:definition>
+    <skos:definition xml:lang="nl">De regel die een toewijzing heeft opgeleverd.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRule"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#https_redirect">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">HTTPS redirect</rdfs:label>
+    <rdfs:label xml:lang="nl">HTTPS redirect</rdfs:label>
+    <skos:notation>HTTPS redirect</skos:notation>
+    <skos:definition xml:lang="nl">Er wordt getest of een webserver bezoekers automatisch doorverwijst van HTTP naar HTTPS op dezelfde domeinnaam óf dat deze ondersteuning biedt voor alleen HTTPS en niet voor HTTP. Op Internet.nl heet deze subtest 'HTTPS Redirect'.</skos:definition>
+    <skos:definition xml:lang="en">Checks whether a web server automatically redirects visitors from HTTP to HTTPS on the same domain name, or supports only HTTPS and not HTTP (the Internet.nl subtest 'HTTPS Redirect').</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Https-en-hsts"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/https/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#dnssec_mx">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">DNSSEC MX</rdfs:label>
+    <rdfs:label xml:lang="nl">DNSSEC MX</rdfs:label>
+    <skos:notation>DNSSEC MX</skos:notation>
+    <skos:definition xml:lang="nl">Is DNSSEC aanwezig op het mailserver (MX) domein?</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the domain of the mail server (MX) is signed with DNSSEC.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dnssec"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/dnssec/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#spf">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">SPF policy</rdfs:label>
+    <rdfs:label xml:lang="nl">SPF policy</rdfs:label>
+    <skos:notation>SPF policy</skos:notation>
+    <skos:definition xml:lang="nl">Is SPF aanwezig en is het strikt geconfigureerd? (~all of -all)</skos:definition>
+    <skos:definition xml:lang="en">Checks whether SPF is present with a strict policy (~all or -all).</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Spf"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/mailauth/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#ipv6_web">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">IPv6 web</rdfs:label>
+    <rdfs:label xml:lang="nl">IPv6 web</rdfs:label>
+    <skos:notation>IPv6 web</skos:notation>
+    <skos:definition xml:lang="nl">Is de website volledig bereikbaar via IPv6? Het betreft hier de webserver en tenminste twee nameservers.</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the website is fully reachable over IPv6: the web server and at least two name servers.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Ipv6"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/ipv6/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#info">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#Pass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>info</skos:notation>
+    <skos:prefLabel xml:lang="en">info</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">informatief</skos:prefLabel>
+    <skos:definition xml:lang="en">Failure on an optional test.</skos:definition>
+    <skos:definition xml:lang="nl">De standaard is niet optimaal geconfigureerd, maar het betreft een optionele configuratie en geen verplichting.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <skos:scopeNote xml:lang="en">Counted as adoption (earl:Pass), following the publisher's counting rule and the Internet.nl scoring, which keep a full score for recommended and optional tests. The original code is preserved.</skos:scopeNote>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#passed"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#error">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#CannotTell"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>error</skos:notation>
+    <skos:prefLabel xml:lang="en">error</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">fout</skos:prefLabel>
+    <skos:definition xml:lang="en">The test could not be completed due to an error (either on the tool's or the server's under test side). Other tests that depend on this one will therefore not be able to run.</skos:definition>
+    <skos:definition xml:lang="nl">Door technische omstandigheden is de server niet bereikbaar met het geconfigureerde IPv4- en/of IPv6-adres. Dit kan één of meerdere van de volgende oorzaken hebben: er is sprake van rate limiting (vooral bij mailservers); de domeinnaam is incorrect uitgefaseerd (correcte uitfasering is het verwijderen van het A-, AAAA- en MX-record); een van de IPv4 en/of IPv6 adressen is onbereikbaar vanwege een configuratiefout of (tijdelijk) verbindingsprobleem.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#cantTell"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#viaServiceDomain">
+    <rdfs:label xml:lang="en">via service domain</rdfs:label>
+    <rdfs:label xml:lang="nl">via dienstdomein</rdfs:label>
+    <skos:definition xml:lang="en">The service domain under which an attributed host is named, for attributions by the name-label rule.</skos:definition>
+    <skos:definition xml:lang="nl">Het dienstdomein waaronder een toegewezen host is genoemd, bij toewijzingen volgens de naamlabelregel.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#ServiceDomain"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <skos:Concept rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#failed">
+    <rdf:type rdf:resource="http://www.w3.org/ns/earl#Fail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#OutcomeCodes"/>
+    <skos:notation>failed</skos:notation>
+    <skos:prefLabel xml:lang="en">failed</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">niet geslaagd</skos:prefLabel>
+    <skos:definition xml:lang="en">Failure on a required test.</skos:definition>
+    <skos:definition xml:lang="nl">De standaard is niet (of niet juist) toegepast.</skos:definition>
+    <dct:source rdf:resource="https://github.com/internetstandards/Internet.nl/blob/ad507d18bee333f3db5a3a3cf965678a41b5893a/interface/batch/openapi.yaml"/>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/ns/earl#failed"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </skos:Concept>
+  <ont:AttributionRule rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#R3-name-domain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:topConceptOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRules"/>
+    <skos:notation>R3</skos:notation>
+    <skos:prefLabel xml:lang="en">name domain</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">naamdomein</skos:prefLabel>
+    <skos:definition xml:lang="en">The first label of the registrable domain of the host is the normalised name of exactly one municipality.</skos:definition>
+    <skos:definition xml:lang="nl">Het eerste label van het registreerbare domein van de host is de genormaliseerde naam van precies één gemeente.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </ont:AttributionRule>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#attributedHost">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">attributed host</rdfs:label>
+    <rdfs:label xml:lang="nl">toegewezen host</rdfs:label>
+    <skos:definition xml:lang="en">The host that a host attribution is about.</skos:definition>
+    <skos:definition xml:lang="nl">De host waarover een toewijzing gaat.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Host"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#rpki_web">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">RPKI web</rdfs:label>
+    <rdfs:label xml:lang="nl">RPKI web</rdfs:label>
+    <skos:notation>RPKI web</skos:notation>
+    <skos:definition xml:lang="nl">Hebben de IP-adressen voor alle route-aankondigingen een gepubliceerde RPKI Route Origin Authorisation (ROA)? Het gaat om de IP-adressen van de webserver en nameservers van het domein.</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the IP addresses of the web server and the name servers of the domain are covered by a published RPKI Route Origin Authorisation (ROA) for all route announcements.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Rpki"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/rpki/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#candidateMunicipality">
+    <rdfs:label xml:lang="en">candidate municipality</rdfs:label>
+    <rdfs:label xml:lang="nl">kandidaat-gemeente</rdfs:label>
+    <skos:definition xml:lang="en">A municipality that an attribution rule matched for an ambiguous host attribution, where more than one municipality matched and the host was therefore not attributed.</skos:definition>
+    <skos:definition xml:lang="nl">Een gemeente die een toewijzingsregel vond bij een dubbelzinnige toewijzing, waarbij meer dan één gemeente overeenkwam en de host daarom niet is toegewezen.</skos:definition>
+    <rdfs:domain rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution"/>
+    <rdfs:range rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#dkim">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">DKIM</rdfs:label>
+    <rdfs:label xml:lang="nl">DKIM</rdfs:label>
+    <skos:notation>DKIM</skos:notation>
+    <skos:definition xml:lang="nl">Is DKIM aanwezig?</skos:definition>
+    <skos:definition xml:lang="en">Checks whether DKIM is present.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dkim"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/mailauth/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+  <earl:TestCase rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#rpki_mx">
+    <rdf:type rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:label xml:lang="en">RPKI MX</rdfs:label>
+    <rdfs:label xml:lang="nl">RPKI MX</rdfs:label>
+    <skos:notation>RPKI MX</skos:notation>
+    <skos:definition xml:lang="nl">Hebben de IP-adressen voor alle route-aankondigingen een gepubliceerde RPKI Route Origin Authorisation (ROA)? Het gaat om de IP-adressen van de e-mailserver (MX) en nameservers van het MX domein.</skos:definition>
+    <skos:definition xml:lang="en">Checks whether the IP addresses of the mail server (MX) and the name servers of the MX domain are covered by a published RPKI Route Origin Authorisation (ROA) for all route announcements.</skos:definition>
+    <skos:editorialNote xml:lang="en">The Dutch definition is quoted from the legend of the appendix; the English definition is a translation of it.</skos:editorialNote>
+    <dct:source rdf:resource="https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten"/>
+    <ont:checksStandard rdf:resource="https://www.noraonline.nl/wiki/Special:URIResolver/FS:Rpki"/>
+    <rdfs:seeAlso rdf:resource="https://en.internet.nl/faqs/rpki/"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </earl:TestCase>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+  <owl:ObjectProperty rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#checksStandard">
+    <rdfs:label xml:lang="en">checks standard</rdfs:label>
+    <rdfs:label xml:lang="nl">toetst standaard</rdfs:label>
+    <skos:definition xml:lang="en">Relates a test to a standard on the Dutch comply-or-explain list whose application the test's pass criterion operationalises. A test can check more than one standard.</skos:definition>
+    <skos:definition xml:lang="nl">Verbindt een test met een standaard op de 'pas toe of leg uit'-lijst waarvan het slaagcriterium van de test de toepassing operationaliseert. Een test kan meer dan één standaard toetsen.</skos:definition>
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:ObjectProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Host">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    <rdfs:label xml:lang="en">host</rdfs:label>
+    <rdfs:label xml:lang="nl">host</rdfs:label>
+    <skos:definition xml:lang="en">A fully qualified DNS host name that the measurement tested. The bare name and the name with the www prefix are distinct hosts, because they are tested separately and their results can differ.</skos:definition>
+    <skos:definition xml:lang="nl">Een volledig gekwalificeerde DNS-hostnaam die in de meting is getest. De naam zonder en met het voorvoegsel www zijn verschillende hosts, omdat zij afzonderlijk worden getest en de resultaten kunnen verschillen.</skos:definition>
+    <rdfs:seeAlso rdf:resource="http://d3fend.mitre.org/ontologies/d3fend.owl#DomainName"/>
+    <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q32635"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#CoreMailTest">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest"/>
+    <rdfs:label xml:lang="en">core e-mail test</rdfs:label>
+    <rdfs:label xml:lang="nl">kern-e-mailtest</rdfs:label>
+    <skos:definition xml:lang="en">An e-mail test that concerns mail authentication or transport security: DKIM, DMARC policy, SPF policy, STARTTLS NCSC, DNSSEC MX and DANE. Defined for competency question 2.</skos:definition>
+    <skos:definition xml:lang="nl">Een e-mailtest die mailauthenticatie of transportbeveiliging betreft: DKIM, DMARC policy, SPF policy, STARTTLS NCSC, DNSSEC MX en DANE. Gedefinieerd voor competentievraag 2.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestCase"/>
+    <rdfs:label xml:lang="en">web test</rdfs:label>
+    <rdfs:label xml:lang="nl">webtest</rdfs:label>
+    <skos:definition xml:lang="en">A test of the measurement that concerns the website (web server and name servers) of a host.</skos:definition>
+    <skos:definition xml:lang="nl">Een test van de meting die de website (webserver en nameservers) van een host betreft.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Municipality">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <rdfs:label xml:lang="en">municipality</rdfs:label>
+    <rdfs:label xml:lang="nl">gemeente</rdfs:label>
+    <skos:definition xml:lang="en">A municipality of the Netherlands, identified by its TOOI organisation identifier.</skos:definition>
+    <skos:definition xml:lang="nl">Een Nederlandse gemeente, geïdentificeerd door haar TOOI-organisatie-identifier.</skos:definition>
+    <rdfs:seeAlso rdf:resource="https://identifier.overheid.nl/tooi/def/ont#Gemeente"/>
+    <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q2039348"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#ServiceDomain">
+    <rdfs:label xml:lang="en">service domain</rdfs:label>
+    <rdfs:label xml:lang="nl">dienstdomein</rdfs:label>
+    <skos:definition xml:lang="en">A registrable domain of a third-party service under which hosts are named after the municipalities that use the service, for example bestuurlijkeinformatie.nl.</skos:definition>
+    <skos:definition xml:lang="nl">Een registreerbaar domein van een dienst van derden waaronder hosts zijn genoemd naar de gemeenten die de dienst gebruiken, bijvoorbeeld bestuurlijkeinformatie.nl.</skos:definition>
+    <rdfs:seeAlso rdf:resource="http://d3fend.mitre.org/ontologies/d3fend.owl#DomainName"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#AttributionRule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">attribution rule</rdfs:label>
+    <rdfs:label xml:lang="nl">toewijzingsregel</rdfs:label>
+    <skos:definition xml:lang="en">A deterministic rule that attributes a host to a municipality.</skos:definition>
+    <skos:definition xml:lang="nl">Een deterministische regel die een host aan een gemeente toewijst.</skos:definition>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#MailTest">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestCase"/>
+    <rdfs:label xml:lang="en">e-mail test</rdfs:label>
+    <rdfs:label xml:lang="nl">e-mailtest</rdfs:label>
+    <skos:definition xml:lang="en">A test of the measurement that concerns e-mail for a host (mail authentication records or its receiving mail servers).</skos:definition>
+    <skos:definition xml:lang="nl">Een test van de meting die e-mail voor een host betreft (records voor mailauthenticatie of de ontvangende mailservers).</skos:definition>
+    <owl:disjointWith rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#WebTest"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#HostAttribution">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label xml:lang="en">host attribution</rdfs:label>
+    <rdfs:label xml:lang="nl">toewijzing van host</rdfs:label>
+    <skos:definition xml:lang="en">The derived claim that a host is used by or on behalf of a municipality, produced by applying an explicit attribution rule to the official websites recorded in Wikidata. It is not a claim of domain ownership.</skos:definition>
+    <skos:definition xml:lang="nl">De afgeleide bewering dat een host door of namens een gemeente wordt gebruikt, verkregen door een expliciete toewijzingsregel toe te passen op de officiële websites in Wikidata. Het is geen bewering over eigendom van het domein.</skos:definition>
+    <skos:scopeNote xml:lang="en">Named to avoid confusion with prov:Attribution, which relates an entity to the agent responsible for it.</skos:scopeNote>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#Province">
+    <rdfs:label xml:lang="en">province</rdfs:label>
+    <rdfs:label xml:lang="nl">provincie</rdfs:label>
+    <skos:definition xml:lang="en">A province of the Netherlands, used to aggregate municipalities.</skos:definition>
+    <skos:definition xml:lang="nl">Een Nederlandse provincie, gebruikt om gemeenten te groeperen.</skos:definition>
+    <rdfs:seeAlso rdf:resource="http://www.wikidata.org/entity/Q134390"/>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/FAIR-course-UT/2026-2027/group33/ont"/>
+  </owl:Class>
+</rdf:RDF>
