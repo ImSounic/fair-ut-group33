@@ -1,0 +1,22 @@
+# Linking point: current municipalities of the Netherlands with official website, TOOI id,
+# CBS code and province. Labels via rdfs:label (nl), not the label service, so the result
+# can also be produced as CONSTRUCT and frozen. Run against https://query.wikidata.org/sparql
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wdtn: <http://www.wikidata.org/prop/direct-normalized/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?municipality ?label ?website ?tooi ?cbsCode ?province ?provinceLabel WHERE {
+  ?municipality p:P31 ?stmt .
+  ?stmt ps:P31 wd:Q2039348 .                 # municipality of the Netherlands
+  FILTER NOT EXISTS { ?stmt pq:P582 [] }      # statement has no end time
+  FILTER NOT EXISTS { ?municipality wdt:P576 [] }
+  ?municipality wdt:P856 ?website ; wdt:P11767 ?tooi ; wdt:P382 ?cbsCode ;
+                wdt:P131 ?province ; rdfs:label ?label .
+  FILTER(LANG(?label) = "nl")
+  ?province wdt:P31 wd:Q134390 ; rdfs:label ?provinceLabel .   # province of the Netherlands
+  FILTER(LANG(?provinceLabel) = "nl")
+}
+ORDER BY ?cbsCode ?website

@@ -1,0 +1,32 @@
+{
+ "wikidata_municipalities": {
+  "endpoint": "https://query.wikidata.org/sparql",
+  "query": "queries/linking/wikidata_municipalities.rq",
+  "query_sha256": "f44417687ec1c62f878cca051255d7a1ec7abb369d0352544803f7bf0e8d19c1",
+  "file": "wikidata_municipalities.json",
+  "retrieved": "2026-10-13T17:03:28+00:00",
+  "sha256": "9a1e7a4e96285fb1aa3d82fde9345650c368e84b0118801a05a28d75bbc41d3a"
+ },
+ "nora_standards": {
+  "endpoint": "https://sparql.noraonline.nl/nora/sparql",
+  "query": "queries/linking/nora_standards.rq",
+  "query_sha256": "554297ff36886929bee30a073b896a3a4457eb3f2db186eb85e106b16ed325a4",
+  "file": "nora_standards.json",
+  "retrieved": "2026-10-13T17:03:28+00:00",
+  "sha256": "9bd83055ccb63f9d128b24fab822851af2f5940b469839aa8015de773b987961"
+ },
+ "cbs_gemeenten_2026": {
+  "endpoint": "https://opendata.cbs.nl/ODataApi/odata/86247NED/RegioS?$format=json",
+  "table": "CBS StatLine 86247NED, Gebieden in Nederland 2026",
+  "file": "cbs_gemeenten_2026.json",
+  "retrieved": "2026-10-13T17:03:28+00:00",
+  "sha256": "677e757429a199a7437fcbc0bed565fb199187d068022bf2782e7939733b1a22"
+ },
+ "validation": {
+  "cbs_codes": 342,
+  "wikidata_municipalities": 342,
+  "wikidata_rows": 351,
+  "missing_in_wikidata": [],
+  "not_in_cbs": []
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "rules_version": "1.0",
+ "wikidata_export_sha256": "9a1e7a4e96285fb1aa3d82fde9345650c368e84b0118801a05a28d75bbc41d3a",
+ "municipalities": 342,
+ "hosts": 1867,
+ "counts": {
+  "none": 479,
+  "R4": 329,
+  "R1": 681,
+  "R2": 333,
+  "R3": 44,
+  "ambiguous": 1
+ },
+ "coverage": 0.7429,
+ "ambiguous": [
+  [
+   "bergen.mijnafspraakmaken.nl",
+   "https://identifier.overheid.nl/tooi/id/gemeente/gm0373 https://identifier.overheid.nl/tooi/id/gemeente/gm0893"
+  ]
+ ],
+ "website_adjusted_to_registrable_domain": [
+  [
+   "Groningen",
+   "gemeente.groningen.nl",
+   "groningen.nl"
+  ],
+  [
+   "Dordrecht",
+   "cms.dordrecht.nl",
+   "dordrecht.nl"
+  ],
+  [
+   "Leiden",
+   "gemeente.leiden.nl",
+   "leiden.nl"
+  ]
+ ],
+ "service_domains_r4": 46,
+ "top_service_domains": [
+  [
+   "bestuurlijkeinformatie.nl",
+   98
+  ],
+  [
+   "mijnafspraakmaken.nl",
+   70
+  ],
+  [
+   "raadsinformatie.nl",
+   46
+  ],
+  [
+   "notubiz.nl",
+   25
+  ],
+  [
+   "begrotingsapp.nl",
+   13
+  ],
+  [
+   "pcportal.nl",
+   12
+  ],
+  [
+   "incijfers.nl",
+   11
+  ],
+  [
+   "lokalelastenmeter.nl",
+   4
+  ]
+ ],
+ "cq2_municipalities_failing_core_mail_test": 129,
+ "cq3_municipalities_passing_https_redirect_and_hsts": 287,
+ "cq3_per_province": {
+  "Drenthe": [
+   8,
+   12
+  ],
+  "Flevoland": [
+   5,
+   6
+  ],
+  "Friesland": [
+   18,
+   18
+  ],
+  "Gelderland": [
+   39,
+   51
+  ],
+  "Groningen": [
+   8,
+   10
+  ],
+  "Limburg": [
+   26,
+   31
+  ],
+  "Noord-Brabant": [
+   50,
+   56
+  ],
+  "Noord-Holland": [
+   37,
+   44
+  ],
+  "Overijssel": [
+   17,
+   25
+  ],
+  "Utrecht": [
+   24,
+   26
+  ],
+  "Zeeland": [
+   11,
+   13
+  ],
+  "Zuid-Holland": [
+   44,
+   50
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+# Linking point: the nine standards on the comply-or-explain list that the 14 tests check,
+# with status, free-text version, specification documents and title (NORA SPARQL endpoint).
+PREFIX e: <https://www.noraonline.nl/wiki/Eigenschap:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?standard (SAMPLE(?t) AS ?title) (SAMPLE(?st) AS ?status)
+       (GROUP_CONCAT(DISTINCT ?v; separator=" | ") AS ?versions)
+       (GROUP_CONCAT(DISTINCT STR(?spec); separator=" ") AS ?specifications)
+       (SAMPLE(?same) AS ?forumPage)
+WHERE {
+  VALUES ?standard {
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Tls>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Https-en-hsts>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dnssec>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Ipv6>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Rpki>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dkim>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Spf>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Dmarc>
+    <https://www.noraonline.nl/wiki/Special:URIResolver/FS:Starttls-en-dane>
+  }
+  OPTIONAL { ?standard dct:title|rdfs:label ?t }
+  OPTIONAL { ?standard e:Status_lijst_Forum_Standaardisatie ?st }
+  OPTIONAL { ?standard e:Versie ?v }
+  OPTIONAL { ?standard e:Specificatiedocument ?spec }
+  OPTIONAL { ?standard owl:sameAs ?same }
+}
+GROUP BY ?standard
+ORDER BY ?standard
