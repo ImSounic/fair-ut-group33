@@ -1,12 +1,13 @@
 """Single source of truth for identifiers and constants of the Group 33 FAIRification.
 
-The w3id edition segment is an assumption until the lecturer confirms it: the 2025-2026
-rules of the course namespace were retired on 2026-08-05 (perma-id/w3id.org PR #6501).
+BASE is the group namespace announced by the lecturer for the 2026 edition. w3id.org forwards
+https://w3id.org/FAIR-course-UT/ to the course relay (github.com/luizbonino/pid-relay), where
+the redirect rules of this namespace live in rules/FAIR-course-UT/2026/group33/.
 Changing BASE and re-running the pipeline re-mints every IRI.
 """
 from pathlib import Path
 
-BASE = "https://w3id.org/FAIR-course-UT/2026-2027/group33/"
+BASE = "https://w3id.org/FAIR-course-UT/2026/group33/"
 DATA_NS = BASE + "data#"
 ONT_NS = BASE + "ont#"
 ONT_IRI = BASE + "ont"

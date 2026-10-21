@@ -22,7 +22,7 @@ import config as C  # noqa: E402
 
 SRC = C.ROOT / "ontology" / "src"
 OUT = C.ROOT / "ontology"
-TEMPLATE_BASE = "https://w3id.org/FAIR-course-UT/2026-2027/group33/"
+TEMPLATE_BASE = "https://w3id.org/FAIR-course-UT/2026/group33/"
 EARL = Namespace("http://www.w3.org/ns/earl#")
 VANN = Namespace("http://purl.org/vocab/vann/")
 ONT = Namespace(C.ONT_NS)

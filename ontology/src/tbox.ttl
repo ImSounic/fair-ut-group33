@@ -1,4 +1,4 @@
-@prefix ont:    <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#> .
+@prefix ont:    <https://w3id.org/FAIR-course-UT/2026/group33/ont#> .
 @prefix earl:   <http://www.w3.org/ns/earl#> .
 @prefix prov:   <http://www.w3.org/ns/prov#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +15,7 @@
 
 # The ontology IRI and namespace are rewritten by scripts/build_ontology.py from config.BASE.
 
-<https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> a owl:Ontology ;
+<https://w3id.org/FAIR-course-UT/2026/group33/ont> a owl:Ontology ;
     dct:title "Ontology for the FAIRified municipal results of the Dutch information security standards measurement"@en ,
               "Ontologie voor de FAIR gemaakte gemeentelijke resultaten van de Meting Informatieveiligheidstandaarden"@nl ;
     dct:description "Terms that extend the W3C Evaluation and Report Language (EARL), PROV-O and SKOS to describe the per-host results of the half-yearly measurement of mandatory internet security standards by Forum Standaardisatie: the security tests and the standards they check, the outcome codes of the measurement, and the explicit, rule-based attribution of internet hosts to Dutch municipalities."@en ,
@@ -27,7 +27,7 @@
     dct:modified "2026-10-13"^^xsd:date ;
     owl:versionInfo "1.0.0" ;
     vann:preferredNamespacePrefix "ont" ;
-    vann:preferredNamespaceUri "https://w3id.org/FAIR-course-UT/2026-2027/group33/ont#" ;
+    vann:preferredNamespaceUri "https://w3id.org/FAIR-course-UT/2026/group33/ont#" ;
     rdfs:seeAlso <https://www.w3.org/TR/EARL10-Schema/> , <https://www.w3.org/TR/prov-o/> .
 
 #################################################################
@@ -40,14 +40,14 @@ ont:Host a owl:Class ;
     skos:definition "A fully qualified DNS host name that the measurement tested. The bare name and the name with the www prefix are distinct hosts, because they are tested separately and their results can differ."@en ,
                     "Een volledig gekwalificeerde DNS-hostnaam die in de meting is getest. De naam zonder en met het voorvoegsel www zijn verschillende hosts, omdat zij afzonderlijk worden getest en de resultaten kunnen verschillen."@nl ;
     rdfs:seeAlso d3f:DomainName , wd:Q32635 ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:ServiceDomain a owl:Class ;
     rdfs:label "service domain"@en , "dienstdomein"@nl ;
     skos:definition "A registrable domain of a third-party service under which hosts are named after the municipalities that use the service, for example bestuurlijkeinformatie.nl."@en ,
                     "Een registreerbaar domein van een dienst van derden waaronder hosts zijn genoemd naar de gemeenten die de dienst gebruiken, bijvoorbeeld bestuurlijkeinformatie.nl."@nl ;
     rdfs:seeAlso d3f:DomainName ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:Municipality a owl:Class ;
     rdfs:subClassOf org:Organization ;
@@ -55,21 +55,21 @@ ont:Municipality a owl:Class ;
     skos:definition "A municipality of the Netherlands, identified by its TOOI organisation identifier."@en ,
                     "Een Nederlandse gemeente, geïdentificeerd door haar TOOI-organisatie-identifier."@nl ;
     rdfs:seeAlso tooiont:Gemeente , wd:Q2039348 ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:Province a owl:Class ;
     rdfs:label "province"@en , "provincie"@nl ;
     skos:definition "A province of the Netherlands, used to aggregate municipalities."@en ,
                     "Een Nederlandse provincie, gebruikt om gemeenten te groeperen."@nl ;
     rdfs:seeAlso wd:Q134390 ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:WebTest a owl:Class ;
     rdfs:subClassOf earl:TestCase ;
     rdfs:label "web test"@en , "webtest"@nl ;
     skos:definition "A test of the measurement that concerns the website (web server and name servers) of a host."@en ,
                     "Een test van de meting die de website (webserver en nameservers) van een host betreft."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:MailTest a owl:Class ;
     rdfs:subClassOf earl:TestCase ;
@@ -77,14 +77,14 @@ ont:MailTest a owl:Class ;
     skos:definition "A test of the measurement that concerns e-mail for a host (mail authentication records or its receiving mail servers)."@en ,
                     "Een test van de meting die e-mail voor een host betreft (records voor mailauthenticatie of de ontvangende mailservers)."@nl ;
     owl:disjointWith ont:WebTest ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:CoreMailTest a owl:Class ;
     rdfs:subClassOf ont:MailTest ;
     rdfs:label "core e-mail test"@en , "kern-e-mailtest"@nl ;
     skos:definition "An e-mail test that concerns mail authentication or transport security: DKIM, DMARC policy, SPF policy, STARTTLS NCSC, DNSSEC MX and DANE. Defined for competency question 2."@en ,
                     "Een e-mailtest die mailauthenticatie of transportbeveiliging betreft: DKIM, DMARC policy, SPF policy, STARTTLS NCSC, DNSSEC MX en DANE. Gedefinieerd voor competentievraag 2."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:HostAttribution a owl:Class ;
     rdfs:subClassOf prov:Entity ;
@@ -92,14 +92,14 @@ ont:HostAttribution a owl:Class ;
     skos:definition "The derived claim that a host is used by or on behalf of a municipality, produced by applying an explicit attribution rule to the official websites recorded in Wikidata. It is not a claim of domain ownership."@en ,
                     "De afgeleide bewering dat een host door of namens een gemeente wordt gebruikt, verkregen door een expliciete toewijzingsregel toe te passen op de officiële websites in Wikidata. Het is geen bewering over eigendom van het domein."@nl ;
     skos:scopeNote "Named to avoid confusion with prov:Attribution, which relates an entity to the agent responsible for it."@en ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:AttributionRule a owl:Class ;
     rdfs:subClassOf prov:Plan , skos:Concept ;
     rdfs:label "attribution rule"@en , "toewijzingsregel"@nl ;
     skos:definition "A deterministic rule that attributes a host to a municipality."@en ,
                     "Een deterministische regel die een host aan een gemeente toewijst."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 #################################################################
 # Object properties
@@ -111,21 +111,21 @@ ont:checksStandard a owl:ObjectProperty ;
                     "Verbindt een test met een standaard op de 'pas toe of leg uit'-lijst waarvan het slaagcriterium van de test de toepassing operationaliseert. Een test kan meer dan één standaard toetsen."@nl ;
     rdfs:domain earl:TestCriterion ;
     rdfs:range skos:Concept ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:hostName a owl:DatatypeProperty , owl:FunctionalProperty ;
     rdfs:label "host name"@en , "hostnaam"@nl ;
     skos:definition "The DNS name of a host or service domain, in lower case and without a trailing dot."@en ,
                     "De DNS-naam van een host of dienstdomein, in kleine letters en zonder afsluitende punt."@nl ;
     rdfs:range xsd:string ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:attributedHost a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:label "attributed host"@en , "toegewezen host"@nl ;
     skos:definition "The host that a host attribution is about."@en , "De host waarover een toewijzing gaat."@nl ;
     rdfs:domain ont:HostAttribution ;
     rdfs:range ont:Host ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:attributedTo a owl:ObjectProperty ;
     rdfs:label "attributed to"@en , "toegewezen aan"@nl ;
@@ -133,7 +133,7 @@ ont:attributedTo a owl:ObjectProperty ;
                     "De gemeente waaraan een toewijzing de host toewijst."@nl ;
     rdfs:domain ont:HostAttribution ;
     rdfs:range ont:Municipality ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:candidateMunicipality a owl:ObjectProperty ;
     rdfs:label "candidate municipality"@en , "kandidaat-gemeente"@nl ;
@@ -141,14 +141,14 @@ ont:candidateMunicipality a owl:ObjectProperty ;
                     "Een gemeente die een toewijzingsregel vond bij een dubbelzinnige toewijzing, waarbij meer dan één gemeente overeenkwam en de host daarom niet is toegewezen."@nl ;
     rdfs:domain ont:HostAttribution ;
     rdfs:range ont:Municipality ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:attributionRule a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:label "attribution rule"@en , "toewijzingsregel"@nl ;
     skos:definition "The rule that produced a host attribution."@en , "De regel die een toewijzing heeft opgeleverd."@nl ;
     rdfs:domain ont:HostAttribution ;
     rdfs:range ont:AttributionRule ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:viaServiceDomain a owl:ObjectProperty ;
     rdfs:label "via service domain"@en , "via dienstdomein"@nl ;
@@ -156,7 +156,7 @@ ont:viaServiceDomain a owl:ObjectProperty ;
                     "Het dienstdomein waaronder een toegewezen host is genoemd, bij toewijzingen volgens de naamlabelregel."@nl ;
     rdfs:domain ont:HostAttribution ;
     rdfs:range ont:ServiceDomain ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:websiteHost a owl:ObjectProperty ;
     rdfs:label "website host"@en , "websitehost"@nl ;
@@ -164,7 +164,7 @@ ont:websiteHost a owl:ObjectProperty ;
                     "Een geteste host van de hoofdwebsite van een gemeente: de naam zonder en met www, voor zover zij in de webtabel voorkomen. Afgeleid van de officiële website in Wikidata (P856); een subdomein anders dan www wordt vervangen door het registreerbare domein."@nl ;
     rdfs:domain ont:Municipality ;
     rdfs:range ont:Host ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:mainMailDomain a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:label "main mail domain"@en , "hoofdmaildomein"@nl ;
@@ -172,7 +172,7 @@ ont:mainMailDomain a owl:ObjectProperty , owl:FunctionalProperty ;
                     "De host waarop de e-mailtests van een gemeente worden gelezen: het registreerbare domein van haar hoofdwebsite, zonder www."@nl ;
     rdfs:domain ont:Municipality ;
     rdfs:range ont:Host ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:inProvince a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:label "in province"@en , "ligt in provincie"@nl ;
@@ -180,7 +180,7 @@ ont:inProvince a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:domain ont:Municipality ;
     rdfs:range ont:Province ;
     rdfs:seeAlso tooiont:ligtInProvincie ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:cbsCode a owl:DatatypeProperty , owl:FunctionalProperty ;
     rdfs:label "CBS municipality code"@en , "CBS-gemeentecode"@nl ;
@@ -189,7 +189,7 @@ ont:cbsCode a owl:DatatypeProperty , owl:FunctionalProperty ;
     rdfs:domain ont:Municipality ;
     rdfs:range xsd:string ;
     rdfs:seeAlso wd:P382 ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 #################################################################
 # Concept schemes (members are generated from ontology/src/*.csv)
@@ -201,34 +201,34 @@ ont:OutcomeCodes a skos:ConceptScheme ;
     skos:definition "The ten codes that the measurement reports per host and test. Each code is also an instance of an EARL outcome class, so that the original code is kept while EARL tools can read its meaning."@en ,
                     "De tien codes die de meting per host en test rapporteert. Elke code is ook een instantie van een EARL-uitkomstklasse, zodat de oorspronkelijke code behouden blijft en EARL-tools de betekenis kunnen lezen."@nl ;
     dct:source <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html#1_toelichting_resultaten> ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:AttributionRules a skos:ConceptScheme ;
     skos:prefLabel "Rules for attributing hosts to municipalities"@en , "Regels voor het toewijzen van hosts aan gemeenten"@nl ;
     skos:definition "Deterministic rules, applied in order, that attribute a host to a municipality using the official websites recorded in Wikidata (P856). The first rule that matches applies."@en ,
                     "Deterministische regels, in volgorde toegepast, die een host aan een gemeente toewijzen op basis van de officiële websites in Wikidata (P856). De eerste regel die past, wordt toegepast."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:R1-official-host a ont:AttributionRule ;
     skos:inScheme ont:AttributionRules ; skos:topConceptOf ont:AttributionRules ; skos:notation "R1" ;
     skos:prefLabel "official host"@en , "officiële host"@nl ;
     skos:definition "The host, without a leading www, equals the host of an official website of the municipality."@en ,
                     "De host, zonder voorafgaand www, is gelijk aan de host van een officiële website van de gemeente."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:R2-official-domain a ont:AttributionRule ;
     skos:inScheme ont:AttributionRules ; skos:topConceptOf ont:AttributionRules ; skos:notation "R2" ;
     skos:prefLabel "official domain"@en , "officieel domein"@nl ;
     skos:definition "The registrable domain (last two labels) of the host equals the registrable domain of an official website of the municipality."@en ,
                     "Het registreerbare domein (laatste twee labels) van de host is gelijk aan het registreerbare domein van een officiële website van de gemeente."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:R3-name-domain a ont:AttributionRule ;
     skos:inScheme ont:AttributionRules ; skos:topConceptOf ont:AttributionRules ; skos:notation "R3" ;
     skos:prefLabel "name domain"@en , "naamdomein"@nl ;
     skos:definition "The first label of the registrable domain of the host is the normalised name of exactly one municipality."@en ,
                     "Het eerste label van het registreerbare domein van de host is de genormaliseerde naam van precies één gemeente."@nl ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
 
 ont:R4-name-label a ont:AttributionRule ;
     skos:inScheme ont:AttributionRules ; skos:topConceptOf ont:AttributionRules ; skos:notation "R4" ;
@@ -236,4 +236,4 @@ ont:R4-name-label a ont:AttributionRule ;
     skos:definition "The host has at least three labels and its first label is the normalised name of exactly one municipality; the registrable domain is recorded as the service domain."@en ,
                     "De host heeft ten minste drie labels en het eerste label is de genormaliseerde naam van precies één gemeente; het registreerbare domein wordt vastgelegd als dienstdomein."@nl ;
     skos:scopeNote "The precision of this rule has not been measured; attributions by this rule can be filtered by their rule."@en ;
-    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026-2027/group33/ont> .
+    rdfs:isDefinedBy <https://w3id.org/FAIR-course-UT/2026/group33/ont> .
