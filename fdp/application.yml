@@ -1,0 +1,23 @@
+# FAIR Data Point configuration for Group 33 (course guide plus three settings).
+instance:
+  # Where the web client runs on this machine.
+  clientUrl: http://localhost:8085
+  # Records are minted under the group's w3id namespace, which redirects to their exported copies.
+  persistentUrl: https://w3id.org/FAIR-course-UT/2026/group33/fdp
+
+# Do not register this local instance with the public FAIR Data Point index.
+ping:
+  enabled: false
+
+repository:
+  type: 4
+  graphDb:
+    url: http://graphdb:7200
+    repository: fdp
+    username: fdp
+    password: fdp
+
+metadataProperties:
+  # Defaults for records that do not state these: CC0 (DCAT-AP-NL licence list) and English.
+  license: http://creativecommons.org/publicdomain/zero/1.0/deed.nl
+  language: http://publications.europa.eu/resource/authority/language/ENG

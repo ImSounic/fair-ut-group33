@@ -1,0 +1,34 @@
+# FAIR Data Point for Group 33, after the course guide (Practical 4: local FDP with GraphDB).
+# Differences from the guide: image versions pinned (the guide's "latest" on 2026-10-22),
+# MongoDB 8.2.12 instead of 4.0.12 (FDP 1.22 needs MongoDB 4.2 or newer; 8.2.12 is the FDP team's own pairing),
+# ports bound to this machine only, a JWT secret from .env (required since FDP 1.20+), MongoDB not published (the FDP reaches it internally).
+services:
+
+  fdp:
+    image: fairdata/fairdatapoint:1.22.2
+    environment:
+      # FDP 1.22 requires a token-signing secret; it is read from .env, which is not shared.
+      - FDP_JWT_SECRET_KEY=${FDP_JWT_SECRET_KEY:?set FDP_JWT_SECRET_KEY in .env}
+    volumes:
+      - ./application.yml:/fdp/application.yml:ro
+    depends_on: [mongo, graphdb]
+
+  fdp-client:
+    image: fairdata/fairdatapoint-client:1.18.1
+    ports:
+      - 127.0.0.1:8085:80
+    environment:
+      - FDP_HOST=fdp
+    depends_on: [fdp]
+
+  mongo:
+    image: mongo:8.2.12
+    volumes:
+      - ./mongo/data:/data/db
+
+  graphdb:
+    image: ontotext/graphdb:10.7.4
+    ports:
+      - 127.0.0.1:7200:7200
+    volumes:
+      - ./graphdb/data:/data

@@ -1,0 +1,4 @@
+# Local secret and database files are never committed.
+.env
+mongo/
+graphdb/
