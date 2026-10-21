@@ -1,0 +1,17 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/02c649de-c579-43bb-b470-306abdc808c7>
+  a <http://www.w3.org/ns/dx/prof/Profile>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Distribution Profile";
+  <http://www.w3.org/ns/dx/prof/isProfileOf> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/core>;
+  <http://www.w3.org/ns/dx/prof/hasResource> [ a <http://www.w3.org/ns/dx/prof/#ResourceDescriptor>;
+      <http://www.w3.org/2000/01/rdf-schema#label> "Distribution";
+      dcterms:format <https://w3id.org/mediatype/text/turtle>;
+      dcterms:conformsTo <https://www.w3.org/TR/shacl/>;
+      <http://www.w3.org/ns/dx/prof/hasRole> <http://www.w3.org/ns/dx/prof/role/Validation>;
+      <http://www.w3.org/ns/dx/prof/hasArtifact> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metadata-schemas/ebacbf83-cd4f-4113-8738-d73c0735b0ab>
+    ] .

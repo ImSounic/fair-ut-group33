@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6>
+  a dcat:Resource, dcat:Distribution;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Extracted municipal e-mail table (CSV)";
+  dcterms:title "Extracted municipal e-mail table (CSV)"@en, "GeÃ«xtraheerde gemeentelijke e-mailtabel (CSV)"@nl;
+  dcat:version "1.0";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:44.977201068Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T23:49:12.918557851Z"^^xsd:dateTime;
+  dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl>;
+  dcterms:description "Section 4.15 of the appendix as CSV: 1,866 hosts and 8 e-mail tests; one host is excluded."@en,
+    "Paragraaf 4.15 van de bijlage als CSV."@nl;
+  dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
+    <http://publications.europa.eu/resource/authority/language/NLD>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#identifier>;
+  dcterms:accessRights <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)"
+    ];
+  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161>;
+  dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV>;
+  <http://spdx.org/rdf/terms#checksum> [ a <http://spdx.org/rdf/terms#Checksum>;
+      <http://spdx.org/rdf/terms#algorithm> <http://spdx.org/rdf/terms#checksumAlgorithm_sha256>;
+      <http://spdx.org/rdf/terms#checksumValue> "8eb36ac989828ee1c2844be56df76147822a0d9dd692bbd1478070867b48647e"^^xsd:hexBinary
+    ];
+  dcat:accessURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_mail.csv>;
+  dcat:byteSize "146011"^^xsd:nonNegativeInteger;
+  dcat:downloadURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_mail.csv>;
+  dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv>;
+  dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/02c649de-c579-43bb-b470-306abdc808c7> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6" .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/02c649de-c579-43bb-b470-306abdc808c7>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Distribution Profile" .

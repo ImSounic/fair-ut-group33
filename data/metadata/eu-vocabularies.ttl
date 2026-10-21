@@ -1,0 +1,70 @@
+# Extract of EU Vocabularies (publications.europa.eu/resource/authority), retrieved 2026-10-21T23:49:47+00:00:
+# rdf:type, skos:prefLabel (en, nl), dct:title and skos:inScheme of the terms used.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC> a <http://publications.europa.eu/ontology/euvoc#AccessRight>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/access-right> ;
+    skos:prefLabel "public"@en,
+        "openbaar"@nl .
+
+<http://publications.europa.eu/resource/authority/country/NLD> a <http://publications.europa.eu/ontology/euvoc#Country>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/country>,
+        <http://publications.europa.eu/resource/authority/country/0001>,
+        <http://publications.europa.eu/resource/authority/country/0005>,
+        <http://publications.europa.eu/resource/authority/country/0008>,
+        <http://publications.europa.eu/resource/authority/country/0009> ;
+    skos:prefLabel "Netherlands"@en,
+        "Nederland"@nl .
+
+<http://publications.europa.eu/resource/authority/data-theme/GOVE> a <http://publications.europa.eu/ontology/euvoc#DataTheme>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/data-theme> ;
+    skos:prefLabel "Government and public sector"@en,
+        "Overheid en publieke sector"@nl .
+
+<http://publications.europa.eu/resource/authority/file-type/CSV> a <http://publications.europa.eu/ontology/euvoc#FileType>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/file-type> ;
+    skos:prefLabel "CSV"@en .
+
+<http://publications.europa.eu/resource/authority/file-type/HTML> a <http://publications.europa.eu/ontology/euvoc#FileType>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/file-type> ;
+    skos:prefLabel "HTML"@en .
+
+<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> a <http://publications.europa.eu/ontology/euvoc#FileType>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/file-type> ;
+    skos:prefLabel "RDF Turtle"@en .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> a <http://publications.europa.eu/ontology/euvoc#Frequency>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/frequency> ;
+    skos:prefLabel "semiannual"@en,
+        "halfjaarlijks"@nl .
+
+<http://publications.europa.eu/resource/authority/language/ENG> a <http://publications.europa.eu/ontology/euvoc#Language>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/language>,
+        <http://publications.europa.eu/resource/authority/language/0001>,
+        <http://publications.europa.eu/resource/authority/language/0002> ;
+    skos:prefLabel "English"@en,
+        "Engels"@nl .
+
+<http://publications.europa.eu/resource/authority/language/NLD> a <http://publications.europa.eu/ontology/euvoc#Language>,
+        skos:Concept ;
+    skos:inScheme <http://publications.europa.eu/resource/authority/language>,
+        <http://publications.europa.eu/resource/authority/language/0001>,
+        <http://publications.europa.eu/resource/authority/language/0002> ;
+    skos:prefLabel "Dutch"@en,
+        "Nederlands"@nl .
+
+<http://publications.europa.eu/resource/authority/data-theme> a owl:Ontology,
+        skos:ConceptScheme ;
+    dcterms:title "Data theme"@en ;
+    skos:prefLabel "Data theme"@en .
+

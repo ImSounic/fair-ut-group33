@@ -8,6 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -15,9 +16,11 @@
     dct:conformsTo earl:,
         <https://w3id.org/FAIR-course-UT/2026/group33/ont> ;
     dct:creator d:sounic-akkaraju ;
+    dct:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:source <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> ;
     dct:title "Municipal results of the Dutch information security standards measurement, begin 2026, as linked data"@en ;
+    void:inDataset <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
     prov:wasDerivedFrom d:snapshot-appendix ;
     prov:wasGeneratedBy d:triplification-2026H1 ;
     prov:wasInfluencedBy d:exclusion-2026H1,

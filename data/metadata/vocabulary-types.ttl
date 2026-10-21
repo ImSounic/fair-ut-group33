@@ -1,0 +1,43 @@
+# Classes of the controlled-vocabulary terms that the metadata records refer to, as defined by the
+# vocabularies themselves. The DCAT-AP 3.0 and DCAT-AP-NL 3.0 class-range shapes check these classes,
+# which are not part of the records; this graph is loaded next to the records for validation only.
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix eu:    <http://publications.europa.eu/resource/authority/> .
+
+# EU Vocabularies (Publications Office) authority tables, as used by DCAT-AP-NL 3.0, section 6
+<http://publications.europa.eu/resource/authority/language/ENG> a dct:LinguisticSystem , skos:Concept .
+<http://publications.europa.eu/resource/authority/language/NLD> a dct:LinguisticSystem , skos:Concept .
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC> a dct:RightsStatement , skos:Concept .
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> a dct:Frequency , skos:Concept .
+<http://publications.europa.eu/resource/authority/country/NLD> a dct:Location , skos:Concept .
+<http://publications.europa.eu/resource/authority/data-theme> a skos:ConceptScheme .
+<http://publications.europa.eu/resource/authority/data-theme/GOVE> a skos:Concept .
+<http://publications.europa.eu/resource/authority/file-type/HTML> a dct:MediaTypeOrExtent , skos:Concept .
+<http://publications.europa.eu/resource/authority/file-type/CSV> a dct:MediaTypeOrExtent , skos:Concept .
+<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> a dct:MediaTypeOrExtent , skos:Concept .
+
+# DCAT-AP-NL licence list: CC0 1.0
+<http://creativecommons.org/publicdomain/zero/1.0/deed.nl> a dct:LicenseDocument .
+
+# IANA media types
+<https://www.iana.org/assignments/media-types/text/html> a dct:MediaType .
+<https://www.iana.org/assignments/media-types/text/csv> a dct:MediaType .
+<https://www.iana.org/assignments/media-types/text/turtle> a dct:MediaType .
+
+# SPDX checksum algorithm
+spdx:checksumAlgorithm_sha256 a spdx:ChecksumAlgorithm .
+
+# Standards that the Turtle distribution conforms to: the W3C EARL schema and the project ontology
+<http://www.w3.org/ns/earl#> a dct:Standard .
+<https://w3id.org/FAIR-course-UT/2026/group33/ont> a dct:Standard .
+
+# Web pages referred to as documents (landing page, home page, documentation)
+<https://imsounic.github.io/fair-ut-group33/> a foaf:Document .
+<https://github.com/ImSounic/fair-ut-group33> a foaf:Document .
+
+# The creator (described in the data's provenance as a foaf:Person, a subclass of foaf:Agent)
+<https://w3id.org/FAIR-course-UT/2026/group33/data#sounic-akkaraju> a foaf:Agent .

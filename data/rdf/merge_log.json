@@ -1,5 +1,5 @@
 {
- "triples": 280229,
+ "triples": 280231,
  "counts": {
   "assertions": 26064,
   "results": 26064,
@@ -74,7 +74,7 @@
   ]
  },
  "sha256": {
-  "fairified.ttl": "3994bb6a49f196cd0a01f8f47e3cd848574f220e21f77758c6fc7246712eb831",
-  "fairified.ttl.gz": "ce78e7d93e8c64e7534034a0ba4a28e0438a71bdb649be882219003ca26231c9"
+  "fairified.ttl": "7d56b04d262f525dbe9c3da3456b29baee9464843f2ee3abce64f8d93af740a9",
+  "fairified.ttl.gz": "25d43296b43d460c22b0e888997091181b4c202673a84664602428397c1909f8"
  }
 }

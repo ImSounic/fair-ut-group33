@@ -1,0 +1,49 @@
+{
+ "required_shapes": [
+  "dcat-ap-SHACL.ttl",
+  "dcat-ap-nl-SHACL.ttl",
+  "dcat-ap-nl-SHACL-klassebereik.ttl",
+  "dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl"
+ ],
+ "conforms": false,
+ "violations": [
+  {
+   "severity": "Violation",
+   "focus": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d",
+   "path": "http://www.w3.org/ns/dcat#themeTaxonomy",
+   "message": "Value does not have class skos:ConceptScheme",
+   "known_fdp_deviation": "FAIR Data Point 1.22.2 replaces the catalog's dcat:themeTaxonomy with the themes of its datasets when it serves the record (CatalogMetadataService.retrieve -> setThemeTaxonomies), so the record holds the theme data-theme/GOVE instead of the concept scheme data-theme that was entered. Exports are kept as the FDP serves them."
+  }
+ ],
+ "violations_not_caused_by_the_fdp": 0,
+ "recommended_shapes": [
+  "dcat-ap-nl-SHACL-aanbevolen.ttl"
+ ],
+ "recommended_findings": [
+  [
+   "Warning",
+   "http://purl.org/dc/terms/creator",
+   "Less than 1 values on <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d>->dct:creator"
+  ],
+  [
+   "Warning",
+   "http://www.w3.org/ns/dcat#accessService",
+   "Less than 1 values on <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b>->dcat:accessService"
+  ],
+  [
+   "Warning",
+   "http://www.w3.org/ns/dcat#accessService",
+   "Less than 1 values on <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f>->dcat:accessService"
+  ],
+  [
+   "Warning",
+   "http://www.w3.org/ns/dcat#accessService",
+   "Less than 1 values on <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6>->dcat:accessService"
+  ],
+  [
+   "Warning",
+   "http://www.w3.org/ns/dcat#accessService",
+   "Less than 1 values on <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53>->dcat:accessService"
+  ]
+ ]
+}

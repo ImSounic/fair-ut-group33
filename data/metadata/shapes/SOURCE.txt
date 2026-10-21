@@ -1,0 +1,12 @@
+SHACL shapes used to validate the metadata records (retrieved 2026-10-13):
+  dcat-ap-SHACL.ttl                               https://semiceu.github.io/DCAT-AP/releases/3.0.0/shacl/dcat-ap-SHACL.ttl
+  dcat-ap-nl-SHACL.ttl                            https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL.ttl
+  dcat-ap-nl-SHACL-klassebereik.ttl               https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik.ttl
+  dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl   https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl
+  dcat-ap-nl-SHACL-aanbevolen.ttl                 https://geonovum.github.io/DCAT-AP-NL30/shapes/dcat-ap-nl-SHACL-aanbevolen.ttl
+DCAT-AP-NL 3.0 (established version 26 May 2025): https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/
+b7f4f0bce2578c6f632fe963accc29fdfd2ac06170c1cf6944eb95d6bada6504  data/metadata/shapes/dcat-ap-nl-SHACL-aanbevolen.ttl
+55729a634d00820debee78f60d5ff6e4beb5cff99fa1544b2de2add38caa6a4d  data/metadata/shapes/dcat-ap-nl-SHACL-klassebereik-codelijsten.ttl
+76c468806b18287a3fd153902f3c9fab6979b1698ea7fd9f1ae0a7ae17fc9974  data/metadata/shapes/dcat-ap-nl-SHACL-klassebereik.ttl
+bde0965ce8c0a97be3cf236dbe55b174d7d9b3646d08575edd6310a397c4e655  data/metadata/shapes/dcat-ap-nl-SHACL.ttl
+92f76609d78d257123e75bc6b7155df5cc0a63f14c29fbc12b0ac95c56af2059  data/metadata/shapes/dcat-ap-SHACL.ttl

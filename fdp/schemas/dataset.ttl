@@ -1,0 +1,153 @@
+# Dataset schema, FDP 1.22.2 default with the mandatory and selected recommended properties of
+# DCAT-AP-NL 3.0 (sections 4.1 and 6): identifier, access rights, creator, contact point (vCard),
+# spatial and temporal coverage, documentation, frequency, and provenance links to the source.
+@prefix :         <http://fairdatapoint.org/> .
+@prefix dash:     <http://datashapes.org/dash#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix vcard:    <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+:DatasetShape a sh:NodeShape ;
+  sh:targetClass dcat:Dataset ;
+  sh:property [
+    sh:path dct:issued ;
+    sh:datatype xsd:dateTime ;
+    sh:maxCount 1 ;
+    dash:editor dash:DateTimePickerEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 20 ;
+  ], [
+    sh:path dct:modified ;
+    sh:datatype xsd:dateTime ;
+    sh:maxCount 1 ;
+    dash:editor dash:DateTimePickerEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 21 ;
+  ], [
+    sh:path dcat:theme ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 22 ;
+  ], [
+    sh:path dcat:contactPoint ;
+    sh:node :ContactShape ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:BlankNodeEditor ;
+    sh:order 23 ;
+  ], [
+    sh:path dcat:keyword ;
+    sh:nodeKind sh:Literal ;
+    dash:editor dash:TextFieldEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 24 ;
+  ], [
+    sh:path dcat:landingPage ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 25 ;
+  ], [
+    sh:path dct:identifier ;
+    sh:nodeKind sh:Literal ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:TextFieldEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 26 ;
+  ], [
+    sh:path dct:accessRights ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:in ( <http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+            <http://publications.europa.eu/resource/authority/access-right/RESTRICTED>
+            <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ) ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 27 ;
+  ], [
+    sh:path dct:creator ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 28 ;
+  ], [
+    sh:path dct:spatial ;
+    sh:nodeKind sh:IRI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 29 ;
+  ], [
+    sh:path dct:temporal ;
+    sh:node :PeriodShape ;
+    dash:editor dash:BlankNodeEditor ;
+    sh:order 30 ;
+  ], [
+    sh:path foaf:page ;
+    sh:nodeKind sh:IRI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 31 ;
+  ], [
+    sh:path dct:accrualPeriodicity ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 32 ;
+  ], [
+    sh:path dct:source ;
+    sh:nodeKind sh:IRI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 33 ;
+  ], [
+    sh:path prov:wasDerivedFrom ;
+    sh:nodeKind sh:IRI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 34 ;
+  ] .
+
+:ContactShape a sh:NodeShape ;
+  sh:targetClass vcard:Kind ;
+  sh:property [
+    sh:path vcard:fn ;
+    sh:nodeKind sh:Literal ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:TextFieldEditor ;
+  ], [
+    sh:path vcard:hasURL ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+  ], [
+    sh:path vcard:hasEmail ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+  ] .
+
+:PeriodShape a sh:NodeShape ;
+  sh:targetClass dct:PeriodOfTime ;
+  sh:property [
+    sh:path dcat:startDate ;
+    sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    dash:editor dash:DatePickerEditor ;
+  ], [
+    sh:path dcat:endDate ;
+    sh:datatype xsd:date ;
+    sh:maxCount 1 ;
+    dash:editor dash:DatePickerEditor ;
+  ] .

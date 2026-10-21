@@ -1,0 +1,92 @@
+# Distribution schema, FDP 1.22.2 default with changes for DCAT-AP-NL 3.0 (section 4.2): access URL
+# mandatory; media type an IANA IRI instead of a literal; dct:format (an EU file-type IRI) instead of
+# the non-existent dcat:format; byte size typed; linked schemas (dct:conformsTo) and a SHA-256
+# checksum (spdx:checksum).
+@prefix :         <http://fairdatapoint.org/> .
+@prefix dash:     <http://datashapes.org/dash#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dct:      <http://purl.org/dc/terms/> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+:DistributionShape a sh:NodeShape ;
+  sh:targetClass dcat:Distribution ;
+  sh:property [
+    sh:path dct:issued ;
+    sh:datatype xsd:dateTime ;
+    sh:maxCount 1 ;
+    dash:editor dash:DateTimePickerEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 20 ;
+  ], [
+    sh:path dct:modified ;
+    sh:datatype xsd:dateTime ;
+    sh:maxCount 1 ;
+    dash:editor dash:DateTimePickerEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 21 ;
+  ], [
+    sh:path dcat:accessURL ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    sh:order 22 ;
+  ], [
+    sh:path dcat:downloadURL ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    sh:order 23 ;
+  ], [
+    sh:path dcat:mediaType ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 24 ;
+  ], [
+    sh:path dct:format ;
+    sh:nodeKind sh:IRI ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 25 ;
+  ], [
+    sh:path dcat:byteSize ;
+    sh:datatype xsd:nonNegativeInteger ;
+    sh:maxCount 1 ;
+    dash:editor dash:TextFieldEditor ;
+    dash:viewer dash:LiteralViewer ;
+    sh:order 26 ;
+  ], [
+    sh:path dct:conformsTo ;
+    sh:nodeKind sh:IRI ;
+    dash:editor dash:URIEditor ;
+    dash:viewer dash:LabelViewer ;
+    sh:order 27 ;
+  ], [
+    sh:path spdx:checksum ;
+    sh:node :ChecksumShape ;
+    sh:maxCount 1 ;
+    dash:editor dash:BlankNodeEditor ;
+    sh:order 28 ;
+  ] .
+
+:ChecksumShape a sh:NodeShape ;
+  sh:targetClass spdx:Checksum ;
+  sh:property [
+    sh:path spdx:algorithm ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:URIEditor ;
+  ], [
+    sh:path spdx:checksumValue ;
+    sh:datatype xsd:hexBinary ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    dash:editor dash:TextFieldEditor ;
+  ] .

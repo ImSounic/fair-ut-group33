@@ -210,6 +210,11 @@ def main():
     g.add((doc, PROV.wasGeneratedBy, trip))
     for a in (extr, corr, excl, link):
         g.add((doc, PROV.wasInfluencedBy, a))
+    records = C.ROOT / "fdp" / "records.json"
+    if records.exists():  # back-link to the dataset record in the FAIR Data Point (F3)
+        ds = URIRef(json.loads(records.read_text())["dataset"])
+        g.add((doc, URIRef("http://rdfs.org/ns/void#inDataset"), ds))
+        g.add((doc, DCTERMS.isPartOf, ds))
 
     out = C.ROOT / "data" / "rdf"
     out.mkdir(parents=True, exist_ok=True)

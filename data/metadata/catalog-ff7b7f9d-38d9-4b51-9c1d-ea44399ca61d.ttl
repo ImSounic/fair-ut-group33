@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d>
+  a dcat:Resource, dcat:Catalog;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Dutch government information security measurements, FAIRified";
+  dcterms:title "Dutch government information security measurements, FAIRified"@en,
+    "Metingen informatieveiligheid van de Nederlandse overheid, FAIR gemaakt"@nl;
+  dcat:version "1.0";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:43.819702548Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T23:49:13.20130615Z"^^xsd:dateTime;
+  dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl>;
+  dcterms:description "Catalogue of the FAIRified results of the half-yearly measurement of mandatory internet security standards (Meting Informatieveiligheidstandaarden) of Forum Standaardisatie, made in the FAIR Data Engineering course of the University of Twente."@en,
+    "Catalogus van de FAIR gemaakte resultaten van de halfjaarlijkse Meting Informatieveiligheidstandaarden van Forum Standaardisatie, gemaakt in de cursus FAIR Data Engineering van de Universiteit Twente."@nl;
+  dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
+    <http://publications.europa.eu/resource/authority/language/NLD>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#identifier>;
+  dcterms:accessRights <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)"
+    ];
+  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp>;
+  dcat:contactPoint [ a <http://www.w3.org/2006/vcard/ns#Kind>;
+      <http://www.w3.org/2006/vcard/ns#fn> "Sounic Akkaraju (FAIR Data Engineering, Group 33)";
+      <http://www.w3.org/2006/vcard/ns#hasURL> <https://github.com/ImSounic/fair-ut-group33/issues>
+    ];
+  foaf:homepage <https://imsounic.github.io/fair-ut-group33/>;
+  dcterms:issued "2026-10-21T23:46:43.819702548Z"^^xsd:dateTime;
+  dcterms:modified "2026-10-21T23:49:12.173146763Z"^^xsd:dateTime;
+  dcat:dataset <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161>;
+  dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+  dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d" .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/> a ldp:DirectContainer;
+  dcterms:title "Datasets";
+  ldp:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d>;
+  ldp:hasMemberRelation dcat:dataset;
+  ldp:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/a0949e72-4466-4d53-8900-9436d1049a4b>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Profile" .

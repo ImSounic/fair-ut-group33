@@ -1,0 +1,8 @@
+{
+ "catalog": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d",
+ "dataset": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161",
+ "distribution-source-html": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b",
+ "distribution-csv-web": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53",
+ "distribution-csv-mail": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6",
+ "distribution-turtle": "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f"
+}

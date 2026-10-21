@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c>
+  a <http://www.w3.org/ns/dx/prof/Profile>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Data Point Profile";
+  <http://www.w3.org/ns/dx/prof/isProfileOf> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/core>;
+  <http://www.w3.org/ns/dx/prof/hasResource> [ a <http://www.w3.org/ns/dx/prof/#ResourceDescriptor>;
+      <http://www.w3.org/2000/01/rdf-schema#label> "Data Service";
+      dcterms:format <https://w3id.org/mediatype/text/turtle>;
+      dcterms:conformsTo <https://www.w3.org/TR/shacl/>;
+      <http://www.w3.org/ns/dx/prof/hasRole> <http://www.w3.org/ns/dx/prof/role/Validation>;
+      <http://www.w3.org/ns/dx/prof/hasArtifact> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metadata-schemas/89d94c1b-f6ff-4545-ba9b-120b2d1921d0>
+    ], [ a <http://www.w3.org/ns/dx/prof/#ResourceDescriptor>;
+      <http://www.w3.org/2000/01/rdf-schema#label> "Metadata Service";
+      dcterms:format <https://w3id.org/mediatype/text/turtle>;
+      dcterms:conformsTo <https://www.w3.org/TR/shacl/>;
+      <http://www.w3.org/ns/dx/prof/hasRole> <http://www.w3.org/ns/dx/prof/role/Validation>;
+      <http://www.w3.org/ns/dx/prof/hasArtifact> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metadata-schemas/6f7a5a76-6185-4bd0-9fe9-62ecc90c9bad>
+    ], [ a <http://www.w3.org/ns/dx/prof/#ResourceDescriptor>;
+      <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Data Point";
+      dcterms:format <https://w3id.org/mediatype/text/turtle>;
+      dcterms:conformsTo <https://www.w3.org/TR/shacl/>;
+      <http://www.w3.org/ns/dx/prof/hasRole> <http://www.w3.org/ns/dx/prof/role/Validation>;
+      <http://www.w3.org/ns/dx/prof/hasArtifact> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metadata-schemas/a92958ab-a414-47e6-8e17-68ba96ba3a2b>
+    ] .
