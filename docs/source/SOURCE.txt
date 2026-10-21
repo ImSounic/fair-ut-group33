@@ -1,0 +1,6 @@
+Source: Forum Standaardisatie, Meting Informatieveiligheidstandaarden begin 2026
+Base URL: https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/
+Appendix (1b-bijlage): retrieved 2026-09-30; re-downloaded 2026-10-01 with identical SHA-256
+Report (1a-rapport): retrieved 2026-10-01
+Licence: CC0 1.0 (site-wide statement at https://www.forumstandaardisatie.nl/copyright, "unless stated otherwise")
+Checksums: SHA256SUMS
