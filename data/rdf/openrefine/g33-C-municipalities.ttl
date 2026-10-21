@@ -1,0 +1,3086 @@
+@prefix schema: <https://schema.org/> .
+@prefix d: <https://w3id.org/FAIR-course-UT/2026/group33/data#> .
+@prefix ont: <https://w3id.org/FAIR-course-UT/2026/group33/ont#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0014> a ont:Municipality;
+rdfs:label "Groningen"@nl;
+ont:cbsCode "GM0014";
+schema:sameAs <http://www.wikidata.org/entity/Q892526> .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0014> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-groningen.nl,d:host-www.groningen.nl;
+ont:mainMailDomain d:host-groningen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0034> a ont:Municipality;
+rdfs:label "Almere"@nl;
+ont:cbsCode "GM0034";
+schema:sameAs <http://www.wikidata.org/entity/Q83178> .
+<http://www.wikidata.org/entity/Q707> a ont:Province;
+rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0034> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-almere.nl,d:host-www.almere.nl;
+ont:mainMailDomain d:host-almere.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0037> a ont:Municipality;
+rdfs:label "Stadskanaal"@nl;
+ont:cbsCode "GM0037" .
+<http://www.wikidata.org/entity/Q752> rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0037> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+schema:sameAs <http://www.wikidata.org/entity/Q73074> .
+<http://www.wikidata.org/entity/Q752> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0037> ont:websiteHost d:host-stadskanaal.nl,d:host-www.stadskanaal.nl;
+ont:mainMailDomain d:host-stadskanaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0047> schema:sameAs <http://www.wikidata.org/entity/Q73065> .
+<http://www.wikidata.org/entity/Q752> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0047> ont:websiteHost d:host-www.veendam.nl,d:host-veendam.nl .
+<http://www.wikidata.org/entity/Q752> rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0047> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+a ont:Municipality;
+rdfs:label "Veendam"@nl;
+ont:cbsCode "GM0047";
+ont:mainMailDomain d:host-veendam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0050> ont:cbsCode "GM0050";
+a ont:Municipality;
+rdfs:label "Zeewolde"@nl .
+<http://www.wikidata.org/entity/Q707> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0050> schema:sameAs <http://www.wikidata.org/entity/Q184454> .
+<http://www.wikidata.org/entity/Q707> rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0050> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-www.zeewolde.nl,d:host-zeewolde.nl;
+ont:mainMailDomain d:host-zeewolde.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0059> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+a ont:Municipality;
+rdfs:label "Achtkarspelen"@nl;
+ont:cbsCode "GM0059";
+schema:sameAs <http://www.wikidata.org/entity/Q341024>;
+ont:websiteHost d:host-achtkarspelen.nl,d:host-www.achtkarspelen.nl;
+ont:mainMailDomain d:host-achtkarspelen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0060> ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0060> a ont:Municipality;
+rdfs:label "Ameland"@nl;
+ont:cbsCode "GM0060";
+schema:sameAs <http://www.wikidata.org/entity/Q208259>;
+ont:websiteHost d:host-ameland.nl,d:host-www.ameland.nl;
+ont:mainMailDomain d:host-ameland.nl .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0072> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+schema:sameAs <http://www.wikidata.org/entity/Q2536628>;
+a ont:Municipality;
+rdfs:label "Harlingen"@nl;
+ont:cbsCode "GM0072" .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0072> ont:websiteHost d:host-harlingen.nl,d:host-www.harlingen.nl;
+ont:mainMailDomain d:host-harlingen.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0074> ont:cbsCode "GM0074";
+schema:sameAs <http://www.wikidata.org/entity/Q574558> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0074> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+a ont:Municipality;
+rdfs:label "Heerenveen"@nl;
+ont:websiteHost d:host-heerenveen.nl,d:host-www.heerenveen.nl;
+ont:mainMailDomain d:host-heerenveen.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0080> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+a ont:Municipality;
+rdfs:label "Leeuwarden"@nl;
+ont:cbsCode "GM0080";
+schema:sameAs <http://www.wikidata.org/entity/Q2311189>;
+ont:websiteHost d:host-leeuwarden.nl,d:host-www.leeuwarden.nl;
+ont:mainMailDomain d:host-leeuwarden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0085> ont:cbsCode "GM0085" .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0085> schema:sameAs <http://www.wikidata.org/entity/Q259205>;
+ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0085> a ont:Municipality;
+rdfs:label "Ooststellingwerf"@nl;
+ont:websiteHost d:host-ooststellingwerf.nl,d:host-www.ooststellingwerf.nl;
+ont:mainMailDomain d:host-ooststellingwerf.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0086> ont:cbsCode "GM0086";
+schema:sameAs <http://www.wikidata.org/entity/Q840632>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0086> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+rdfs:label "Opsterland"@nl;
+ont:websiteHost d:host-opsterland.nl,d:host-www.opsterland.nl;
+ont:mainMailDomain d:host-opsterland.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0088> schema:sameAs <http://www.wikidata.org/entity/Q208011>;
+ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0088> ont:cbsCode "GM0088";
+a ont:Municipality;
+rdfs:label "Schiermonnikoog"@nl;
+ont:websiteHost d:host-schiermonnikoog.nl,d:host-www.schiermonnikoog.nl;
+ont:mainMailDomain d:host-schiermonnikoog.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0090> rdfs:label "Smallingerland"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q507065>;
+ont:cbsCode "GM0090" .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0090> ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0090> a ont:Municipality;
+ont:websiteHost d:host-smallingerland.nl,d:host-www.smallingerland.nl;
+ont:mainMailDomain d:host-smallingerland.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0093> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+a ont:Municipality;
+rdfs:label "Terschelling"@nl;
+ont:cbsCode "GM0093";
+schema:sameAs <http://www.wikidata.org/entity/Q204412>;
+ont:websiteHost d:host-terschelling.nl,d:host-www.terschelling.nl;
+ont:mainMailDomain d:host-terschelling.nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0096> schema:sameAs <http://www.wikidata.org/entity/Q207851>;
+rdfs:label "Vlieland"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0096" .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0096> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+ont:websiteHost d:host-vlieland.nl,d:host-www.vlieland.nl;
+ont:mainMailDomain d:host-vlieland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0098> ont:cbsCode "GM0098" .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0098> schema:sameAs <http://www.wikidata.org/entity/Q753913>;
+ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0098> a ont:Municipality;
+rdfs:label "Weststellingwerf"@nl;
+ont:websiteHost d:host-weststellingwerf.nl,d:host-www.weststellingwerf.nl;
+ont:mainMailDomain d:host-weststellingwerf.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0106> ont:cbsCode "GM0106" .
+<http://www.wikidata.org/entity/Q772> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0106> rdfs:label "Assen"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q798> .
+<http://www.wikidata.org/entity/Q772> rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0106> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-assen.nl,d:host-www.assen.nl;
+ont:mainMailDomain d:host-assen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0109> ont:cbsCode "GM0109" .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0109> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+schema:sameAs <http://www.wikidata.org/entity/Q60453>;
+a ont:Municipality;
+rdfs:label "Coevorden"@nl;
+ont:websiteHost d:host-coevorden.nl,d:host-www.coevorden.nl;
+ont:mainMailDomain d:host-coevorden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0114> schema:sameAs <http://www.wikidata.org/entity/Q14641>;
+a ont:Municipality;
+ont:cbsCode "GM0114";
+rdfs:label "Emmen"@nl .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0114> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-emmen.nl,d:host-www.emmen.nl;
+ont:mainMailDomain d:host-emmen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0118> ont:cbsCode "GM0118";
+a ont:Municipality;
+rdfs:label "Hoogeveen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q208012> .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0118> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-hoogeveen.nl,d:host-www.hoogeveen.nl;
+ont:mainMailDomain d:host-hoogeveen.nl .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0119> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+a ont:Municipality;
+rdfs:label "Meppel"@nl;
+ont:cbsCode "GM0119";
+schema:sameAs <http://www.wikidata.org/entity/Q60425>;
+ont:websiteHost d:host-meppel.nl,d:host-www.meppel.nl;
+ont:mainMailDomain d:host-meppel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0141> a ont:Municipality;
+rdfs:label "Almelo"@nl;
+ont:cbsCode "GM0141";
+schema:sameAs <http://www.wikidata.org/entity/Q988> .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0141> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-almelo.nl,d:host-www.almelo.nl;
+ont:mainMailDomain d:host-almelo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0147> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+a ont:Municipality;
+rdfs:label "Borne"@nl;
+ont:cbsCode "GM0147" .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0147> schema:sameAs <http://www.wikidata.org/entity/Q9997> .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0147> ont:websiteHost d:host-borne.nl,d:host-www.borne.nl;
+ont:mainMailDomain d:host-borne.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0148> schema:sameAs <http://www.wikidata.org/entity/Q9998>;
+ont:cbsCode "GM0148";
+rdfs:label "Dalfsen"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0148> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-dalfsen.nl,d:host-www.dalfsen.nl;
+ont:mainMailDomain d:host-dalfsen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0150> schema:sameAs <http://www.wikidata.org/entity/Q10001>;
+a ont:Municipality;
+rdfs:label "Deventer"@nl;
+ont:cbsCode "GM0150" .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0150> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-deventer.nl,d:host-www.deventer.nl;
+ont:mainMailDomain d:host-deventer.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0153> ont:cbsCode "GM0153";
+rdfs:label "Enschede"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q134486510> .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0153> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-enschede.nl,d:host-www.enschede.nl;
+ont:mainMailDomain d:host-enschede.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0158> schema:sameAs <http://www.wikidata.org/entity/Q10003>;
+ont:cbsCode "GM0158";
+a ont:Municipality;
+rdfs:label "Haaksbergen"@nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0158> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-haaksbergen.nl,d:host-www.haaksbergen.nl;
+ont:mainMailDomain d:host-haaksbergen.nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0160> ont:cbsCode "GM0160";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q3916626>;
+rdfs:label "Hardenberg"@nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0160> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-hardenberg.nl,d:host-www.hardenberg.nl;
+ont:mainMailDomain d:host-hardenberg.nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0163> ont:cbsCode "GM0163";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q10005>;
+rdfs:label "Hellendoorn"@nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0163> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-hellendoorn.nl,d:host-www.hellendoorn.nl;
+ont:mainMailDomain d:host-hellendoorn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0164> a ont:Municipality;
+ont:cbsCode "GM0164";
+rdfs:label "Hengelo"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10006> .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0164> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-hengelo.nl,d:host-www.hengelo.nl;
+ont:mainMailDomain d:host-hengelo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0166> rdfs:label "Kampen"@nl;
+ont:cbsCode "GM0166";
+schema:sameAs <http://www.wikidata.org/entity/Q23814173>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0166> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-kampen.nl,d:host-www.kampen.nl;
+ont:mainMailDomain d:host-kampen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0168> a ont:Municipality;
+ont:cbsCode "GM0168";
+rdfs:label "Losser"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10015> .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0168> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-losser.nl,d:host-www.losser.nl;
+ont:mainMailDomain d:host-losser.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0171> rdfs:label "Noordoostpolder"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q69262> .
+<http://www.wikidata.org/entity/Q707> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0171> a ont:Municipality;
+ont:cbsCode "GM0171" .
+<http://www.wikidata.org/entity/Q707> rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0171> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-noordoostpolder.nl,d:host-www.noordoostpolder.nl;
+ont:mainMailDomain d:host-noordoostpolder.nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0173> ont:cbsCode "GM0173";
+rdfs:label "Oldenzaal"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10016>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0173> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-oldenzaal.nl,d:host-www.oldenzaal.nl;
+ont:mainMailDomain d:host-oldenzaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0175> ont:inProvince <http://www.wikidata.org/entity/Q773> .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0175> a ont:Municipality;
+rdfs:label "Ommen"@nl;
+ont:cbsCode "GM0175";
+schema:sameAs <http://www.wikidata.org/entity/Q10018>;
+ont:websiteHost d:host-ommen.nl,d:host-www.ommen.nl;
+ont:mainMailDomain d:host-ommen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0177> ont:cbsCode "GM0177";
+schema:sameAs <http://www.wikidata.org/entity/Q10019> .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0177> a ont:Municipality;
+rdfs:label "Raalte"@nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0177> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-raalte.nl,d:host-www.raalte.nl;
+ont:mainMailDomain d:host-raalte.nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0180> ont:inProvince <http://www.wikidata.org/entity/Q773> .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0180> rdfs:label "Staphorst"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10021>;
+ont:cbsCode "GM0180";
+a ont:Municipality;
+ont:websiteHost d:host-staphorst.nl,d:host-www.staphorst.nl;
+ont:mainMailDomain d:host-staphorst.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0183> rdfs:label "Tubbergen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10023>;
+ont:cbsCode "GM0183";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0183> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-tubbergen.nl,d:host-www.tubbergen.nl;
+ont:mainMailDomain d:host-tubbergen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0184> schema:sameAs <http://www.wikidata.org/entity/Q273746>;
+ont:cbsCode "GM0184";
+a ont:Municipality;
+rdfs:label "Urk"@nl .
+<http://www.wikidata.org/entity/Q707> a ont:Province;
+rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0184> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-urk.nl,d:host-www.urk.nl;
+ont:mainMailDomain d:host-urk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0189> ont:cbsCode "GM0189";
+a ont:Municipality;
+rdfs:label "Wierden"@nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0189> schema:sameAs <http://www.wikidata.org/entity/Q10025> .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0189> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-wierden.nl,d:host-www.wierden.nl;
+ont:mainMailDomain d:host-wierden.nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0193> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+a ont:Municipality;
+rdfs:label "Zwolle"@nl;
+ont:cbsCode "GM0193";
+schema:sameAs <http://www.wikidata.org/entity/Q793>;
+ont:websiteHost d:host-www.zwolle.nl,d:host-zwolle.nl;
+ont:mainMailDomain d:host-zwolle.nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0197> schema:sameAs <http://www.wikidata.org/entity/Q275909>;
+ont:cbsCode "GM0197";
+a ont:Municipality;
+rdfs:label "Aalten"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0197> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-aalten.nl,d:host-www.aalten.nl;
+ont:mainMailDomain d:host-aalten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0200> ont:cbsCode "GM0200" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0200> schema:sameAs <http://www.wikidata.org/entity/Q101918>;
+ont:inProvince <http://www.wikidata.org/entity/Q775> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0200> a ont:Municipality;
+rdfs:label "Apeldoorn"@nl;
+ont:websiteHost d:host-apeldoorn.nl,d:host-www.apeldoorn.nl;
+ont:mainMailDomain d:host-apeldoorn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0202> rdfs:label "Arnhem"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0202";
+schema:sameAs <http://www.wikidata.org/entity/Q1310> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0202> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-arnhem.nl,d:host-www.arnhem.nl;
+ont:mainMailDomain d:host-arnhem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0203> a ont:Municipality;
+rdfs:label "Barneveld"@nl;
+ont:cbsCode "GM0203";
+schema:sameAs <http://www.wikidata.org/entity/Q164098> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0203> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-barneveld.nl,d:host-www.barneveld.nl;
+ont:mainMailDomain d:host-barneveld.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0209> ont:cbsCode "GM0209" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0209> rdfs:label "Beuningen"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q851244> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0209> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-beuningen.nl,d:host-www.beuningen.nl;
+ont:mainMailDomain d:host-beuningen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0213> a ont:Municipality;
+ont:cbsCode "GM0213";
+rdfs:label "Brummen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q843895> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0213> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-brummen.nl,d:host-www.brummen.nl;
+ont:mainMailDomain d:host-brummen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0214> ont:inProvince <http://www.wikidata.org/entity/Q775> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0214> a ont:Municipality;
+rdfs:label "Buren"@nl;
+ont:cbsCode "GM0214";
+schema:sameAs <http://www.wikidata.org/entity/Q73061>;
+ont:websiteHost d:host-buren.nl,d:host-www.buren.nl;
+ont:mainMailDomain d:host-buren.nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0216> ont:cbsCode "GM0216";
+rdfs:label "Culemborg"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q816699> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0216> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-culemborg.nl,d:host-www.culemborg.nl;
+ont:mainMailDomain d:host-culemborg.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0221> a ont:Municipality;
+rdfs:label "Doesburg"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q165736>;
+ont:cbsCode "GM0221";
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-doesburg.nl,d:host-www.doesburg.nl;
+ont:mainMailDomain d:host-doesburg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0222> ont:cbsCode "GM0222";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q145845>;
+rdfs:label "Doetinchem"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0222> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-doetinchem.nl,d:host-www.doetinchem.nl;
+ont:mainMailDomain d:host-doetinchem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0225> rdfs:label "Druten"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q932142>;
+ont:cbsCode "GM0225";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0225> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-druten.nl,d:host-www.druten.nl;
+ont:mainMailDomain d:host-druten.nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0226> ont:cbsCode "GM0226";
+rdfs:label "Duiven"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q613989> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0226> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-duiven.nl,d:host-www.duiven.nl;
+ont:mainMailDomain d:host-duiven.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0228> ont:cbsCode "GM0228" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0228> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q26555>;
+rdfs:label "Ede"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0228> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-ede.nl,d:host-www.ede.nl;
+ont:mainMailDomain d:host-ede.nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0230> ont:cbsCode "GM0230";
+rdfs:label "Elburg"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q165662> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0230> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-elburg.nl,d:host-www.elburg.nl;
+ont:mainMailDomain d:host-elburg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0232> a ont:Municipality;
+rdfs:label "Epe"@nl;
+ont:cbsCode "GM0232";
+schema:sameAs <http://www.wikidata.org/entity/Q238396> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0232> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-epe.nl,d:host-www.epe.nl;
+ont:mainMailDomain d:host-epe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0233> ont:cbsCode "GM0233";
+rdfs:label "Ermelo"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q753920> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0233> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-ermelo.nl,d:host-www.ermelo.nl;
+ont:mainMailDomain d:host-ermelo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0243> a ont:Municipality;
+rdfs:label "Harderwijk"@nl;
+ont:cbsCode "GM0243";
+schema:sameAs <http://www.wikidata.org/entity/Q58931> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0243> ont:websiteHost d:host-harderwijk.nl,d:host-www.harderwijk.nl;
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:mainMailDomain d:host-harderwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0244> a ont:Municipality;
+rdfs:label "Hattem"@nl;
+ont:cbsCode "GM0244";
+schema:sameAs <http://www.wikidata.org/entity/Q58797> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0244> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-hattem.nl,d:host-www.hattem.nl;
+ont:mainMailDomain d:host-hattem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0246> rdfs:label "Heerde"@nl;
+ont:cbsCode "GM0246";
+schema:sameAs <http://www.wikidata.org/entity/Q615491> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0246> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+a ont:Municipality;
+ont:websiteHost d:host-heerde.nl,d:host-www.heerde.nl;
+ont:mainMailDomain d:host-heerde.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0252> a ont:Municipality;
+rdfs:label "Heumen"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0252> schema:sameAs <http://www.wikidata.org/entity/Q932155>;
+ont:cbsCode "GM0252";
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-heumen.nl,d:host-www.heumen.nl;
+ont:mainMailDomain d:host-heumen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0262> ont:cbsCode "GM0262" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0262> ont:inProvince <http://www.wikidata.org/entity/Q775> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0262> schema:sameAs <http://www.wikidata.org/entity/Q932058>;
+a ont:Municipality;
+rdfs:label "Lochem"@nl;
+ont:websiteHost d:host-lochem.nl,d:host-www.lochem.nl;
+ont:mainMailDomain d:host-lochem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0263> rdfs:label "Maasdriel"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0263";
+schema:sameAs <http://www.wikidata.org/entity/Q904544> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0263> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-maasdriel.nl,d:host-www.maasdriel.nl;
+ont:mainMailDomain d:host-maasdriel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0267> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+schema:sameAs <http://www.wikidata.org/entity/Q73226>;
+ont:cbsCode "GM0267" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0267> a ont:Municipality;
+rdfs:label "Nijkerk"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0267> ont:websiteHost d:host-nijkerk.eu,d:host-www.nijkerk.eu;
+ont:mainMailDomain d:host-nijkerk.eu .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0268> ont:cbsCode "GM0268";
+rdfs:label "Nijmegen"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q47887> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0268> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-nijmegen.nl,d:host-www.nijmegen.nl;
+ont:mainMailDomain d:host-nijmegen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0269> ont:cbsCode "GM0269";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0269> rdfs:label "Oldebroek"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q932042> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0269> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-oldebroek.nl,d:host-www.oldebroek.nl;
+ont:mainMailDomain d:host-oldebroek.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0273> ont:cbsCode "GM0273";
+schema:sameAs <http://www.wikidata.org/entity/Q939948> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0273> a ont:Municipality;
+rdfs:label "Putten"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-putten.nl,d:host-www.putten.nl;
+ont:mainMailDomain d:host-putten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0274> ont:cbsCode "GM0274";
+schema:sameAs <http://www.wikidata.org/entity/Q691725>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0274> rdfs:label "Renkum"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0274> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-renkum.nl,d:host-www.renkum.nl;
+ont:mainMailDomain d:host-renkum.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0275> ont:cbsCode "GM0275";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q843899>;
+rdfs:label "Rheden"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0275> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-rheden.nl,d:host-www.rheden.nl;
+ont:mainMailDomain d:host-rheden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0277> a ont:Municipality;
+ont:cbsCode "GM0277";
+rdfs:label "Rozendaal"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q372592> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0277> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-rozendaal.nl,d:host-www.rozendaal.nl;
+ont:mainMailDomain d:host-rozendaal.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0279> a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0279> rdfs:label "Scherpenzeel"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q939964>;
+ont:cbsCode "GM0279";
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-scherpenzeel.nl,d:host-www.scherpenzeel.nl;
+ont:mainMailDomain d:host-scherpenzeel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0281> rdfs:label "Tiel"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0281> schema:sameAs <http://www.wikidata.org/entity/Q73221>;
+ont:cbsCode "GM0281" .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0281> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-tiel.nl,d:host-www.tiel.nl;
+ont:mainMailDomain d:host-tiel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0285> schema:sameAs <http://www.wikidata.org/entity/Q384772>;
+rdfs:label "Voorst"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0285> ont:cbsCode "GM0285";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0285> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-voorst.nl,d:host-www.voorst.nl;
+ont:mainMailDomain d:host-voorst.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0289> a ont:Municipality;
+ont:cbsCode "GM0289";
+schema:sameAs <http://www.wikidata.org/entity/Q1305>;
+rdfs:label "Wageningen"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0289> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-wageningen.nl,d:host-www.wageningen.nl;
+ont:mainMailDomain d:host-wageningen.nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0293> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+a ont:Municipality;
+rdfs:label "Westervoort"@nl;
+ont:cbsCode "GM0293";
+schema:sameAs <http://www.wikidata.org/entity/Q524808>;
+ont:websiteHost d:host-westervoort.nl,d:host-www.westervoort.nl;
+ont:mainMailDomain d:host-westervoort.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0294> ont:cbsCode "GM0294";
+schema:sameAs <http://www.wikidata.org/entity/Q72974>;
+rdfs:label "Winterswijk"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0294> a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0294> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-winterswijk.nl,d:host-www.winterswijk.nl;
+ont:mainMailDomain d:host-winterswijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0296> rdfs:label "Wijchen"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0296> ont:inProvince <http://www.wikidata.org/entity/Q775> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0296> ont:cbsCode "GM0296";
+schema:sameAs <http://www.wikidata.org/entity/Q72981>;
+a ont:Municipality;
+ont:websiteHost d:host-wijchen.nl,d:host-www.wijchen.nl;
+ont:mainMailDomain d:host-wijchen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0297> ont:cbsCode "GM0297";
+rdfs:label "Zaltbommel"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q1532373> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0297> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-www.zaltbommel.nl,d:host-zaltbommel.nl;
+ont:mainMailDomain d:host-zaltbommel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0299> schema:sameAs <http://www.wikidata.org/entity/Q197050>;
+rdfs:label "Zevenaar"@nl;
+ont:cbsCode "GM0299";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0299> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-www.zevenaar.nl,d:host-zevenaar.nl;
+ont:mainMailDomain d:host-zevenaar.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0301> a ont:Municipality;
+ont:cbsCode "GM0301";
+schema:sameAs <http://www.wikidata.org/entity/Q15858232>;
+rdfs:label "Zutphen"@nl .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0301> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-www.zutphen.nl,d:host-zutphen.nl;
+ont:mainMailDomain d:host-zutphen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0302> rdfs:label "Nunspeet"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0302> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:cbsCode "GM0302";
+schema:sameAs <http://www.wikidata.org/entity/Q931997> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0302> a ont:Municipality;
+ont:websiteHost d:host-nunspeet.nl,d:host-www.nunspeet.nl;
+ont:mainMailDomain d:host-nunspeet.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0303> a ont:Municipality;
+ont:cbsCode "GM0303";
+rdfs:label "Dronten"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q328087> .
+<http://www.wikidata.org/entity/Q707> a ont:Province;
+rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0303> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-dronten.nl,d:host-www.dronten.nl;
+ont:mainMailDomain d:host-dronten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0307> rdfs:label "Amersfoort"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q992>;
+a ont:Municipality;
+ont:cbsCode "GM0307" .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0307> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-amersfoort.nl,d:host-www.amersfoort.nl;
+ont:mainMailDomain d:host-amersfoort.nl .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0308> a ont:Municipality;
+rdfs:label "Baarn"@nl;
+ont:cbsCode "GM0308" .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0308> schema:sameAs <http://www.wikidata.org/entity/Q10027>;
+ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-baarn.nl,d:host-www.baarn.nl;
+ont:mainMailDomain d:host-baarn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0310> rdfs:label "De Bilt"@nl;
+ont:cbsCode "GM0310";
+schema:sameAs <http://www.wikidata.org/entity/Q10035> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0310> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0310> ont:websiteHost d:host-debilt.nl,d:host-www.debilt.nl;
+ont:mainMailDomain d:host-debilt.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0312> ont:cbsCode "GM0312" .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0312> a ont:Municipality;
+rdfs:label "Bunnik"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10032> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0312> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-bunnik.nl,d:host-www.bunnik.nl;
+ont:mainMailDomain d:host-bunnik.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0313> a ont:Municipality;
+ont:cbsCode "GM0313";
+rdfs:label "Bunschoten"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10034> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0313> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-bunschoten.nl,d:host-www.bunschoten.nl;
+ont:mainMailDomain d:host-bunschoten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0317> rdfs:label "Eemnes"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10037>;
+ont:cbsCode "GM0317";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0317> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-eemnes.nl,d:host-www.eemnes.nl;
+ont:mainMailDomain d:host-eemnes.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0321> rdfs:label "Houten"@nl;
+ont:cbsCode "GM0321";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q10044> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0321> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-houten.nl,d:host-www.houten.nl;
+ont:mainMailDomain d:host-houten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0327> rdfs:label "Leusden"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0327";
+schema:sameAs <http://www.wikidata.org/entity/Q10046> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0327> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-leusden.nl,d:host-www.leusden.nl;
+ont:mainMailDomain d:host-leusden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0331> rdfs:label "Lopik"@nl;
+ont:cbsCode "GM0331";
+schema:sameAs <http://www.wikidata.org/entity/Q10047>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0331> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-lopik.nl,d:host-www.lopik.nl;
+ont:mainMailDomain d:host-lopik.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0335> ont:websiteHost d:host-www.montfoort.nl,d:host-montfoort.nl;
+ont:inProvince <http://www.wikidata.org/entity/Q776>;
+a ont:Municipality;
+rdfs:label "Montfoort"@nl;
+ont:cbsCode "GM0335";
+schema:sameAs <http://www.wikidata.org/entity/Q10048> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0335> ont:mainMailDomain d:host-montfoort.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0339> a ont:Municipality;
+rdfs:label "Renswoude"@nl;
+ont:cbsCode "GM0339";
+schema:sameAs <http://www.wikidata.org/entity/Q10039> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0339> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-renswoude.nl,d:host-www.renswoude.nl;
+ont:mainMailDomain d:host-renswoude.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0340> ont:inProvince <http://www.wikidata.org/entity/Q776> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0340> a ont:Municipality;
+rdfs:label "Rhenen"@nl;
+ont:cbsCode "GM0340" .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0340> schema:sameAs <http://www.wikidata.org/entity/Q10040>;
+ont:websiteHost d:host-rhenen.nl,d:host-www.rhenen.nl;
+ont:mainMailDomain d:host-rhenen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0342> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q10041> .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0342> rdfs:label "Soest"@nl;
+ont:cbsCode "GM0342" .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0342> ont:websiteHost d:host-soest.nl,d:host-www.soest.nl;
+ont:mainMailDomain d:host-soest.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0344> schema:sameAs <http://www.wikidata.org/entity/Q803>;
+ont:cbsCode "GM0344";
+rdfs:label "Utrecht"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0344> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-utrecht.nl,d:host-www.utrecht.nl;
+ont:mainMailDomain d:host-utrecht.nl .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0345> a ont:Municipality;
+ont:cbsCode "GM0345";
+rdfs:label "Veenendaal"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q1840> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0345> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-veenendaal.nl,d:host-www.veenendaal.nl;
+ont:mainMailDomain d:host-veenendaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0351> a ont:Municipality;
+ont:cbsCode "GM0351";
+schema:sameAs <http://www.wikidata.org/entity/Q10055>;
+rdfs:label "Woudenberg"@nl .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0351> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-woudenberg.nl,d:host-www.woudenberg.nl;
+ont:mainMailDomain d:host-woudenberg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0352> schema:sameAs <http://www.wikidata.org/entity/Q10053> .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0352> rdfs:label "Wijk bij Duurstede"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0352" .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0352> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-wijkbijduurstede.nl,d:host-www.wijkbijduurstede.nl;
+ont:mainMailDomain d:host-wijkbijduurstede.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0353> ont:cbsCode "GM0353";
+schema:sameAs <http://www.wikidata.org/entity/Q10045> .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0353> a ont:Municipality;
+rdfs:label "IJsselstein"@nl .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0353> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-ijsselstein.nl,d:host-www.ijsselstein.nl;
+ont:mainMailDomain d:host-ijsselstein.nl .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0355> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:cbsCode "GM0355" .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0355> a ont:Municipality;
+rdfs:label "Zeist"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10056>;
+ont:websiteHost d:host-www.zeist.nl,d:host-zeist.nl;
+ont:mainMailDomain d:host-zeist.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0356> ont:inProvince <http://www.wikidata.org/entity/Q776> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0356> a ont:Municipality;
+rdfs:label "Nieuwegein"@nl;
+ont:cbsCode "GM0356";
+schema:sameAs <http://www.wikidata.org/entity/Q10050>;
+ont:websiteHost d:host-nieuwegein.nl,d:host-www.nieuwegein.nl;
+ont:mainMailDomain d:host-nieuwegein.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0358> schema:sameAs <http://www.wikidata.org/entity/Q9897>;
+ont:cbsCode "GM0358";
+rdfs:label "Aalsmeer"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0358> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-aalsmeer.nl,d:host-www.aalsmeer.nl;
+ont:mainMailDomain d:host-aalsmeer.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0361> schema:sameAs <http://www.wikidata.org/entity/Q972>;
+ont:cbsCode "GM0361";
+rdfs:label "Alkmaar"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0361> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-alkmaar.nl,d:host-www.alkmaar.nl;
+ont:mainMailDomain d:host-alkmaar.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0362> schema:sameAs <http://www.wikidata.org/entity/Q9898>;
+a ont:Municipality;
+rdfs:label "Amstelveen"@nl;
+ont:cbsCode "GM0362";
+ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0362> ont:websiteHost d:host-amstelveen.nl,d:host-www.amstelveen.nl;
+ont:mainMailDomain d:host-amstelveen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0363> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+rdfs:label "Amsterdam"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0363> schema:sameAs <http://www.wikidata.org/entity/Q9899>;
+ont:cbsCode "GM0363" .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0363> ont:websiteHost d:host-amsterdam.nl,d:host-www.amsterdam.nl;
+ont:mainMailDomain d:host-amsterdam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0373> rdfs:label "Bergen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9901>;
+ont:cbsCode "GM0373";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0373> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-bergen-nh.nl,d:host-www.bergen-nh.nl;
+ont:mainMailDomain d:host-bergen-nh.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0375> ont:cbsCode "GM0375";
+schema:sameAs <http://www.wikidata.org/entity/Q9905>;
+rdfs:label "Beverwijk"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0375> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-beverwijk.nl,d:host-www.beverwijk.nl;
+ont:mainMailDomain d:host-beverwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0376> ont:cbsCode "GM0376" .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0376> schema:sameAs <http://www.wikidata.org/entity/Q9906>;
+a ont:Municipality;
+rdfs:label "Blaricum"@nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0376> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-blaricum.nl,d:host-www.blaricum.nl;
+ont:mainMailDomain d:host-blaricum.nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0377> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:cbsCode "GM0377";
+schema:sameAs <http://www.wikidata.org/entity/Q9908> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0377> rdfs:label "Bloemendaal"@nl;
+a ont:Municipality;
+ont:websiteHost d:host-bloemendaal.nl,d:host-www.bloemendaal.nl;
+ont:mainMailDomain d:host-bloemendaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0383> schema:sameAs <http://www.wikidata.org/entity/Q9910>;
+ont:cbsCode "GM0383";
+rdfs:label "Castricum"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0383> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-castricum.nl,d:host-www.castricum.nl;
+ont:mainMailDomain d:host-castricum.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0384> rdfs:label "Diemen"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0384> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:cbsCode "GM0384";
+schema:sameAs <http://www.wikidata.org/entity/Q9913>;
+ont:websiteHost d:host-diemen.nl,d:host-www.diemen.nl;
+ont:mainMailDomain d:host-diemen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0385> schema:sameAs <http://www.wikidata.org/entity/Q9917>;
+ont:cbsCode "GM0385";
+rdfs:label "Edam-Volendam"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0385> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-edam-volendam.nl,d:host-www.edam-volendam.nl;
+ont:mainMailDomain d:host-edam-volendam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0388> schema:sameAs <http://www.wikidata.org/entity/Q9918>;
+ont:cbsCode "GM0388";
+a ont:Municipality;
+rdfs:label "Enkhuizen"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0388> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-enkhuizen.nl,d:host-www.enkhuizen.nl;
+ont:mainMailDomain d:host-enkhuizen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0392> rdfs:label "Haarlem"@nl;
+ont:cbsCode "GM0392";
+schema:sameAs <http://www.wikidata.org/entity/Q9920>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0392> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-haarlem.nl,d:host-www.haarlem.nl;
+ont:mainMailDomain d:host-haarlem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0394> schema:sameAs <http://www.wikidata.org/entity/Q9924>;
+ont:cbsCode "GM0394";
+rdfs:label "Haarlemmermeer"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0394> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-haarlemmermeergemeente.nl,d:host-www.haarlemmermeergemeente.nl;
+ont:mainMailDomain d:host-haarlemmermeergemeente.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0396> rdfs:label "Heemskerk"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0396";
+schema:sameAs <http://www.wikidata.org/entity/Q9926> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0396> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-heemskerk.nl,d:host-www.heemskerk.nl;
+ont:mainMailDomain d:host-heemskerk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0397> ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0397> rdfs:label "Heemstede"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0397> ont:cbsCode "GM0397";
+schema:sameAs <http://www.wikidata.org/entity/Q9928>;
+a ont:Municipality;
+ont:websiteHost d:host-heemstede.nl,d:host-www.heemstede.nl;
+ont:mainMailDomain d:host-heemstede.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0399> a ont:Municipality;
+ont:cbsCode "GM0399";
+rdfs:label "Heiloo"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9932> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0399> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-heiloo.nl,d:host-www.heiloo.nl;
+ont:mainMailDomain d:host-heiloo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0400> schema:sameAs <http://www.wikidata.org/entity/Q9911>;
+a ont:Municipality;
+ont:cbsCode "GM0400";
+rdfs:label "Den Helder"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0400> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-denhelder.nl,d:host-www.denhelder.nl;
+ont:mainMailDomain d:host-denhelder.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0402> schema:sameAs <http://www.wikidata.org/entity/Q9934>;
+a ont:Municipality;
+ont:cbsCode "GM0402";
+rdfs:label "Hilversum"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0402> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-hilversum.nl,d:host-www.hilversum.nl;
+ont:mainMailDomain d:host-hilversum.nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0405> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality;
+rdfs:label "Hoorn"@nl;
+ont:cbsCode "GM0405";
+schema:sameAs <http://www.wikidata.org/entity/Q9938>;
+ont:websiteHost d:host-hoorn.nl,d:host-www.hoorn.nl;
+ont:mainMailDomain d:host-hoorn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0406> rdfs:label "Huizen"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0406> schema:sameAs <http://www.wikidata.org/entity/Q9939>;
+a ont:Municipality;
+ont:cbsCode "GM0406" .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0406> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-huizen.nl,d:host-www.huizen.nl;
+ont:mainMailDomain d:host-huizen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0415> rdfs:label "Landsmeer"@nl;
+ont:cbsCode "GM0415";
+schema:sameAs <http://www.wikidata.org/entity/Q9942>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0415> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-landsmeer.nl,d:host-www.landsmeer.nl;
+ont:mainMailDomain d:host-landsmeer.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0417> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality;
+rdfs:label "Laren"@nl;
+ont:cbsCode "GM0417";
+ont:websiteHost d:host-laren.nl,d:host-www.laren.nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9945> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0417> ont:mainMailDomain d:host-laren.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0420> ont:cbsCode "GM0420" .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0420> schema:sameAs <http://www.wikidata.org/entity/Q9947>;
+a ont:Municipality;
+rdfs:label "Medemblik"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0420> ont:websiteHost d:host-medemblik.nl,d:host-www.medemblik.nl;
+ont:mainMailDomain d:host-medemblik.nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0431> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0431> schema:sameAs <http://www.wikidata.org/entity/Q9951>;
+ont:cbsCode "GM0431";
+rdfs:label "Oostzaan"@nl;
+ont:websiteHost d:host-oostzaan.nl,d:host-www.oostzaan.nl;
+ont:mainMailDomain d:host-oostzaan.nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0432> ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0432> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9952>;
+ont:cbsCode "GM0432";
+rdfs:label "Opmeer"@nl;
+ont:websiteHost d:host-opmeer.nl,d:host-www.opmeer.nl;
+ont:mainMailDomain d:host-opmeer.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0437> a ont:Municipality;
+ont:cbsCode "GM0437";
+rdfs:label "Ouder-Amstel"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9953>;
+ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0437> ont:websiteHost d:host-ouder-amstel.nl,d:host-www.ouder-amstel.nl;
+ont:mainMailDomain d:host-ouder-amstel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0439> schema:sameAs <http://www.wikidata.org/entity/Q110423208> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0439> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+rdfs:label "Purmerend"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0439> ont:cbsCode "GM0439";
+a ont:Municipality;
+ont:websiteHost d:host-purmerend.nl,d:host-www.purmerend.nl;
+ont:mainMailDomain d:host-purmerend.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0441> schema:sameAs <http://www.wikidata.org/entity/Q9955> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0441> rdfs:label "Schagen"@nl;
+ont:cbsCode "GM0441";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0441> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-schagen.nl,d:host-www.schagen.nl;
+ont:mainMailDomain d:host-schagen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0448> a ont:Municipality;
+rdfs:label "Texel"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0448> ont:cbsCode "GM0448";
+schema:sameAs <http://www.wikidata.org/entity/Q9966> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0448> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-texel.nl,d:host-www.texel.nl;
+ont:mainMailDomain d:host-texel.nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0450> a ont:Municipality;
+ont:cbsCode "GM0450";
+rdfs:label "Uitgeest"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9967> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0450> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-uitgeest.nl,d:host-www.uitgeest.nl;
+ont:mainMailDomain d:host-uitgeest.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0451> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9969> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0451> rdfs:label "Uithoorn"@nl;
+ont:cbsCode "GM0451" .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0451> ont:websiteHost d:host-uithoorn.nl,d:host-www.uithoorn.nl;
+ont:mainMailDomain d:host-uithoorn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0453> ont:cbsCode "GM0453";
+a ont:Municipality;
+rdfs:label "Velsen"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0453> schema:sameAs <http://www.wikidata.org/entity/Q9970> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0453> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-velsen.nl,d:host-www.velsen.nl;
+ont:mainMailDomain d:host-velsen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0473> rdfs:label "Zandvoort"@nl;
+ont:cbsCode "GM0473";
+schema:sameAs <http://www.wikidata.org/entity/Q9980> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0473> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0473> ont:websiteHost d:host-www.zandvoort.nl,d:host-zandvoort.nl;
+ont:mainMailDomain d:host-zandvoort.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0479> rdfs:label "Zaanstad"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9978>;
+ont:cbsCode "GM0479" .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0479> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-www.zaanstad.nl,d:host-zaanstad.nl;
+ont:mainMailDomain d:host-zaanstad.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0482> ont:cbsCode "GM0482";
+schema:sameAs <http://www.wikidata.org/entity/Q736131>;
+ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0482> rdfs:label "Alblasserdam"@nl;
+a ont:Municipality;
+ont:websiteHost d:host-alblasserdam.nl,d:host-www.alblasserdam.nl;
+ont:mainMailDomain d:host-alblasserdam.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0484> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0484> a ont:Municipality;
+rdfs:label "Alphen aan den Rijn"@nl;
+ont:cbsCode "GM0484";
+schema:sameAs <http://www.wikidata.org/entity/Q213246>;
+ont:websiteHost d:host-alphenaandenrijn.nl,d:host-www.alphenaandenrijn.nl;
+ont:mainMailDomain d:host-alphenaandenrijn.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0489> a ont:Municipality;
+ont:cbsCode "GM0489";
+rdfs:label "Barendrecht"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q204239> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0489> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-barendrecht.nl,d:host-www.barendrecht.nl;
+ont:mainMailDomain d:host-barendrecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0498> schema:sameAs <http://www.wikidata.org/entity/Q9915>;
+a ont:Municipality;
+ont:cbsCode "GM0498";
+rdfs:label "Drechterland"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0498> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-drechterland.nl,d:host-www.drechterland.nl;
+ont:mainMailDomain d:host-drechterland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0502> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0502> rdfs:label "Capelle aan den IJssel"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q734860>;
+ont:cbsCode "GM0502";
+ont:websiteHost d:host-capelleaandenijssel.nl,d:host-www.capelleaandenijssel.nl;
+ont:mainMailDomain d:host-capelleaandenijssel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0503> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0503> rdfs:label "Delft"@nl;
+ont:cbsCode "GM0503";
+schema:sameAs <http://www.wikidata.org/entity/Q690> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0503> ont:websiteHost d:host-delft.nl,d:host-www.delft.nl;
+ont:mainMailDomain d:host-delft.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0505> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0505> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q26421>;
+ont:cbsCode "GM0505";
+rdfs:label "Dordrecht"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0505> ont:websiteHost d:host-dordrecht.nl,d:host-www.dordrecht.nl;
+ont:mainMailDomain d:host-dordrecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0512> rdfs:label "Gorinchem"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0512";
+schema:sameAs <http://www.wikidata.org/entity/Q244327> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0512> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-gorinchem.nl,d:host-www.gorinchem.nl;
+ont:mainMailDomain d:host-gorinchem.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0513> a ont:Municipality;
+ont:cbsCode "GM0513" .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0513> schema:sameAs <http://www.wikidata.org/entity/Q84125>;
+rdfs:label "Gouda"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-gouda.nl,d:host-www.gouda.nl;
+ont:mainMailDomain d:host-gouda.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0518> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+schema:sameAs <http://www.wikidata.org/entity/Q36600>;
+rdfs:label "Den Haag"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0518> ont:cbsCode "GM0518";
+a ont:Municipality;
+ont:websiteHost d:host-denhaag.nl,d:host-www.denhaag.nl;
+ont:mainMailDomain d:host-denhaag.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0523> schema:sameAs <http://www.wikidata.org/entity/Q953012>;
+rdfs:label "Hardinxveld-Giessendam"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0523" .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0523> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-hardinxveld-giessendam.nl,d:host-www.hardinxveld-giessendam.nl;
+ont:mainMailDomain d:host-hardinxveld-giessendam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0531> ont:cbsCode "GM0531" .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0531> schema:sameAs <http://www.wikidata.org/entity/Q538725>;
+a ont:Municipality;
+rdfs:label "Hendrik-Ido-Ambacht"@nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0531> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-h-i-ambacht.nl,d:host-www.h-i-ambacht.nl;
+ont:mainMailDomain d:host-h-i-ambacht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0532> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+a ont:Municipality;
+rdfs:label "Stede Broec"@nl;
+ont:websiteHost d:host-www.stedebroec.nl,d:host-stedebroec.nl;
+ont:cbsCode "GM0532";
+schema:sameAs <http://www.wikidata.org/entity/Q9962> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0532> ont:mainMailDomain d:host-stedebroec.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0534> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality;
+rdfs:label "Hillegom"@nl;
+ont:cbsCode "GM0534";
+schema:sameAs <http://www.wikidata.org/entity/Q932116>;
+ont:websiteHost d:host-hillegom.nl,d:host-www.hillegom.nl;
+ont:mainMailDomain d:host-hillegom.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0537> ont:cbsCode "GM0537";
+rdfs:label "Katwijk"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q208764>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0537> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-katwijk.nl,d:host-www.katwijk.nl;
+ont:mainMailDomain d:host-katwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0542> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0542> a ont:Municipality;
+rdfs:label "Krimpen aan den IJssel"@nl;
+ont:cbsCode "GM0542";
+schema:sameAs <http://www.wikidata.org/entity/Q739449>;
+ont:websiteHost d:host-krimpenaandenijssel.nl,d:host-www.krimpenaandenijssel.nl;
+ont:mainMailDomain d:host-krimpenaandenijssel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0546> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q43631> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0546> rdfs:label "Leiden"@nl;
+ont:cbsCode "GM0546" .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0546> ont:websiteHost d:host-leiden.nl,d:host-www.leiden.nl;
+ont:mainMailDomain d:host-leiden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0547> schema:sameAs <http://www.wikidata.org/entity/Q1000817>;
+a ont:Municipality;
+ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0547> rdfs:label "Leiderdorp"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0547> ont:cbsCode "GM0547";
+ont:websiteHost d:host-leiderdorp.nl,d:host-www.leiderdorp.nl;
+ont:mainMailDomain d:host-leiderdorp.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0553> schema:sameAs <http://www.wikidata.org/entity/Q332730>;
+ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0553> rdfs:label "Lisse"@nl;
+ont:cbsCode "GM0553";
+a ont:Municipality;
+ont:websiteHost d:host-lisse.nl,d:host-www.lisse.nl;
+ont:mainMailDomain d:host-lisse.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0556> rdfs:label "Maassluis"@nl;
+ont:cbsCode "GM0556";
+ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0556> schema:sameAs <http://www.wikidata.org/entity/Q497130>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0556> ont:websiteHost d:host-maassluis.nl,d:host-www.maassluis.nl;
+ont:mainMailDomain d:host-maassluis.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0569> a ont:Municipality;
+rdfs:label "Nieuwkoop"@nl;
+ont:cbsCode "GM0569";
+schema:sameAs <http://www.wikidata.org/entity/Q948866> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0569> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-nieuwkoop.nl,d:host-www.nieuwkoop.nl;
+ont:mainMailDomain d:host-nieuwkoop.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0575> ont:cbsCode "GM0575" .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0575> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0575> schema:sameAs <http://www.wikidata.org/entity/Q455464>;
+a ont:Municipality;
+rdfs:label "Noordwijk"@nl;
+ont:websiteHost d:host-noordwijk.nl,d:host-www.noordwijk.nl;
+ont:mainMailDomain d:host-noordwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0579> schema:sameAs <http://www.wikidata.org/entity/Q94747>;
+ont:cbsCode "GM0579";
+rdfs:label "Oegstgeest"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0579> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-oegstgeest.nl,d:host-www.oegstgeest.nl;
+ont:mainMailDomain d:host-oegstgeest.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0589> rdfs:label "Oudewater"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10051>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0589> ont:cbsCode "GM0589" .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0589> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-oudewater.nl,d:host-www.oudewater.nl;
+ont:mainMailDomain d:host-oudewater.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0590> a ont:Municipality;
+rdfs:label "Papendrecht"@nl;
+ont:cbsCode "GM0590";
+schema:sameAs <http://www.wikidata.org/entity/Q934511> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0590> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-papendrecht.nl,d:host-www.papendrecht.nl;
+ont:mainMailDomain d:host-papendrecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0597> a ont:Municipality;
+rdfs:label "Ridderkerk"@nl;
+ont:cbsCode "GM0597";
+schema:sameAs <http://www.wikidata.org/entity/Q222220> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0597> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-ridderkerk.nl,d:host-www.ridderkerk.nl;
+ont:mainMailDomain d:host-ridderkerk.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0599> rdfs:label "Rotterdam"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0599";
+schema:sameAs <http://www.wikidata.org/entity/Q2680952> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0599> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-rotterdam.nl,d:host-www.rotterdam.nl;
+ont:mainMailDomain d:host-rotterdam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0603> rdfs:label "Rijswijk"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0603> ont:cbsCode "GM0603";
+schema:sameAs <http://www.wikidata.org/entity/Q506745>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0603> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-rijswijk.nl,d:host-www.rijswijk.nl;
+ont:mainMailDomain d:host-rijswijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0606> schema:sameAs <http://www.wikidata.org/entity/Q204709> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0606> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0606> rdfs:label "Schiedam"@nl;
+ont:cbsCode "GM0606";
+a ont:Municipality;
+ont:websiteHost d:host-schiedam.nl,d:host-www.schiedam.nl;
+ont:mainMailDomain d:host-schiedam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0610> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality;
+rdfs:label "Sliedrecht"@nl;
+ont:cbsCode "GM0610";
+schema:sameAs <http://www.wikidata.org/entity/Q750760> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0610> ont:websiteHost d:host-sliedrecht.nl,d:host-www.sliedrecht.nl;
+ont:mainMailDomain d:host-sliedrecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0613> ont:cbsCode "GM0613";
+schema:sameAs <http://www.wikidata.org/entity/Q934525>;
+a ont:Municipality;
+rdfs:label "Albrandswaard"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0613> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-albrandswaard.nl,d:host-www.albrandswaard.nl;
+ont:mainMailDomain d:host-albrandswaard.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0622> ont:cbsCode "GM0622";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0622> rdfs:label "Vlaardingen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q210007> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0622> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-vlaardingen.nl,d:host-www.vlaardingen.nl;
+ont:mainMailDomain d:host-vlaardingen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0626> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0626> rdfs:label "Voorschoten"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q848324>;
+ont:cbsCode "GM0626";
+a ont:Municipality;
+ont:websiteHost d:host-voorschoten.nl,d:host-www.voorschoten.nl;
+ont:mainMailDomain d:host-voorschoten.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0627> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0627> a ont:Municipality;
+rdfs:label "Waddinxveen"@nl;
+ont:cbsCode "GM0627";
+schema:sameAs <http://www.wikidata.org/entity/Q826048>;
+ont:websiteHost d:host-waddinxveen.nl,d:host-www.waddinxveen.nl;
+ont:mainMailDomain d:host-waddinxveen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0629> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0629> rdfs:label "Wassenaar"@nl;
+ont:cbsCode "GM0629";
+schema:sameAs <http://www.wikidata.org/entity/Q505601> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0629> a ont:Municipality;
+ont:websiteHost d:host-wassenaar.nl,d:host-www.wassenaar.nl;
+ont:mainMailDomain d:host-wassenaar.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0632> ont:cbsCode "GM0632";
+schema:sameAs <http://www.wikidata.org/entity/Q5128>;
+rdfs:label "Woerden"@nl .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0632> ont:inProvince <http://www.wikidata.org/entity/Q776> .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0632> a ont:Municipality;
+ont:websiteHost d:host-woerden.nl,d:host-www.woerden.nl;
+ont:mainMailDomain d:host-woerden.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0637> ont:cbsCode "GM0637";
+schema:sameAs <http://www.wikidata.org/entity/Q26432>;
+a ont:Municipality;
+ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0637> rdfs:label "Zoetermeer"@nl;
+ont:websiteHost d:host-www.zoetermeer.nl,d:host-zoetermeer.nl;
+ont:mainMailDomain d:host-zoetermeer.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0638> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0638> rdfs:label "Zoeterwoude"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q218259>;
+ont:cbsCode "GM0638";
+ont:websiteHost d:host-www.zoeterwoude.nl,d:host-zoeterwoude.nl;
+ont:mainMailDomain d:host-zoeterwoude.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0642> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+schema:sameAs <http://www.wikidata.org/entity/Q244692>;
+a ont:Municipality;
+rdfs:label "Zwijndrecht"@nl;
+ont:cbsCode "GM0642" .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0642> ont:websiteHost d:host-www.zwijndrecht.nl,d:host-zwijndrecht.nl;
+ont:mainMailDomain d:host-zwijndrecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0654> schema:sameAs <http://www.wikidata.org/entity/Q10071>;
+rdfs:label "Borsele"@nl;
+ont:cbsCode "GM0654";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q705> a ont:Province;
+rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0654> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-borsele.nl,d:host-www.borsele.nl;
+ont:mainMailDomain d:host-borsele.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0664> schema:sameAs <http://www.wikidata.org/entity/Q10072>;
+a ont:Municipality;
+rdfs:label "Goes"@nl .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0664> ont:cbsCode "GM0664" .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0664> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-goes.nl,d:host-www.goes.nl;
+ont:mainMailDomain d:host-goes.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0668> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:cbsCode "GM0668";
+a ont:Municipality;
+rdfs:label "West Maas en Waal"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q658081> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0668> ont:websiteHost d:host-westmaasenwaal.nl,d:host-www.westmaasenwaal.nl;
+ont:mainMailDomain d:host-westmaasenwaal.nl .
+<http://www.wikidata.org/entity/Q705> a ont:Province;
+rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0677> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+a ont:Municipality;
+rdfs:label "Hulst"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10073>;
+ont:cbsCode "GM0677";
+ont:websiteHost d:host-gemeentehulst.nl,d:host-www.gemeentehulst.nl;
+ont:mainMailDomain d:host-gemeentehulst.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0678> a ont:Municipality;
+ont:inProvince <http://www.wikidata.org/entity/Q705> .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0678> rdfs:label "Kapelle"@nl;
+ont:cbsCode "GM0678";
+schema:sameAs <http://www.wikidata.org/entity/Q10074>;
+ont:websiteHost d:host-kapelle.nl,d:host-www.kapelle.nl;
+ont:mainMailDomain d:host-kapelle.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0687> ont:cbsCode "GM0687";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0687> rdfs:label "Middelburg"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10076> .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0687> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-middelburg.nl,d:host-www.middelburg.nl;
+ont:mainMailDomain d:host-middelburg.nl .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0703> ont:cbsCode "GM0703";
+schema:sameAs <http://www.wikidata.org/entity/Q10078> .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0703> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+a ont:Municipality;
+rdfs:label "Reimerswaal"@nl;
+ont:websiteHost d:host-reimerswaal.nl,d:host-www.reimerswaal.nl;
+ont:mainMailDomain d:host-reimerswaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0715> ont:inProvince <http://www.wikidata.org/entity/Q705> .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0715> schema:sameAs <http://www.wikidata.org/entity/Q10081> .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0715> rdfs:label "Terneuzen"@nl;
+ont:cbsCode "GM0715";
+a ont:Municipality;
+ont:websiteHost d:host-terneuzen.nl,d:host-www.terneuzen.nl;
+ont:mainMailDomain d:host-terneuzen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0716> a ont:Municipality;
+rdfs:label "Tholen"@nl;
+ont:cbsCode "GM0716";
+schema:sameAs <http://www.wikidata.org/entity/Q10082> .
+<http://www.wikidata.org/entity/Q705> a ont:Province;
+rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0716> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-tholen.nl,d:host-www.tholen.nl;
+ont:mainMailDomain d:host-tholen.nl .
+<http://www.wikidata.org/entity/Q705> a ont:Province;
+rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0717> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+a ont:Municipality;
+rdfs:label "Veere"@nl;
+ont:cbsCode "GM0717";
+schema:sameAs <http://www.wikidata.org/entity/Q10083>;
+ont:websiteHost d:host-veere.nl,d:host-www.veere.nl;
+ont:mainMailDomain d:host-veere.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0718> rdfs:label "Vlissingen"@nl;
+ont:cbsCode "GM0718";
+schema:sameAs <http://www.wikidata.org/entity/Q10084>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q705> a ont:Province;
+rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0718> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-vlissingen.nl,d:host-www.vlissingen.nl;
+ont:mainMailDomain d:host-vlissingen.nl .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0736> schema:sameAs <http://www.wikidata.org/entity/Q10036>;
+ont:cbsCode "GM0736";
+rdfs:label "De Ronde Venen"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0736> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-derondevenen.nl,d:host-www.derondevenen.nl;
+ont:mainMailDomain d:host-derondevenen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0737> rdfs:label "Tietjerksteradeel"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0737";
+schema:sameAs <http://www.wikidata.org/entity/Q840636> .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0737> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+ont:websiteHost d:host-t-diel.nl,d:host-www.t-diel.nl;
+ont:mainMailDomain d:host-t-diel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0743> a ont:Municipality;
+rdfs:label "Asten"@nl;
+ont:cbsCode "GM0743";
+schema:sameAs <http://www.wikidata.org/entity/Q9810> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0743> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-asten.nl,d:host-www.asten.nl;
+ont:mainMailDomain d:host-asten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0744> ont:cbsCode "GM0744";
+rdfs:label "Baarle-Nassau"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9811>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0744> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-baarle-nassau.nl,d:host-www.baarle-nassau.nl;
+ont:mainMailDomain d:host-baarle-nassau.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0748> a ont:Municipality;
+ont:cbsCode "GM0748";
+schema:sameAs <http://www.wikidata.org/entity/Q9814>;
+rdfs:label "Bergen op Zoom"@nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0748> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-bergenopzoom.nl,d:host-www.bergenopzoom.nl;
+ont:mainMailDomain d:host-bergenopzoom.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0753> schema:sameAs <http://www.wikidata.org/entity/Q9816> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0753> ont:cbsCode "GM0753" .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0753> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+a ont:Municipality;
+rdfs:label "Best"@nl;
+ont:websiteHost d:host-gemeentebest.nl,d:host-www.gemeentebest.nl;
+ont:mainMailDomain d:host-gemeentebest.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0755> schema:sameAs <http://www.wikidata.org/entity/Q9818>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0755> rdfs:label "Boekel"@nl;
+ont:cbsCode "GM0755" .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0755> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-boekel.nl,d:host-www.boekel.nl;
+ont:mainMailDomain d:host-boekel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0757> rdfs:label "Boxtel"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0757";
+schema:sameAs <http://www.wikidata.org/entity/Q9821> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0757> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-boxtel.nl,d:host-www.boxtel.nl;
+ont:mainMailDomain d:host-boxtel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0758> ont:cbsCode "GM0758" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0758> a ont:Municipality;
+rdfs:label "Breda"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9822> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0758> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-breda.nl,d:host-www.breda.nl;
+ont:mainMailDomain d:host-breda.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0762> ont:cbsCode "GM0762" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0762> schema:sameAs <http://www.wikidata.org/entity/Q9828> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0762> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+a ont:Municipality;
+rdfs:label "Deurne"@nl;
+ont:websiteHost d:host-deurne.nl,d:host-www.deurne.nl;
+ont:mainMailDomain d:host-deurne.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0765> rdfs:label "Pekela"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q932077>;
+ont:cbsCode "GM0765";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0765> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-pekela.nl,d:host-www.pekela.nl;
+ont:mainMailDomain d:host-pekela.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0766> ont:cbsCode "GM0766";
+rdfs:label "Dongen"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9829> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0766> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-dongen.nl,d:host-www.dongen.nl;
+ont:mainMailDomain d:host-dongen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0770> ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0770> rdfs:label "Eersel"@nl;
+ont:cbsCode "GM0770";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9831> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0770> ont:websiteHost d:host-eersel.nl,d:host-www.eersel.nl;
+ont:mainMailDomain d:host-eersel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0772> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9832>;
+rdfs:label "Eindhoven"@nl;
+ont:cbsCode "GM0772" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0772> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-eindhoven.nl,d:host-www.eindhoven.nl;
+ont:mainMailDomain d:host-eindhoven.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0777> ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0777> a ont:Municipality;
+rdfs:label "Etten-Leur"@nl;
+ont:cbsCode "GM0777";
+schema:sameAs <http://www.wikidata.org/entity/Q9833>;
+ont:websiteHost d:host-etten-leur.nl,d:host-www.etten-leur.nl;
+ont:mainMailDomain d:host-etten-leur.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0779> rdfs:label "Geertruidenberg"@nl;
+ont:cbsCode "GM0779";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9834> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0779> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-geertruidenberg.nl,d:host-www.geertruidenberg.nl;
+ont:mainMailDomain d:host-geertruidenberg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0784> schema:sameAs <http://www.wikidata.org/entity/Q9837>;
+ont:cbsCode "GM0784";
+rdfs:label "Gilze en Rijen"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0784> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-gilzerijen.nl,d:host-www.gilzerijen.nl;
+ont:mainMailDomain d:host-gilzerijen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0785> rdfs:label "Goirle"@nl;
+a ont:Municipality;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0785> ont:cbsCode "GM0785";
+schema:sameAs <http://www.wikidata.org/entity/Q9838>;
+ont:websiteHost d:host-goirle.nl,d:host-www.goirle.nl;
+ont:mainMailDomain d:host-goirle.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0794> rdfs:label "Helmond"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0794";
+schema:sameAs <http://www.wikidata.org/entity/Q9844> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0794> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-helmond.nl,d:host-www.helmond.nl;
+ont:mainMailDomain d:host-helmond.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0796> ont:cbsCode "GM0796";
+schema:sameAs <http://www.wikidata.org/entity/Q9807> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0796> a ont:Municipality;
+rdfs:label "'s-Hertogenbosch"@nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0796> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-s-hertogenbosch.nl,d:host-www.s-hertogenbosch.nl;
+ont:mainMailDomain d:host-s-hertogenbosch.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0797> schema:sameAs <http://www.wikidata.org/entity/Q9845>;
+ont:cbsCode "GM0797";
+rdfs:label "Heusden"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0797> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-heusden.nl,d:host-www.heusden.nl;
+ont:mainMailDomain d:host-heusden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0798> ont:cbsCode "GM0798";
+schema:sameAs <http://www.wikidata.org/entity/Q9846>;
+rdfs:label "Hilvarenbeek"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0798> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-hilvarenbeek.nl,d:host-www.hilvarenbeek.nl;
+ont:mainMailDomain d:host-hilvarenbeek.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0809> ont:cbsCode "GM0809";
+schema:sameAs <http://www.wikidata.org/entity/Q9850>;
+rdfs:label "Loon op Zand"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0809> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-loonopzand.nl,d:host-www.loonopzand.nl;
+ont:mainMailDomain d:host-loonopzand.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0820> schema:sameAs <http://www.wikidata.org/entity/Q9855>;
+ont:cbsCode "GM0820";
+rdfs:label "Nuenen, Gerwen en Nederwetten"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0820> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-nuenen.nl,d:host-www.nuenen.nl;
+ont:mainMailDomain d:host-nuenen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0823> rdfs:label "Oirschot"@nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0823> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:cbsCode "GM0823";
+schema:sameAs <http://www.wikidata.org/entity/Q9856>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0823> ont:websiteHost d:host-oirschot.nl,d:host-www.oirschot.nl;
+ont:mainMailDomain d:host-oirschot.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0824> rdfs:label "Oisterwijk"@nl;
+ont:cbsCode "GM0824";
+schema:sameAs <http://www.wikidata.org/entity/Q9857>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0824> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-oisterwijk.nl,d:host-www.oisterwijk.nl;
+ont:mainMailDomain d:host-oisterwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0826> rdfs:label "Oosterhout"@nl;
+ont:cbsCode "GM0826";
+schema:sameAs <http://www.wikidata.org/entity/Q9858>;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0826> a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0826> ont:websiteHost d:host-oosterhout.nl,d:host-www.oosterhout.nl;
+ont:mainMailDomain d:host-oosterhout.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0828> schema:sameAs <http://www.wikidata.org/entity/Q9859>;
+a ont:Municipality;
+rdfs:label "Oss"@nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0828> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:cbsCode "GM0828";
+ont:websiteHost d:host-oss.nl,d:host-www.oss.nl;
+ont:mainMailDomain d:host-oss.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0840> ont:cbsCode "GM0840" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0840> schema:sameAs <http://www.wikidata.org/entity/Q9862> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0840> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+a ont:Municipality;
+rdfs:label "Rucphen"@nl;
+ont:websiteHost d:host-rucphen.nl,d:host-www.rucphen.nl;
+ont:mainMailDomain d:host-rucphen.nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0845> ont:cbsCode "GM0845";
+rdfs:label "Sint-Michielsgestel"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9866> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0845> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-sint-michielsgestel.nl,d:host-www.sint-michielsgestel.nl;
+ont:mainMailDomain d:host-sint-michielsgestel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0847> schema:sameAs <http://www.wikidata.org/entity/Q9868>;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0847> rdfs:label "Someren"@nl;
+ont:cbsCode "GM0847";
+a ont:Municipality;
+ont:websiteHost d:host-someren.nl,d:host-www.someren.nl;
+ont:mainMailDomain d:host-someren.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0848> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+rdfs:label "Son en Breugel"@nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0848> a ont:Municipality;
+ont:cbsCode "GM0848";
+schema:sameAs <http://www.wikidata.org/entity/Q9869>;
+ont:websiteHost d:host-sonenbreugel.nl,d:host-www.sonenbreugel.nl;
+ont:mainMailDomain d:host-sonenbreugel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0851> rdfs:label "Steenbergen"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0851";
+schema:sameAs <http://www.wikidata.org/entity/Q9870> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0851> ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0851> ont:websiteHost d:host-gemeente-steenbergen.nl,d:host-www.gemeente-steenbergen.nl;
+ont:mainMailDomain d:host-gemeente-steenbergen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0852> ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0852> rdfs:label "Waterland"@nl .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0852> a ont:Municipality;
+ont:cbsCode "GM0852";
+schema:sameAs <http://www.wikidata.org/entity/Q9971>;
+ont:websiteHost d:host-waterland.nl,d:host-www.waterland.nl;
+ont:mainMailDomain d:host-waterland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0855> rdfs:label "Tilburg"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q26430>;
+ont:cbsCode "GM0855";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0855> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-tilburg.nl,d:host-www.tilburg.nl;
+ont:mainMailDomain d:host-tilburg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0858> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9873>;
+rdfs:label "Valkenswaard"@nl;
+ont:cbsCode "GM0858" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0858> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-valkenswaard.nl,d:host-www.valkenswaard.nl;
+ont:mainMailDomain d:host-valkenswaard.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0861> rdfs:label "Veldhoven"@nl;
+ont:cbsCode "GM0861";
+schema:sameAs <http://www.wikidata.org/entity/Q9875>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0861> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-veldhoven.nl,d:host-www.veldhoven.nl;
+ont:mainMailDomain d:host-veldhoven.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0865> a ont:Municipality;
+ont:cbsCode "GM0865" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0865> schema:sameAs <http://www.wikidata.org/entity/Q9876>;
+rdfs:label "Vught"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-vught.nl,d:host-www.vught.nl;
+ont:mainMailDomain d:host-vught.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0866> ont:cbsCode "GM0866";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0866> rdfs:label "Waalre"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9877> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0866> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-waalre.nl,d:host-www.waalre.nl;
+ont:mainMailDomain d:host-waalre.nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0867> ont:cbsCode "GM0867";
+rdfs:label "Waalwijk"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q745038> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0867> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-waalwijk.nl,d:host-www.waalwijk.nl;
+ont:mainMailDomain d:host-waalwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0873> rdfs:label "Woensdrecht"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9881>;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0873> ont:cbsCode "GM0873";
+a ont:Municipality;
+ont:websiteHost d:host-woensdrecht.nl,d:host-www.woensdrecht.nl;
+ont:mainMailDomain d:host-woensdrecht.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0879> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+schema:sameAs <http://www.wikidata.org/entity/Q9883>;
+a ont:Municipality;
+rdfs:label "Zundert"@nl;
+ont:cbsCode "GM0879" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0879> ont:websiteHost d:host-www.zundert.nl,d:host-zundert.nl;
+ont:mainMailDomain d:host-zundert.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0880> rdfs:label "Wormerland"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0880> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:cbsCode "GM0880" .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0880> schema:sameAs <http://www.wikidata.org/entity/Q9976>;
+ont:websiteHost d:host-wormerland.nl,d:host-www.wormerland.nl;
+ont:mainMailDomain d:host-wormerland.nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0882> schema:sameAs <http://www.wikidata.org/entity/Q9795>;
+rdfs:label "Landgraaf"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0882" .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0882> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-landgraaf.nl,d:host-www.landgraaf.nl;
+ont:mainMailDomain d:host-landgraaf.nl .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0888> ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0888> ont:cbsCode "GM0888";
+rdfs:label "Beek"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9806>;
+ont:websiteHost d:host-gemeentebeek.nl,d:host-www.gemeentebeek.nl;
+ont:mainMailDomain d:host-gemeentebeek.nl .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0889> ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0889> schema:sameAs <http://www.wikidata.org/entity/Q9805>;
+a ont:Municipality;
+rdfs:label "Beesel"@nl;
+ont:cbsCode "GM0889";
+ont:websiteHost d:host-beesel.nl,d:host-www.beesel.nl;
+ont:mainMailDomain d:host-beesel.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0893> schema:sameAs <http://www.wikidata.org/entity/Q9804> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0893> rdfs:label "Bergen"@nl;
+ont:cbsCode "GM0893";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0893> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-bergen.nl,d:host-www.bergen.nl;
+ont:mainMailDomain d:host-bergen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0899> schema:sameAs <http://www.wikidata.org/entity/Q9803>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0899> ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0899> rdfs:label "Brunssum"@nl;
+ont:cbsCode "GM0899";
+ont:websiteHost d:host-brunssum.nl,d:host-www.brunssum.nl;
+ont:mainMailDomain d:host-brunssum.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0907> rdfs:label "Gennep"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0907";
+schema:sameAs <http://www.wikidata.org/entity/Q9800> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0907> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-gennep.nl,d:host-www.gennep.nl;
+ont:mainMailDomain d:host-gennep.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0917> schema:sameAs <http://www.wikidata.org/entity/Q9799>;
+a ont:Municipality;
+rdfs:label "Heerlen"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0917> ont:cbsCode "GM0917" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0917> ont:websiteHost d:host-heerlen.nl,d:host-www.heerlen.nl;
+ont:mainMailDomain d:host-heerlen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0928> ont:cbsCode "GM0928" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0928> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+schema:sameAs <http://www.wikidata.org/entity/Q9796>;
+a ont:Municipality;
+rdfs:label "Kerkrade"@nl;
+ont:websiteHost d:host-kerkrade.nl,d:host-www.kerkrade.nl;
+ont:mainMailDomain d:host-kerkrade.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0935> ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0935> rdfs:label "Maastricht"@nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0935> a ont:Municipality;
+ont:cbsCode "GM0935";
+schema:sameAs <http://www.wikidata.org/entity/Q1309>;
+ont:websiteHost d:host-gemeentemaastricht.nl,d:host-www.gemeentemaastricht.nl;
+ont:mainMailDomain d:host-gemeentemaastricht.nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0938> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+rdfs:label "Meerssen"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9772>;
+ont:cbsCode "GM0938";
+a ont:Municipality;
+ont:websiteHost d:host-meerssen.nl,d:host-www.meerssen.nl;
+ont:mainMailDomain d:host-meerssen.nl .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0944> a ont:Municipality;
+ont:cbsCode "GM0944" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0944> schema:sameAs <http://www.wikidata.org/entity/Q9791>;
+rdfs:label "Mook en Middelaar"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-mookenmiddelaar.nl,d:host-www.mookenmiddelaar.nl;
+ont:mainMailDomain d:host-mookenmiddelaar.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0946> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+a ont:Municipality;
+rdfs:label "Nederweert"@nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0946> schema:sameAs <http://www.wikidata.org/entity/Q9789>;
+ont:cbsCode "GM0946" .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0946> ont:websiteHost d:host-nederweert.nl,d:host-www.nederweert.nl;
+ont:mainMailDomain d:host-nederweert.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0957> rdfs:label "Roermond"@nl;
+ont:cbsCode "GM0957";
+schema:sameAs <http://www.wikidata.org/entity/Q8167972>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0957> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-roermond.nl,d:host-www.roermond.nl;
+ont:mainMailDomain d:host-roermond.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0965> a ont:Municipality;
+ont:cbsCode "GM0965";
+rdfs:label "Simpelveld"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9769> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0965> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-simpelveld.nl,d:host-www.simpelveld.nl;
+ont:mainMailDomain d:host-simpelveld.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0971> rdfs:label "Stein"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9780>;
+ont:cbsCode "GM0971" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0971> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-gemeentestein.nl,d:host-www.gemeentestein.nl;
+ont:mainMailDomain d:host-gemeentestein.nl .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0981> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+rdfs:label "Vaals"@nl;
+ont:cbsCode "GM0981" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0981> schema:sameAs <http://www.wikidata.org/entity/Q9768>;
+a ont:Municipality;
+ont:websiteHost d:host-vaals.nl,d:host-www.vaals.nl;
+ont:mainMailDomain d:host-vaals.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0983> schema:sameAs <http://www.wikidata.org/entity/Q9777>;
+ont:cbsCode "GM0983";
+rdfs:label "Venlo"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0983> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-venlo.nl,d:host-www.venlo.nl;
+ont:mainMailDomain d:host-venlo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0984> a ont:Municipality;
+rdfs:label "Venray"@nl;
+ont:cbsCode "GM0984" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0984> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+schema:sameAs <http://www.wikidata.org/entity/Q9775>;
+ont:websiteHost d:host-venray.nl,d:host-www.venray.nl;
+ont:mainMailDomain d:host-venray.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0986> schema:sameAs <http://www.wikidata.org/entity/Q9770>;
+ont:cbsCode "GM0986";
+a ont:Municipality;
+rdfs:label "Voerendaal"@nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0986> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-voerendaal.nl,d:host-www.voerendaal.nl;
+ont:mainMailDomain d:host-voerendaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0988> schema:sameAs <http://www.wikidata.org/entity/Q9774>;
+ont:cbsCode "GM0988";
+rdfs:label "Weert"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0988> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-weert.nl,d:host-www.weert.nl;
+ont:mainMailDomain d:host-weert.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0994> rdfs:label "Valkenburg aan de Geul"@nl;
+a ont:Municipality;
+ont:cbsCode "GM0994";
+schema:sameAs <http://www.wikidata.org/entity/Q9771> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0994> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-valkenburg.nl,d:host-www.valkenburg.nl;
+ont:mainMailDomain d:host-valkenburg.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0995> a ont:Municipality;
+rdfs:label "Lelystad"@nl;
+ont:cbsCode "GM0995";
+schema:sameAs <http://www.wikidata.org/entity/Q166065> .
+<http://www.wikidata.org/entity/Q707> a ont:Province;
+rdfs:label "Flevoland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm0995> ont:inProvince <http://www.wikidata.org/entity/Q707>;
+ont:websiteHost d:host-lelystad.nl,d:host-www.lelystad.nl;
+ont:mainMailDomain d:host-lelystad.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1507> a ont:Municipality;
+rdfs:label "Horst aan de Maas"@nl;
+ont:cbsCode "GM1507";
+schema:sameAs <http://www.wikidata.org/entity/Q9797> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1507> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-horstaandemaas.nl,d:host-www.horstaandemaas.nl;
+ont:mainMailDomain d:host-horstaandemaas.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1509> a ont:Municipality;
+rdfs:label "Oude IJsselstreek"@nl;
+ont:cbsCode "GM1509";
+schema:sameAs <http://www.wikidata.org/entity/Q932031> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1509> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-oude-ijsselstreek.nl,d:host-www.oude-ijsselstreek.nl;
+ont:mainMailDomain d:host-oude-ijsselstreek.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1525> a ont:Municipality;
+rdfs:label "Teylingen"@nl;
+ont:cbsCode "GM1525";
+schema:sameAs <http://www.wikidata.org/entity/Q1368003> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1525> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-teylingen.nl,d:host-www.teylingen.nl;
+ont:mainMailDomain d:host-teylingen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1581> schema:sameAs <http://www.wikidata.org/entity/Q10043>;
+rdfs:label "Utrechtse Heuvelrug"@nl;
+a ont:Municipality;
+ont:cbsCode "GM1581" .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1581> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-heuvelrug.nl,d:host-www.heuvelrug.nl;
+ont:mainMailDomain d:host-heuvelrug.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1586> ont:websiteHost d:host-oostgelre.nl,d:host-www.oostgelre.nl;
+ont:inProvince <http://www.wikidata.org/entity/Q775>;
+a ont:Municipality;
+rdfs:label "Oost Gelre"@nl;
+ont:cbsCode "GM1586";
+schema:sameAs <http://www.wikidata.org/entity/Q1147580> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1586> ont:mainMailDomain d:host-oostgelre.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1598> ont:websiteHost d:host-koggenland.nl,d:host-www.koggenland.nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1598> ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1598> schema:sameAs <http://www.wikidata.org/entity/Q9940>;
+ont:cbsCode "GM1598";
+rdfs:label "Koggenland"@nl;
+a ont:Municipality;
+ont:mainMailDomain d:host-koggenland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1621> a ont:Municipality;
+rdfs:label "Lansingerland"@nl;
+ont:cbsCode "GM1621";
+schema:sameAs <http://www.wikidata.org/entity/Q1144739> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1621> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-lansingerland.nl,d:host-www.lansingerland.nl;
+ont:mainMailDomain d:host-lansingerland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1640> ont:cbsCode "GM1640";
+rdfs:label "Leudal"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9793>;
+ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1640> a ont:Municipality;
+ont:websiteHost d:host-leudal.nl,d:host-www.leudal.nl;
+ont:mainMailDomain d:host-leudal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1641> rdfs:label "Maasgouw"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9792>;
+ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1641> ont:cbsCode "GM1641";
+a ont:Municipality;
+ont:websiteHost d:host-gemeentemaasgouw.nl,d:host-www.gemeentemaasgouw.nl;
+ont:mainMailDomain d:host-gemeentemaasgouw.nl .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1652> schema:sameAs <http://www.wikidata.org/entity/Q9836>;
+rdfs:label "Gemert-Bakel"@nl;
+a ont:Municipality;
+ont:cbsCode "GM1652" .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1652> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-gemert-bakel.nl,d:host-www.gemert-bakel.nl;
+ont:mainMailDomain d:host-gemert-bakel.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1655> a ont:Municipality;
+rdfs:label "Halderberge"@nl;
+ont:cbsCode "GM1655";
+schema:sameAs <http://www.wikidata.org/entity/Q9841>;
+ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-halderberge.nl,d:host-www.halderberge.nl;
+ont:mainMailDomain d:host-halderberge.nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1658> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+schema:sameAs <http://www.wikidata.org/entity/Q9843> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1658> rdfs:label "Heeze-Leende"@nl;
+ont:cbsCode "GM1658";
+a ont:Municipality;
+ont:websiteHost d:host-heeze-leende.nl,d:host-www.heeze-leende.nl;
+ont:mainMailDomain d:host-heeze-leende.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1659> ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1659> ont:cbsCode "GM1659";
+rdfs:label "Laarbeek"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9848>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1659> ont:websiteHost d:host-laarbeek.nl,d:host-www.laarbeek.nl;
+ont:mainMailDomain d:host-laarbeek.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1667> rdfs:label "Reusel-De Mierden"@nl .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1667> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+schema:sameAs <http://www.wikidata.org/entity/Q9860> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1667> ont:cbsCode "GM1667";
+a ont:Municipality;
+ont:websiteHost d:host-reuseldemierden.nl,d:host-www.reuseldemierden.nl;
+ont:mainMailDomain d:host-reuseldemierden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1669> schema:sameAs <http://www.wikidata.org/entity/Q9784>;
+ont:cbsCode "GM1669";
+rdfs:label "Roerdalen"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1669> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-roerdalen.nl,d:host-www.roerdalen.nl;
+ont:mainMailDomain d:host-roerdalen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1674> schema:sameAs <http://www.wikidata.org/entity/Q9861> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1674> a ont:Municipality;
+rdfs:label "Roosendaal"@nl;
+ont:cbsCode "GM1674" .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1674> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-roosendaal.nl,d:host-www.roosendaal.nl;
+ont:mainMailDomain d:host-roosendaal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1676> ont:cbsCode "GM1676" .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1676> rdfs:label "Schouwen-Duiveland"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q10079> .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1676> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+ont:websiteHost d:host-schouwen-duiveland.nl,d:host-www.schouwen-duiveland.nl;
+ont:mainMailDomain d:host-schouwen-duiveland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1680> ont:cbsCode "GM1680" .
+<http://www.wikidata.org/entity/Q772> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1680> schema:sameAs <http://www.wikidata.org/entity/Q300665>;
+a ont:Municipality;
+rdfs:label "Aa en Hunze"@nl .
+<http://www.wikidata.org/entity/Q772> rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1680> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-aaenhunze.nl,d:host-www.aaenhunze.nl;
+ont:mainMailDomain d:host-aaenhunze.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1681> a ont:Municipality;
+ont:cbsCode "GM1681";
+rdfs:label "Borger-Odoorn"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q835118> .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1681> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-borger-odoorn.nl,d:host-www.borger-odoorn.nl;
+ont:mainMailDomain d:host-borger-odoorn.nl .
+<http://www.wikidata.org/entity/Q772> rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1690> ont:inProvince <http://www.wikidata.org/entity/Q772> .
+<http://www.wikidata.org/entity/Q772> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1690> rdfs:label "De Wolden"@nl;
+ont:cbsCode "GM1690";
+schema:sameAs <http://www.wikidata.org/entity/Q835108>;
+a ont:Municipality;
+ont:websiteHost d:host-dewolden.nl,d:host-www.dewolden.nl;
+ont:mainMailDomain d:host-dewolden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1695> rdfs:label "Noord-Beveland"@nl .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1695> ont:inProvince <http://www.wikidata.org/entity/Q705> .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1695> ont:cbsCode "GM1695";
+schema:sameAs <http://www.wikidata.org/entity/Q10077>;
+a ont:Municipality;
+ont:websiteHost d:host-noord-beveland.nl,d:host-www.noord-beveland.nl;
+ont:mainMailDomain d:host-noord-beveland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1696> rdfs:label "Wijdemeren"@nl;
+a ont:Municipality;
+ont:cbsCode "GM1696";
+schema:sameAs <http://www.wikidata.org/entity/Q9975> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1696> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-wijdemeren.nl,d:host-www.wijdemeren.nl;
+ont:mainMailDomain d:host-wijdemeren.nl .
+<http://www.wikidata.org/entity/Q772> rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1699> ont:inProvince <http://www.wikidata.org/entity/Q772> .
+<http://www.wikidata.org/entity/Q772> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1699> a ont:Municipality;
+rdfs:label "Noordenveld"@nl;
+ont:cbsCode "GM1699";
+schema:sameAs <http://www.wikidata.org/entity/Q835083>;
+ont:websiteHost d:host-noordenveld.nl,d:host-www.noordenveld.nl;
+ont:mainMailDomain d:host-noordenveld.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1700> rdfs:label "Twenterand"@nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1700> schema:sameAs <http://www.wikidata.org/entity/Q10024>;
+ont:cbsCode "GM1700";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1700> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-twenterand.nl,d:host-www.twenterand.nl;
+ont:mainMailDomain d:host-twenterand.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1701> ont:inProvince <http://www.wikidata.org/entity/Q772> .
+<http://www.wikidata.org/entity/Q772> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1701> ont:cbsCode "GM1701";
+rdfs:label "Westerveld"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q747920>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q772> rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1701> ont:websiteHost d:host-gemeentewesterveld.nl,d:host-www.gemeentewesterveld.nl;
+ont:mainMailDomain d:host-gemeentewesterveld.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1705> a ont:Municipality;
+rdfs:label "Lingewaard"@nl;
+ont:cbsCode "GM1705";
+schema:sameAs <http://www.wikidata.org/entity/Q952939> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1705> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-lingewaard.nl,d:host-www.lingewaard.nl;
+ont:mainMailDomain d:host-lingewaard.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1706> rdfs:label "Cranendonck"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl;
+a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1706> schema:sameAs <http://www.wikidata.org/entity/Q9823>;
+ont:cbsCode "GM1706";
+a ont:Municipality;
+ont:websiteHost d:host-cranendonck.nl,d:host-www.cranendonck.nl;
+ont:mainMailDomain d:host-cranendonck.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1708> schema:sameAs <http://www.wikidata.org/entity/Q10022>;
+a ont:Municipality;
+ont:cbsCode "GM1708";
+rdfs:label "Steenwijkerland"@nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1708> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-steenwijkerland.nl,d:host-www.steenwijkerland.nl;
+ont:mainMailDomain d:host-steenwijkerland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1709> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+a ont:Municipality;
+ont:cbsCode "GM1709";
+rdfs:label "Moerdijk"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9854> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1709> ont:websiteHost d:host-moerdijk.nl,d:host-www.moerdijk.nl;
+ont:mainMailDomain d:host-moerdijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1711> a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1711> ont:inProvince <http://www.wikidata.org/entity/Q1093> .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1711> schema:sameAs <http://www.wikidata.org/entity/Q9802>;
+rdfs:label "Echt-Susteren"@nl;
+ont:cbsCode "GM1711";
+ont:websiteHost d:host-echt-susteren.nl,d:host-www.echt-susteren.nl;
+ont:mainMailDomain d:host-echt-susteren.nl .
+<http://www.wikidata.org/entity/Q705> rdfs:label "Zeeland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1714> ont:inProvince <http://www.wikidata.org/entity/Q705>;
+rdfs:label "Sluis"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10080> .
+<http://www.wikidata.org/entity/Q705> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1714> ont:cbsCode "GM1714";
+a ont:Municipality;
+ont:websiteHost d:host-gemeentesluis.nl,d:host-www.gemeentesluis.nl;
+ont:mainMailDomain d:host-gemeentesluis.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1719> ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1719> rdfs:label "Drimmelen"@nl;
+ont:cbsCode "GM1719";
+schema:sameAs <http://www.wikidata.org/entity/Q9830> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1719> a ont:Municipality;
+ont:websiteHost d:host-drimmelen.nl,d:host-www.drimmelen.nl;
+ont:mainMailDomain d:host-drimmelen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1721> rdfs:label "Bernheze"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q1101> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1721> schema:sameAs <http://www.wikidata.org/entity/Q9815> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1721> ont:cbsCode "GM1721";
+a ont:Municipality;
+ont:websiteHost d:host-bernheze.org,d:host-www.bernheze.org;
+ont:mainMailDomain d:host-bernheze.org .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1723> ont:cbsCode "GM1723";
+schema:sameAs <http://www.wikidata.org/entity/Q9809>;
+rdfs:label "Alphen-Chaam"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1723> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-alphen-chaam.nl,d:host-www.alphen-chaam.nl;
+ont:mainMailDomain d:host-alphen-chaam.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1724> schema:sameAs <http://www.wikidata.org/entity/Q9812>;
+ont:cbsCode "GM1724";
+rdfs:label "Bergeijk"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1724> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-bergeijk.nl,d:host-www.bergeijk.nl;
+ont:mainMailDomain d:host-bergeijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1728> ont:cbsCode "GM1728";
+a ont:Municipality;
+rdfs:label "Bladel"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9817> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1728> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-bladel.nl,d:host-www.bladel.nl;
+ont:mainMailDomain d:host-bladel.nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1729> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+a ont:Municipality;
+rdfs:label "Gulpen-Wittem"@nl;
+ont:cbsCode "GM1729";
+schema:sameAs <http://www.wikidata.org/entity/Q9767>;
+ont:websiteHost d:host-gulpen-wittem.nl,d:host-www.gulpen-wittem.nl;
+ont:mainMailDomain d:host-gulpen-wittem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1730> schema:sameAs <http://www.wikidata.org/entity/Q840457>;
+ont:cbsCode "GM1730";
+rdfs:label "Tynaarlo"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1730> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-tynaarlo.nl,d:host-www.tynaarlo.nl;
+ont:mainMailDomain d:host-tynaarlo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1731> schema:sameAs <http://www.wikidata.org/entity/Q835125>;
+ont:cbsCode "GM1731";
+rdfs:label "Midden-Drenthe"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q772> a ont:Province;
+rdfs:label "Drenthe"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1731> ont:inProvince <http://www.wikidata.org/entity/Q772>;
+ont:websiteHost d:host-middendrenthe.nl,d:host-www.middendrenthe.nl;
+ont:mainMailDomain d:host-middendrenthe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1734> ont:cbsCode "GM1734" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1734> schema:sameAs <http://www.wikidata.org/entity/Q600871> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1734> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+a ont:Municipality;
+rdfs:label "Overbetuwe"@nl;
+ont:websiteHost d:host-overbetuwe.nl,d:host-www.overbetuwe.nl;
+ont:mainMailDomain d:host-overbetuwe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1735> rdfs:label "Hof van Twente"@nl;
+ont:cbsCode "GM1735";
+schema:sameAs <http://www.wikidata.org/entity/Q9996>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1735> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-hofvantwente.nl,d:host-www.hofvantwente.nl;
+ont:mainMailDomain d:host-hofvantwente.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1740> schema:sameAs <http://www.wikidata.org/entity/Q952997>;
+rdfs:label "Neder-Betuwe"@nl;
+ont:cbsCode "GM1740";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1740> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-nederbetuwe.nl,d:host-www.nederbetuwe.nl;
+ont:mainMailDomain d:host-nederbetuwe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1742> rdfs:label "Rijssen-Holten"@nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1742> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:cbsCode "GM1742";
+schema:sameAs <http://www.wikidata.org/entity/Q10020> .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1742> a ont:Municipality;
+ont:websiteHost d:host-rijssen-holten.nl,d:host-www.rijssen-holten.nl;
+ont:mainMailDomain d:host-rijssen-holten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1771> rdfs:label "Geldrop-Mierlo"@nl;
+ont:cbsCode "GM1771" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1771> schema:sameAs <http://www.wikidata.org/entity/Q9835>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1771> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-geldrop-mierlo.nl,d:host-www.geldrop-mierlo.nl;
+ont:mainMailDomain d:host-geldrop-mierlo.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1773> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:cbsCode "GM1773";
+schema:sameAs <http://www.wikidata.org/entity/Q10017> .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1773> a ont:Municipality;
+rdfs:label "Olst-Wijhe"@nl .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1773> ont:websiteHost d:host-olst-wijhe.nl,d:host-www.olst-wijhe.nl;
+ont:mainMailDomain d:host-olst-wijhe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1774> rdfs:label "Dinkelland"@nl;
+ont:cbsCode "GM1774";
+schema:sameAs <http://www.wikidata.org/entity/Q9999>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q773> a ont:Province;
+rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1774> ont:inProvince <http://www.wikidata.org/entity/Q773>;
+ont:websiteHost d:host-dinkelland.nl,d:host-www.dinkelland.nl;
+ont:mainMailDomain d:host-dinkelland.nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1783> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:cbsCode "GM1783";
+schema:sameAs <http://www.wikidata.org/entity/Q26556> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1783> rdfs:label "Westland"@nl;
+a ont:Municipality;
+ont:websiteHost d:host-gemeentewestland.nl,d:host-www.gemeentewestland.nl;
+ont:mainMailDomain d:host-gemeentewestland.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1842> ont:cbsCode "GM1842";
+schema:sameAs <http://www.wikidata.org/entity/Q952206> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1842> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality;
+rdfs:label "Midden-Delfland"@nl;
+ont:websiteHost d:host-middendelfland.nl,d:host-www.middendelfland.nl;
+ont:mainMailDomain d:host-middendelfland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1859> a ont:Municipality;
+ont:cbsCode "GM1859" .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1859> schema:sameAs <http://www.wikidata.org/entity/Q47104>;
+rdfs:label "Berkelland"@nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1859> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-gemeenteberkelland.nl,d:host-www.gemeenteberkelland.nl;
+ont:mainMailDomain d:host-gemeenteberkelland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1876> a ont:Municipality;
+rdfs:label "Bronckhorst"@nl;
+ont:cbsCode "GM1876";
+schema:sameAs <http://www.wikidata.org/entity/Q747999> .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1876> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-bronckhorst.nl,d:host-www.bronckhorst.nl;
+ont:mainMailDomain d:host-bronckhorst.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1883> rdfs:label "Sittard-Geleen"@nl;
+ont:cbsCode "GM1883" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1883> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9781>;
+ont:websiteHost d:host-sittard-geleen.nl,d:host-www.sittard-geleen.nl;
+ont:mainMailDomain d:host-sittard-geleen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1884> rdfs:label "Kaag en Braassem"@nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1884> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+schema:sameAs <http://www.wikidata.org/entity/Q1348471>;
+ont:cbsCode "GM1884";
+a ont:Municipality;
+ont:websiteHost d:host-kaagenbraassem.nl,d:host-www.kaagenbraassem.nl;
+ont:mainMailDomain d:host-kaagenbraassem.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1891> rdfs:label "Dantumadeel"@nl;
+ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1891> ont:cbsCode "GM1891";
+schema:sameAs <http://www.wikidata.org/entity/Q389213> .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1891> a ont:Municipality;
+ont:websiteHost d:host-dantumadiel.frl,d:host-www.dantumadiel.frl;
+ont:mainMailDomain d:host-dantumadiel.frl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1892> ont:cbsCode "GM1892";
+rdfs:label "Zuidplas"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q228673> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1892> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-www.zuidplas.nl,d:host-zuidplas.nl;
+ont:mainMailDomain d:host-zuidplas.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1894> ont:cbsCode "GM1894" .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1894> a ont:Municipality;
+rdfs:label "Peel en Maas"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q9785> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1894> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-peelenmaas.nl,d:host-www.peelenmaas.nl;
+ont:mainMailDomain d:host-peelenmaas.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1895> schema:sameAs <http://www.wikidata.org/entity/Q1347872>;
+ont:cbsCode "GM1895";
+rdfs:label "Oldambt"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1895> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-gemeente-oldambt.nl,d:host-www.gemeente-oldambt.nl;
+ont:mainMailDomain d:host-gemeente-oldambt.nl .
+<http://www.wikidata.org/entity/Q773> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1896> ont:cbsCode "GM1896";
+schema:sameAs <http://www.wikidata.org/entity/Q10026>;
+a ont:Municipality;
+ont:inProvince <http://www.wikidata.org/entity/Q773> .
+<http://www.wikidata.org/entity/Q773> rdfs:label "Overijssel"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1896> rdfs:label "Zwartewaterland"@nl;
+ont:websiteHost d:host-www.zwartewaterland.nl,d:host-zwartewaterland.nl;
+ont:mainMailDomain d:host-zwartewaterland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1900> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q1473276>;
+ont:cbsCode "GM1900";
+rdfs:label "Súdwest-Fryslân"@nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1900> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+ont:websiteHost d:host-sudwestfryslan.nl,d:host-www.sudwestfryslan.nl;
+ont:mainMailDomain d:host-sudwestfryslan.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1901> schema:sameAs <http://www.wikidata.org/entity/Q889423>;
+a ont:Municipality;
+rdfs:label "Bodegraven-Reeuwijk"@nl;
+ont:cbsCode "GM1901" .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1901> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-bodegraven-reeuwijk.nl,d:host-www.bodegraven-reeuwijk.nl;
+ont:mainMailDomain d:host-bodegraven-reeuwijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1903> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:cbsCode "GM1903";
+rdfs:label "Eijsden-Margraten"@nl .
+<http://www.wikidata.org/entity/Q1093> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1903> a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q9766> .
+<http://www.wikidata.org/entity/Q1093> rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1903> ont:websiteHost d:host-eijsden-margraten.nl,d:host-www.eijsden-margraten.nl;
+ont:mainMailDomain d:host-eijsden-margraten.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1904> ont:inProvince <http://www.wikidata.org/entity/Q776> .
+<http://www.wikidata.org/entity/Q776> rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1904> rdfs:label "Stichtse Vecht"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q10042> .
+<http://www.wikidata.org/entity/Q776> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1904> ont:cbsCode "GM1904";
+a ont:Municipality;
+ont:websiteHost d:host-stichtsevecht.nl,d:host-www.stichtsevecht.nl;
+ont:mainMailDomain d:host-stichtsevecht.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1911> rdfs:label "Hollands Kroon"@nl .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1911> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:cbsCode "GM1911";
+schema:sameAs <http://www.wikidata.org/entity/Q9936> .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1911> a ont:Municipality;
+ont:websiteHost d:host-hollandskroon.nl,d:host-www.hollandskroon.nl;
+ont:mainMailDomain d:host-hollandskroon.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1916> ont:cbsCode "GM1916" .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1916> schema:sameAs <http://www.wikidata.org/entity/Q112675>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1916> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+rdfs:label "Leidschendam-Voorburg"@nl;
+ont:websiteHost d:host-lv.nl,d:host-www.lv.nl;
+ont:mainMailDomain d:host-lv.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1924> schema:sameAs <http://www.wikidata.org/entity/Q933459>;
+ont:cbsCode "GM1924";
+rdfs:label "Goeree-Overflakkee"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1924> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-goeree-overflakkee.nl,d:host-www.goeree-overflakkee.nl;
+ont:mainMailDomain d:host-goeree-overflakkee.nl .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1926> ont:cbsCode "GM1926";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q281768>;
+rdfs:label "Pijnacker-Nootdorp"@nl .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1926> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-pijnacker-nootdorp.nl,d:host-www.pijnacker-nootdorp.nl;
+ont:mainMailDomain d:host-pijnacker-nootdorp.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1930> rdfs:label "Nissewaard"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q14853527> .
+<http://www.wikidata.org/entity/Q694> rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1930> ont:inProvince <http://www.wikidata.org/entity/Q694> .
+<http://www.wikidata.org/entity/Q694> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1930> ont:cbsCode "GM1930";
+a ont:Municipality;
+ont:websiteHost d:host-nissewaard.nl,d:host-www.nissewaard.nl;
+ont:mainMailDomain d:host-nissewaard.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1931> ont:cbsCode "GM1931";
+a ont:Municipality;
+rdfs:label "Krimpenerwaard"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q15991891> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1931> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-krimpenerwaard.nl,d:host-www.krimpenerwaard.nl;
+ont:mainMailDomain d:host-krimpenerwaard.nl .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1940> ont:inProvince <http://www.wikidata.org/entity/Q770> .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1940> a ont:Municipality;
+rdfs:label "De Friese Meren"@nl;
+ont:cbsCode "GM1940";
+schema:sameAs <http://www.wikidata.org/entity/Q2114866>;
+ont:websiteHost d:host-defryskemarren.nl,d:host-www.defryskemarren.nl;
+ont:mainMailDomain d:host-defryskemarren.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1942> rdfs:label "Gooise Meren"@nl;
+ont:cbsCode "GM1942";
+ont:inProvince <http://www.wikidata.org/entity/Q701> .
+<http://www.wikidata.org/entity/Q701> rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1942> schema:sameAs <http://www.wikidata.org/entity/Q18335889>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q701> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1942> ont:websiteHost d:host-gooisemeren.nl,d:host-www.gooisemeren.nl;
+ont:mainMailDomain d:host-gooisemeren.nl .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1945> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-bergendal.nl,d:host-www.bergendal.nl;
+a ont:Municipality;
+rdfs:label "Berg en Dal"@nl;
+ont:cbsCode "GM1945";
+schema:sameAs <http://www.wikidata.org/entity/Q18088965> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1945> ont:mainMailDomain d:host-bergendal.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1948> a ont:Municipality;
+rdfs:label "Meierijstad"@nl;
+ont:cbsCode "GM1948";
+schema:sameAs <http://www.wikidata.org/entity/Q18655255> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1948> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-meierijstad.nl,d:host-www.meierijstad.nl;
+ont:mainMailDomain d:host-meierijstad.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1949> schema:sameAs <http://www.wikidata.org/entity/Q27526271> .
+<http://www.wikidata.org/entity/Q770> rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1949> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+ont:cbsCode "GM1949";
+a ont:Municipality;
+rdfs:label "Waadhoeke"@nl .
+<http://www.wikidata.org/entity/Q770> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1949> ont:websiteHost d:host-waadhoeke.nl,d:host-www.waadhoeke.nl;
+ont:mainMailDomain d:host-waadhoeke.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1950> ont:cbsCode "GM1950";
+schema:sameAs <http://www.wikidata.org/entity/Q27768267>;
+rdfs:label "Westerwolde"@nl .
+<http://www.wikidata.org/entity/Q752> rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1950> ont:inProvince <http://www.wikidata.org/entity/Q752> .
+<http://www.wikidata.org/entity/Q752> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1950> a ont:Municipality;
+ont:websiteHost d:host-westerwolde.nl,d:host-www.westerwolde.nl;
+ont:mainMailDomain d:host-westerwolde.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1952> rdfs:label "Midden-Groningen"@nl;
+ont:cbsCode "GM1952";
+schema:sameAs <http://www.wikidata.org/entity/Q23987486>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1952> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-midden-groningen.nl,d:host-www.midden-groningen.nl;
+ont:mainMailDomain d:host-midden-groningen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1954> rdfs:label "Beekdaelen"@nl;
+ont:cbsCode "GM1954";
+schema:sameAs <http://www.wikidata.org/entity/Q29957432>;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1093> a ont:Province;
+rdfs:label "Limburg"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1954> ont:inProvince <http://www.wikidata.org/entity/Q1093>;
+ont:websiteHost d:host-beekdaelen.nl,d:host-www.beekdaelen.nl;
+ont:mainMailDomain d:host-beekdaelen.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1955> ont:inProvince <http://www.wikidata.org/entity/Q775> .
+<http://www.wikidata.org/entity/Q775> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1955> ont:cbsCode "GM1955";
+rdfs:label "Montferland"@nl;
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q952963> .
+<http://www.wikidata.org/entity/Q775> rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1955> ont:websiteHost d:host-montferland.info,d:host-www.montferland.info;
+ont:mainMailDomain d:host-montferland.info .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1959> ont:cbsCode "GM1959" .
+<http://www.wikidata.org/entity/Q1101> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1959> a ont:Municipality;
+rdfs:label "Altena"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q28057171> .
+<http://www.wikidata.org/entity/Q1101> rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1959> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-gemeentealtena.nl,d:host-www.gemeentealtena.nl;
+ont:mainMailDomain d:host-gemeentealtena.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1960> rdfs:label "West Betuwe"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q30142059>;
+ont:cbsCode "GM1960";
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q775> a ont:Province;
+rdfs:label "Gelderland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1960> ont:inProvince <http://www.wikidata.org/entity/Q775>;
+ont:websiteHost d:host-westbetuwe.nl,d:host-www.westbetuwe.nl;
+ont:mainMailDomain d:host-westbetuwe.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1961> ont:cbsCode "GM1961";
+a ont:Municipality;
+rdfs:label "Vijfheerenlanden"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q29032345> .
+<http://www.wikidata.org/entity/Q776> a ont:Province;
+rdfs:label "Utrecht"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1961> ont:inProvince <http://www.wikidata.org/entity/Q776>;
+ont:websiteHost d:host-vijfheerenlanden.nl,d:host-www.vijfheerenlanden.nl;
+ont:mainMailDomain d:host-vijfheerenlanden.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1963> a ont:Municipality;
+rdfs:label "Hoeksche Waard"@nl;
+ont:cbsCode "GM1963";
+schema:sameAs <http://www.wikidata.org/entity/Q56682979> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1963> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-gemeentehw.nl,d:host-www.gemeentehw.nl;
+ont:mainMailDomain d:host-gemeentehw.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1966> rdfs:label "Het Hogeland"@nl;
+ont:cbsCode "GM1966";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q27959423> .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1966> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-hethogeland.nl;
+ont:mainMailDomain d:host-hethogeland.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1969> rdfs:label "Westerkwartier"@nl;
+ont:cbsCode "GM1969";
+a ont:Municipality;
+schema:sameAs <http://www.wikidata.org/entity/Q30011757> .
+<http://www.wikidata.org/entity/Q752> a ont:Province;
+rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1969> ont:inProvince <http://www.wikidata.org/entity/Q752>;
+ont:websiteHost d:host-westerkwartier.nl,d:host-www.westerkwartier.nl;
+ont:mainMailDomain d:host-westerkwartier.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1970> a ont:Municipality;
+ont:cbsCode "GM1970";
+rdfs:label "Noardeast-Fryslân"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q29509979> .
+<http://www.wikidata.org/entity/Q770> a ont:Province;
+rdfs:label "Friesland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1970> ont:inProvince <http://www.wikidata.org/entity/Q770>;
+ont:websiteHost d:host-noardeast-fryslan.nl,d:host-www.noardeast-fryslan.nl;
+ont:mainMailDomain d:host-noardeast-fryslan.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1978> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+a ont:Municipality;
+ont:websiteHost d:host-molenlanden.nl,d:host-www.molenlanden.nl;
+rdfs:label "Molenlanden"@nl;
+ont:cbsCode "GM1978";
+schema:sameAs <http://www.wikidata.org/entity/Q42115473> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1978> ont:mainMailDomain d:host-molenlanden.nl .
+<http://www.wikidata.org/entity/Q752> rdfs:label "Groningen"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1979> ont:inProvince <http://www.wikidata.org/entity/Q752> .
+<http://www.wikidata.org/entity/Q752> a ont:Province .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1979> a ont:Municipality;
+rdfs:label "Eemsdelta"@nl;
+ont:cbsCode "GM1979";
+schema:sameAs <http://www.wikidata.org/entity/Q97055892>;
+ont:websiteHost d:host-eemsdelta.nl,d:host-www.eemsdelta.nl;
+ont:mainMailDomain d:host-eemsdelta.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1980> a ont:Municipality;
+ont:cbsCode "GM1980";
+rdfs:label "Dijk en Waard"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q104758977> .
+<http://www.wikidata.org/entity/Q701> a ont:Province;
+rdfs:label "Noord-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1980> ont:inProvince <http://www.wikidata.org/entity/Q701>;
+ont:websiteHost d:host-dijkenwaard.nl,d:host-www.dijkenwaard.nl;
+ont:mainMailDomain d:host-dijkenwaard.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1982> ont:cbsCode "GM1982";
+schema:sameAs <http://www.wikidata.org/entity/Q107242476>;
+rdfs:label "Land van Cuijk"@nl;
+a ont:Municipality .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1982> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-gemeentelandvancuijk.nl,d:host-www.gemeentelandvancuijk.nl;
+ont:mainMailDomain d:host-gemeentelandvancuijk.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1991> rdfs:label "Maashorst"@nl;
+a ont:Municipality;
+ont:cbsCode "GM1991";
+schema:sameAs <http://www.wikidata.org/entity/Q104758976> .
+<http://www.wikidata.org/entity/Q1101> a ont:Province;
+rdfs:label "Noord-Brabant"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1991> ont:inProvince <http://www.wikidata.org/entity/Q1101>;
+ont:websiteHost d:host-gemeentemaashorst.nl,d:host-www.gemeentemaashorst.nl;
+ont:mainMailDomain d:host-gemeentemaashorst.nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1992> ont:cbsCode "GM1992";
+a ont:Municipality;
+rdfs:label "Voorne aan Zee"@nl;
+schema:sameAs <http://www.wikidata.org/entity/Q106436626> .
+<http://www.wikidata.org/entity/Q694> a ont:Province;
+rdfs:label "Zuid-Holland"@nl .
+<https://identifier.overheid.nl/tooi/id/gemeente/gm1992> ont:inProvince <http://www.wikidata.org/entity/Q694>;
+ont:websiteHost d:host-voorneaanzee.nl,d:host-www.voorneaanzee.nl;
+ont:mainMailDomain d:host-voorneaanzee.nl .

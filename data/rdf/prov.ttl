@@ -1,0 +1,180 @@
+@prefix d: <https://w3id.org/FAIR-course-UT/2026/group33/data#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ont: <https://w3id.org/FAIR-course-UT/2026/group33/ont#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/FAIR-course-UT/2026/group33/data> a prov:Entity ;
+    dct:conformsTo earl:,
+        <https://w3id.org/FAIR-course-UT/2026/group33/ont> ;
+    dct:creator d:sounic-akkaraju ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dct:source <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> ;
+    dct:title "Municipal results of the Dutch information security standards measurement, begin 2026, as linked data"@en ;
+    prov:wasDerivedFrom d:snapshot-appendix ;
+    prov:wasGeneratedBy d:triplification-2026H1 ;
+    prov:wasInfluencedBy d:exclusion-2026H1,
+        d:extraction-2026H1,
+        d:label-correction-2026H1,
+        d:linking-2026H1 .
+
+d:export-nora-standards a prov:Entity ;
+    rdfs:label "NORA export: standards on the comply-or-explain list"@en ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/queries/linking/nora_standards.rq> ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "9bd83055ccb63f9d128b24fab822851af2f5940b469839aa8015de773b987961"^^xsd:hexBinary ] ;
+    prov:generatedAtTime "2026-10-13T17:03:28+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://www.noraonline.nl/> .
+
+d:measurement-2026H1 a prov:Activity ;
+    rdfs:label "Measurement of information security standards, begin 2026"@en,
+        "Meting Informatieveiligheidstandaarden begin 2026"@nl ;
+    dct:source <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1a-rapport-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> ;
+    dct:temporal [ a dct:PeriodOfTime ;
+            dcat:endDate "2025-12-31"^^xsd:date ] ;
+    rdfs:comment "Bulk test of government internet domains through the Internet.nl API. The results reflect the state on 31 December 2025; the source does not state the test dates, so the reference date is used as dct:date of every result."@en ;
+    prov:wasAssociatedWith d:forum-standaardisatie,
+        d:internetnl .
+
+d:exclusion-2026H1 a prov:Activity ;
+    rdfs:label "Exclusion of one host name that contains a personal name"@en ;
+    rdfs:comment "One municipal subdomain contains the name of a living person and is left out of all derived data (data minimisation): 1 web and 1 e-mail row. The host is matched by the SHA-256 of its name, so the name is not repeated: 84b089a62db0e1e8ba0482485f91972ae5578569196a4b768d70af651263adbf."@en ;
+    prov:wasAssociatedWith d:software-extract ;
+    prov:wasInformedBy d:extraction-2026H1 .
+
+d:export-cbs-gemeenten-2026 a prov:Entity ;
+    rdfs:label "CBS export: municipalities in 2026 (StatLine 86247NED)"@en ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/scripts/freeze_linking.py> ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "677e757429a199a7437fcbc0bed565fb199187d068022bf2782e7939733b1a22"^^xsd:hexBinary ] ;
+    prov:generatedAtTime "2026-10-13T17:03:28+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://opendata.cbs.nl/> .
+
+d:export-wikidata-municipalities a prov:Entity ;
+    rdfs:label "Wikidata export: municipalities of the Netherlands"@en ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/queries/linking/wikidata_municipalities.rq> ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "9a1e7a4e96285fb1aa3d82fde9345650c368e84b0118801a05a28d75bbc41d3a"^^xsd:hexBinary ] ;
+    prov:generatedAtTime "2026-10-13T17:03:28+00:00"^^xsd:dateTime ;
+    prov:hadPrimarySource <https://www.wikidata.org/> .
+
+d:file-municipal_mail.csv a prov:Entity ;
+    rdfs:label "municipal_mail.csv" ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "8eb36ac989828ee1c2844be56df76147822a0d9dd692bbd1478070867b48647e"^^xsd:hexBinary ] .
+
+d:file-municipal_web.csv a prov:Entity ;
+    rdfs:label "municipal_web.csv" ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "5391fe4d3cf1e2cefa9cdf8df0c8d193d6d1fe3bc6327ad307b20dfc28597de0"^^xsd:hexBinary ] .
+
+d:file-results_long.csv a prov:Entity ;
+    rdfs:label "results_long.csv" ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "774ae5bbcd620109a009ec3556e0a70a46fcd3ade3ade076511edb4e579e1004"^^xsd:hexBinary ] .
+
+d:internetnl a earl:Software,
+        prov:SoftwareAgent ;
+    rdfs:comment "Open-source test suite for internet standards, used through its batch API. The release used for this measurement is not stated by the source."@en ;
+    prov:actedOnBehalfOf d:forum-standaardisatie ;
+    foaf:homepage <https://internet.nl/> ;
+    foaf:name "Internet.nl" ;
+    schema:sameAs wd:Q138768186 .
+
+d:label-correction-2026H1 a prov:Activity ;
+    rdfs:label "Correction of two mislabelled web columns"@en ;
+    rdfs:comment "In all 16 web tables of the appendix, columns 3 and 4 are labelled 'IPv6 web' and 'RPKI web', repeating the labels of columns 6 and 7. They are relabelled 'HTTPS redirect' and 'HSTS': the legend lists the web tests in that order; the duplicated columns hold different values; the 2025 edition had neither test; and chart 33 of the report puts HTTPS redirect adoption among municipalities (95%) above HSTS (91%), the order of columns 3 and 4."@en ;
+    prov:used d:snapshot-appendix,
+        d:snapshot-report ;
+    prov:wasAssociatedWith d:software-extract ;
+    prov:wasInformedBy d:extraction-2026H1 .
+
+d:snapshot-report a prov:Entity ;
+    rdfs:label "Snapshot of the report 'Meting Informatieveiligheidstandaarden begin 2026'"@en ;
+    dct:date "2026-10-01"^^xsd:date ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "76ce99ed54f68f3045af964f0f624d0f5f1f837232be4cff7d9606809cc8ea6d"^^xsd:hexBinary ] ;
+    prov:hadPrimarySource <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1a-rapport-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> .
+
+d:software-openrefine a prov:SoftwareAgent ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/scripts/openrefine_rdf.py> ;
+    prov:actedOnBehalfOf d:sounic-akkaraju ;
+    foaf:name "OpenRefine 3.9.3 with RDF extension 1.6.0" .
+
+d:triplification-2026H1 a prov:Activity ;
+    rdfs:label "Triplification with the OpenRefine RDF extension"@en ;
+    prov:used d:extracted-tables-2026H1 ;
+    prov:wasAssociatedWith d:software-openrefine ;
+    prov:wasInformedBy d:linking-2026H1 .
+
+d:extracted-tables-2026H1 a prov:Entity ;
+    rdfs:label "Extracted municipal web and e-mail tables, labels corrected"@en ;
+    dct:hasPart d:file-municipal_mail.csv,
+        d:file-municipal_web.csv,
+        d:file-results_long.csv ;
+    prov:wasGeneratedBy d:extraction-2026H1 .
+
+d:forum-standaardisatie a prov:Organization,
+        foaf:Organization ;
+    foaf:homepage <https://www.forumstandaardisatie.nl/> ;
+    foaf:name "Netherlands Standardisation Forum"@en,
+        "Forum Standaardisatie"@nl ;
+    schema:sameAs wd:Q135706416 .
+
+d:linking-2026H1 a prov:Activity ;
+    rdfs:label "Attribution of hosts to municipalities"@en ;
+    rdfs:comment "Rules version 1.0. 1867 hosts: R1 681, R2 333, R3 44, R4 329, ambiguous 1, not attributed 479 (coverage 74.3%). The municipal set was checked against CBS 2026 (342 codes)."@en ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent d:software-attribute ;
+            prov:hadPlan ont:R1-official-host,
+                ont:R2-official-domain,
+                ont:R3-name-domain,
+                ont:R4-name-label ] ;
+    prov:used d:export-cbs-gemeenten-2026,
+        d:export-wikidata-municipalities,
+        d:extracted-tables-2026H1 ;
+    prov:wasAssociatedWith d:software-attribute .
+
+d:software-attribute a prov:SoftwareAgent ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/scripts/attribute.py> ;
+    prov:actedOnBehalfOf d:sounic-akkaraju ;
+    foaf:name "attribute.py" .
+
+d:snapshot-appendix a prov:Entity ;
+    rdfs:label "Snapshot of the appendix 'Bijlage: individuele resultaten per internetdomein begin 2026'"@en ;
+    dct:date "2026-10-01"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    spdx:checksum [ a spdx:Checksum ;
+            spdx:algorithm spdx:checksumAlgorithm_sha256 ;
+            spdx:checksumValue "27d0c4665a3b7bf15d9bbb6f7d44b0675a8eb2f988463ad89d55b03cd768ed04"^^xsd:hexBinary ] ;
+    rdfs:comment "Retrieved on 2026-09-30 and again on 2026-10-01 with an identical SHA-256. Licence: CC0 1.0, declared site-wide by the publisher."@en ;
+    prov:hadPrimarySource <https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> .
+
+d:software-extract a prov:SoftwareAgent ;
+    dct:source <https://github.com/ImSounic/fair-ut-group33/blob/main/scripts/extract.py> ;
+    prov:actedOnBehalfOf d:sounic-akkaraju ;
+    foaf:name "extract.py" .
+
+d:extraction-2026H1 a prov:Activity ;
+    rdfs:label "Extraction of the municipal tables from the appendix"@en ;
+    prov:used d:snapshot-appendix ;
+    prov:wasAssociatedWith d:software-extract .
+
+d:sounic-akkaraju a prov:Person,
+        foaf:Person ;
+    foaf:name "Sounic Akkaraju" .
+

@@ -165,6 +165,8 @@ def main():
     (DOCS / "ont" / "index.html").write_text(ontology_page(g), encoding="utf-8")
     for f in ("municipal_web.csv", "municipal_mail.csv"):
         shutil.copyfile(C.EXTRACTED_DIR / f, DOCS / "dist" / f)
+    for f in ("fairified.ttl", "fairified.ttl.gz"):
+        shutil.copyfile(C.ROOT / "data" / "rdf" / f, DOCS / "dist" / f)
     for f in C.SOURCE_DIR.iterdir():
         if f.is_file():
             shutil.copyfile(f, DOCS / "source" / f.name)

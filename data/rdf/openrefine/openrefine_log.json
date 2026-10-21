@@ -1,0 +1,24 @@
+{
+ "g33-A-assertions": {
+  "project_id": "1905973006176",
+  "rows": 26064,
+  "turtle_bytes": 11758833,
+  "seconds": 2.5
+ },
+ "g33-B-hosts": {
+  "project_id": "1797051811436",
+  "rows": 1867,
+  "turtle_bytes": 603607,
+  "seconds": 0.2
+ },
+ "g33-C-municipalities": {
+  "project_id": "2538616398540",
+  "rows": 342,
+  "turtle_bytes": 176638,
+  "seconds": 0.1
+ },
+ "reconciliation": {
+  "status": "not run",
+  "note": "The Wikidata reconciliation service (wikidata.reconci.link, redirecting to wikidata-reconciliation.wmcloud.org) did not respond on 2026-10-22; an attempt was cancelled at 38%. The RDF does not depend on it: municipality identifiers come from the frozen Wikidata export."
+ }
+}

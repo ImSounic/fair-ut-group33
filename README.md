@@ -21,13 +21,20 @@ Website: https://imsounic.github.io/fair-ut-group33/
 | `scripts/freeze_linking.py` | Dated Wikidata, NORA and CBS exports in `data/linking/` |
 | `scripts/attribute.py` | Rule-based attribution of hosts to municipalities |
 | `scripts/build_ontology.py` | Builds `ontology/ont.ttl` from `ontology/src/` |
+| `scripts/openrefine_rdf.py` | Triplifies the tables in OpenRefine with the RDF extension (skeletons in the projects) |
+| `scripts/build_prov.py` | Builds `data/rdf/prov.ttl`: agents, activities and source entities (PROV-O) |
+| `scripts/merge_rdf.py` | Merges and checks the RDF into `data/rdf/fairified.ttl` |
 | `scripts/build_site.py` | Builds the GitHub Pages site in `docs/` |
 | `data/extracted/` | Extracted tables, long-format results, hosts, attributions |
+| `data/rdf/` | OpenRefine exports, provenance and the merged FAIRified data |
+| `openrefine/` | OpenRefine project archives (operation history and RDF skeletons) |
 | `ontology/` | Ontology, its sources and the data model diagram |
+| `fdp/` | FAIR Data Point deployment configuration |
 | `w3id/` | Redirect rules and tests for the course PID relay |
 
-Run the scripts with Python 3.12+ and `rdflib`, `lxml`, in this order: extract, freeze_linking
-(optional, re-fetches the exports), attribute, build_ontology, build_site.
+Run the scripts with Python 3.12+ and `rdflib`, `lxml`, `requests`, in this order: extract,
+freeze_linking (optional, re-fetches the exports), attribute, build_ontology, openrefine_rdf (needs
+OpenRefine 3.9 with the RDF extension 1.6), build_prov, merge_rdf, build_site.
 
 ## Licences
 

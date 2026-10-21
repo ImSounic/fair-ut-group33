@@ -1,0 +1,80 @@
+{
+ "triples": 280229,
+ "counts": {
+  "assertions": 26064,
+  "results": 26064,
+  "hosts": 1867,
+  "attributions": 1388,
+  "municipalities": 342,
+  "provinces": 12,
+  "service_domains": 46
+ },
+ "outcome_codes": {
+  "not_tested": 1266,
+  "passed": 13621,
+  "warning": 648,
+  "no_mx": 4901,
+  "failed": 4403,
+  "info": 973,
+  "untestable": 32,
+  "not_applicable": 59,
+  "unreachable": 56,
+  "error": 105
+ },
+ "cq2_municipalities_failing_core_mail_test": 129,
+ "cq3_municipalities_passing_https_redirect_and_hsts": 287,
+ "cq3_per_province": {
+  "Drenthe": [
+   8,
+   12
+  ],
+  "Flevoland": [
+   5,
+   6
+  ],
+  "Friesland": [
+   18,
+   18
+  ],
+  "Gelderland": [
+   39,
+   51
+  ],
+  "Groningen": [
+   8,
+   10
+  ],
+  "Limburg": [
+   26,
+   31
+  ],
+  "Noord-Brabant": [
+   50,
+   56
+  ],
+  "Noord-Holland": [
+   37,
+   44
+  ],
+  "Overijssel": [
+   17,
+   25
+  ],
+  "Utrecht": [
+   24,
+   26
+  ],
+  "Zeeland": [
+   11,
+   13
+  ],
+  "Zuid-Holland": [
+   44,
+   50
+  ]
+ },
+ "sha256": {
+  "fairified.ttl": "3994bb6a49f196cd0a01f8f47e3cd848574f220e21f77758c6fc7246712eb831",
+  "fairified.ttl.gz": "ce78e7d93e8c64e7534034a0ba4a28e0438a71bdb649be882219003ca26231c9"
+ }
+}
