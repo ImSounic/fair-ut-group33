@@ -1,0 +1,29 @@
+# CQ4. Which service domains host municipal services that fail a test, and which municipalities do
+# they serve? (Hosts attributed by rule R4, named after a municipality under a third-party domain.)
+# The municipality list is aggregated separately: one host (bergen.mijnafspraakmaken.nl) matches two
+# municipalities and has no ont:attributedTo, and an unbound value would void GROUP_CONCAT.
+PREFIX earl: <http://www.w3.org/ns/earl#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group33/ont#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX e:    <https://www.noraonline.nl/wiki/Eigenschap:>
+SELECT ?serviceDomain ?hosts ?hostsFailing ?failedResults ?municipalities
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/data>
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/ontology>
+WHERE {
+  { SELECT ?sd (COUNT(DISTINCT ?h) AS ?hosts) (COUNT(DISTINCT ?failingHost) AS ?hostsFailing)
+           (COUNT(DISTINCT ?fail) AS ?failedResults)
+    WHERE {
+      ?att ont:viaServiceDomain ?sd ; ont:attributedHost ?h .
+      OPTIONAL { ?fail earl:subject ?h ; earl:result/earl:outcome ?o . ?o a earl:Fail .
+                 BIND(?h AS ?failingHost) }
+    } GROUP BY ?sd }
+  OPTIONAL {
+    { SELECT ?sd (GROUP_CONCAT(DISTINCT STR(?name); separator=", ") AS ?municipalities)
+      WHERE { ?att ont:viaServiceDomain ?sd ; ont:attributedTo/rdfs:label ?name }
+      GROUP BY ?sd } }
+  ?sd ont:hostName ?serviceDomain .
+  FILTER(?failedResults > 0)
+}
+ORDER BY DESC(?hostsFailing) ?serviceDomain

@@ -1,0 +1,284 @@
+municipality,test,standard,specifications
+Aa en Hunze,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Aa en Hunze,DNSSEC MX,DNSSEC,
+Achtkarspelen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Achtkarspelen,DNSSEC MX,DNSSEC,
+Almelo,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Almelo,DNSSEC MX,DNSSEC,
+Altena,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Altena,DNSSEC MX,DNSSEC,
+Altena,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Altena,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Ameland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ameland,DNSSEC MX,DNSSEC,
+Amsterdam,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Amsterdam,DNSSEC MX,DNSSEC,
+Arnhem,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Arnhem,DNSSEC MX,DNSSEC,
+Assen,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Asten,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Asten,DNSSEC MX,DNSSEC,
+Barneveld,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Barneveld,DNSSEC MX,DNSSEC,
+Beesel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Beesel,DNSSEC MX,DNSSEC,
+Bergen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bergen op Zoom,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bergen op Zoom,DNSSEC MX,DNSSEC,
+Berkelland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Berkelland,DNSSEC MX,DNSSEC,
+Bernheze,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bernheze,DNSSEC MX,DNSSEC,
+Blaricum,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Blaricum,DNSSEC MX,DNSSEC,
+Blaricum,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Bodegraven-Reeuwijk,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bodegraven-Reeuwijk,DNSSEC MX,DNSSEC,
+Boekel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Boekel,DNSSEC MX,DNSSEC,
+Boxtel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Boxtel,DNSSEC MX,DNSSEC,
+Brummen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Brummen,DNSSEC MX,DNSSEC,
+Bunschoten,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bunschoten,DNSSEC MX,DNSSEC,
+Buren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Buren,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Buren,DNSSEC MX,DNSSEC,
+Buren,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Buren,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Castricum,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Cranendonck,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Cranendonck,DNSSEC MX,DNSSEC,
+Culemborg,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Culemborg,DNSSEC MX,DNSSEC,
+Dalfsen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dalfsen,DNSSEC MX,DNSSEC,
+Dantumadeel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dantumadeel,DNSSEC MX,DNSSEC,
+De Friese Meren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+De Friese Meren,DNSSEC MX,DNSSEC,
+De Wolden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+De Wolden,DNSSEC MX,DNSSEC,
+Den Haag,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Den Haag,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Diemen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Diemen,DNSSEC MX,DNSSEC,
+Dinkelland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dinkelland,DNSSEC MX,DNSSEC,
+Dinkelland,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dinkelland,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Drimmelen,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Duiven,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Duiven,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Duiven,DNSSEC MX,DNSSEC,
+Echt-Susteren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Echt-Susteren,DNSSEC MX,DNSSEC,
+Eemnes,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Eemnes,DNSSEC MX,DNSSEC,
+Eemnes,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Eemsdelta,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Eemsdelta,DNSSEC MX,DNSSEC,
+Epe,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Epe,DNSSEC MX,DNSSEC,
+Ermelo,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ermelo,DNSSEC MX,DNSSEC,
+Geldrop-Mierlo,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Geldrop-Mierlo,DNSSEC MX,DNSSEC,
+Geldrop-Mierlo,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Geldrop-Mierlo,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Gooise Meren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Gooise Meren,DNSSEC MX,DNSSEC,
+Gorinchem,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Gorinchem,DNSSEC MX,DNSSEC,
+Groningen,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Groningen,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Haarlemmermeer,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Haarlemmermeer,DNSSEC MX,DNSSEC,
+Hardenberg,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hardenberg,DNSSEC MX,DNSSEC,
+Harderwijk,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Harderwijk,DNSSEC MX,DNSSEC,
+Heeze-Leende,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Heeze-Leende,DNSSEC MX,DNSSEC,
+Heiloo,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hellendoorn,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hellendoorn,DNSSEC MX,DNSSEC,
+Hoeksche Waard,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hoeksche Waard,DNSSEC MX,DNSSEC,
+Hof van Twente,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hof van Twente,DNSSEC MX,DNSSEC,
+Hof van Twente,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Hoogeveen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hoogeveen,DNSSEC MX,DNSSEC,
+Horst aan de Maas,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Horst aan de Maas,DNSSEC MX,DNSSEC,
+Huizen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Huizen,DNSSEC MX,DNSSEC,
+Kampen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Kampen,DNSSEC MX,DNSSEC,
+Katwijk,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Land van Cuijk,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Land van Cuijk,DNSSEC MX,DNSSEC,
+Land van Cuijk,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Land van Cuijk,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Lansingerland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lansingerland,DNSSEC MX,DNSSEC,
+Laren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Laren,DNSSEC MX,DNSSEC,
+Laren,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Leeuwarden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leeuwarden,DNSSEC MX,DNSSEC,
+Leiden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leiden,DNSSEC MX,DNSSEC,
+Leiderdorp,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leiderdorp,DNSSEC MX,DNSSEC,
+Leidschendam-Voorburg,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leidschendam-Voorburg,DNSSEC MX,DNSSEC,
+Lochem,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lochem,DNSSEC MX,DNSSEC,
+Lochem,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lochem,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Lopik,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lopik,DNSSEC MX,DNSSEC,
+Maasgouw,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maasgouw,DNSSEC MX,DNSSEC,
+Maashorst,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maashorst,DNSSEC MX,DNSSEC,
+Maassluis,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maassluis,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Maassluis,DNSSEC MX,DNSSEC,
+Molenlanden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Molenlanden,DNSSEC MX,DNSSEC,
+Montferland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Montferland,DNSSEC MX,DNSSEC,
+Montferland,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Montferland,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Neder-Betuwe,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Neder-Betuwe,DNSSEC MX,DNSSEC,
+Nederweert,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nederweert,DNSSEC MX,DNSSEC,
+Nieuwkoop,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nieuwkoop,DNSSEC MX,DNSSEC,
+Nijkerk,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nijkerk,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Nijkerk,DNSSEC MX,DNSSEC,
+Noardeast-Fryslân,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Noardeast-Fryslân,DNSSEC MX,DNSSEC,
+Noordoostpolder,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Noordoostpolder,DNSSEC MX,DNSSEC,
+"Nuenen, Gerwen en Nederwetten",DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+"Nuenen, Gerwen en Nederwetten",DNSSEC MX,DNSSEC,
+"Nuenen, Gerwen en Nederwetten",STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+"Nuenen, Gerwen en Nederwetten",STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Oegstgeest,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Oegstgeest,DNSSEC MX,DNSSEC,
+Oldambt,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Ommen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ommen,DNSSEC MX,DNSSEC,
+Oost Gelre,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Oost Gelre,DNSSEC MX,DNSSEC,
+Ooststellingwerf,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ooststellingwerf,DNSSEC MX,DNSSEC,
+Opsterland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Opsterland,DNSSEC MX,DNSSEC,
+Ouder-Amstel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ouder-Amstel,DNSSEC MX,DNSSEC,
+Putten,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Putten,DNSSEC MX,DNSSEC,
+Renswoude,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Renswoude,DNSSEC MX,DNSSEC,
+Rheden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rheden,DNSSEC MX,DNSSEC,
+Rhenen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rhenen,DNSSEC MX,DNSSEC,
+Roerdalen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Roerdalen,DNSSEC MX,DNSSEC,
+Roermond,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Roermond,DNSSEC MX,DNSSEC,
+Rotterdam,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rotterdam,DNSSEC MX,DNSSEC,
+Scherpenzeel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Scherpenzeel,DNSSEC MX,DNSSEC,
+Schiedam,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Schiedam,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Schiermonnikoog,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Schiermonnikoog,DNSSEC MX,DNSSEC,
+Sint-Michielsgestel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Sint-Michielsgestel,DNSSEC MX,DNSSEC,
+Someren,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Someren,DNSSEC MX,DNSSEC,
+Son en Breugel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Son en Breugel,DNSSEC MX,DNSSEC,
+Son en Breugel,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Son en Breugel,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Terschelling,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Terschelling,DNSSEC MX,DNSSEC,
+Tiel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tiel,DNSSEC MX,DNSSEC,
+Tietjerksteradeel,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tietjerksteradeel,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Tietjerksteradeel,DNSSEC MX,DNSSEC,
+Tubbergen,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tubbergen,DNSSEC MX,DNSSEC,
+Tubbergen,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tubbergen,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Uitgeest,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Uithoorn,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Uithoorn,DNSSEC MX,DNSSEC,
+Vaals,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vaals,DNSSEC MX,DNSSEC,
+Vaals,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vaals,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/
+Valkenswaard,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Valkenswaard,DNSSEC MX,DNSSEC,
+Veenendaal,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Veenendaal,DNSSEC MX,DNSSEC,
+Veldhoven,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Veldhoven,DNSSEC MX,DNSSEC,
+Venlo,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Venlo,DNSSEC MX,DNSSEC,
+Venray,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Venray,DNSSEC MX,DNSSEC,
+Vijfheerenlanden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vijfheerenlanden,DNSSEC MX,DNSSEC,
+Vlieland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vlieland,DNSSEC MX,DNSSEC,
+Voorst,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Voorst,DNSSEC MX,DNSSEC,
+Waadhoeke,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Waadhoeke,DNSSEC MX,DNSSEC,
+Waalre,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Waalre,DNSSEC MX,DNSSEC,
+Weert,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Weert,DNSSEC MX,DNSSEC,
+West Betuwe,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+West Betuwe,DNSSEC MX,DNSSEC,
+West Maas en Waal,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+West Maas en Waal,DNSSEC MX,DNSSEC,
+Westerveld,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Westerveld,DNSSEC MX,DNSSEC,
+Westervoort,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Westervoort,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Westervoort,DNSSEC MX,DNSSEC,
+Weststellingwerf,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Weststellingwerf,DNSSEC MX,DNSSEC,
+Wierden,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Wierden,DNSSEC MX,DNSSEC,
+Woensdrecht,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Woudenberg,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Woudenberg,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Woudenberg,DNSSEC MX,DNSSEC,
+Zeewolde,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zeewolde,DNSSEC MX,DNSSEC,
+Zeist,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zeist,DNSSEC MX,DNSSEC,
+Zevenaar,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zevenaar,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Zevenaar,DNSSEC MX,DNSSEC,
+Zoeterwoude,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zoeterwoude,DNSSEC MX,DNSSEC,
+Zwartewaterland,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zwartewaterland,DNSSEC MX,DNSSEC,
+Zwolle,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zwolle,DNSSEC MX,DNSSEC,

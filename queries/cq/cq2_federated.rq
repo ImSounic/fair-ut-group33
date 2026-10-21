@@ -1,0 +1,24 @@
+# CQ2 with the specification documents fetched live from the NORA SPARQL endpoint (SPARQL 1.1
+# federation). SERVICE SILENT keeps the local answer if NORA is unreachable.
+PREFIX earl: <http://www.w3.org/ns/earl#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group33/ont#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX e:    <https://www.noraonline.nl/wiki/Eigenschap:>
+SELECT ?municipality ?test ?standard (GROUP_CONCAT(DISTINCT STR(?spec); separator=" ") AS ?specifications)
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/data>
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/ontology>
+WHERE {
+  ?m a ont:Municipality ; rdfs:label ?municipality ; ont:mainMailDomain ?h .
+  ?h ont:hostName ?mailDomain .
+  ?a earl:subject ?h ; earl:test ?t ; earl:result/earl:outcome ?o .
+  ?o a earl:Fail .
+  ?t a ont:CoreMailTest ; rdfs:label ?test ; ont:checksStandard ?std .
+  FILTER(LANG(?test) = "en")
+  OPTIONAL { SERVICE SILENT <https://sparql.noraonline.nl/nora/sparql> {
+      ?std <http://purl.org/dc/terms/title> ?standard .
+      OPTIONAL { ?std e:Specificatiedocument ?spec } } }
+}
+GROUP BY ?municipality ?test ?standard
+ORDER BY ?municipality ?test ?standard

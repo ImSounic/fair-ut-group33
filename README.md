@@ -24,12 +24,17 @@ Website: https://imsounic.github.io/fair-ut-group33/
 | `scripts/openrefine_rdf.py` | Triplifies the tables in OpenRefine with the RDF extension (skeletons in the projects) |
 | `scripts/build_prov.py` | Builds `data/rdf/prov.ttl`: agents, activities and source entities (PROV-O) |
 | `scripts/merge_rdf.py` | Merges and checks the RDF into `data/rdf/fairified.ttl` |
+| `scripts/fdp_publish.py`, `fdp_export.py` | Metadata records in the FAIR Data Point, exported to `docs/fdp/` |
+| `scripts/validate_metadata.py` | Validates the records against DCAT-AP 3.0 and DCAT-AP-NL 3.0 |
+| `scripts/build_linking_rdf.py` | NORA standards and the specification supplement as RDF |
+| `scripts/run_cqs.py` | Loads named graphs into Apache Jena Fuseki and answers the competency questions |
 | `scripts/build_site.py` | Builds the GitHub Pages site in `docs/` |
 | `data/extracted/` | Extracted tables, long-format results, hosts, attributions |
 | `data/rdf/` | OpenRefine exports, provenance and the merged FAIRified data |
 | `openrefine/` | OpenRefine project archives (operation history and RDF skeletons) |
 | `ontology/` | Ontology, its sources and the data model diagram |
 | `fdp/` | FAIR Data Point deployment configuration |
+| `queries/cq/` | SPARQL for the competency questions and their results |
 | `w3id/` | Redirect rules and tests for the course PID relay |
 
 Run the scripts with Python 3.12+ and `rdflib`, `lxml`, `requests`, in this order: extract,

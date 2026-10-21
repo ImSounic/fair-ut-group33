@@ -1,0 +1,21 @@
+role,host,test,code,verdict,date
+website,enschede.nl,DNSSEC,passed,pass,2025-12-31
+website,enschede.nl,HSTS,passed,pass,2025-12-31
+website,enschede.nl,HTTPS redirect,passed,pass,2025-12-31
+website,enschede.nl,IPv6 web,failed,fail,2025-12-31
+website,enschede.nl,RPKI web,passed,pass,2025-12-31
+website,enschede.nl,TLS NCSC web,info,pass,2025-12-31
+website,www.enschede.nl,DNSSEC,passed,pass,2025-12-31
+website,www.enschede.nl,HSTS,failed,fail,2025-12-31
+website,www.enschede.nl,HTTPS redirect,failed,fail,2025-12-31
+website,www.enschede.nl,IPv6 web,warning,pass,2025-12-31
+website,www.enschede.nl,RPKI web,passed,pass,2025-12-31
+website,www.enschede.nl,TLS NCSC web,info,pass,2025-12-31
+mail domain,enschede.nl,DANE,passed,pass,2025-12-31
+mail domain,enschede.nl,DKIM,passed,pass,2025-12-31
+mail domain,enschede.nl,DMARC policy,passed,pass,2025-12-31
+mail domain,enschede.nl,DNSSEC MX,passed,pass,2025-12-31
+mail domain,enschede.nl,IPv6 MX,passed,pass,2025-12-31
+mail domain,enschede.nl,RPKI MX,passed,pass,2025-12-31
+mail domain,enschede.nl,SPF policy,passed,pass,2025-12-31
+mail domain,enschede.nl,STARTTLS NCSC,warning,pass,2025-12-31

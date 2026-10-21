@@ -1,0 +1,23 @@
+# CQ3. Per province, which share of municipalities pass both HTTPS redirect and HSTS on every tested
+# host of their main website (bare and www)? Pass = an outcome of class earl:Pass.
+PREFIX earl: <http://www.w3.org/ns/earl#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group33/ont#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX e:    <https://www.noraonline.nl/wiki/Eigenschap:>
+SELECT ?province (COUNT(?m) AS ?municipalities) (SUM(?ok) AS ?passing)
+       (ROUND(1000 * SUM(?ok) / COUNT(?m)) / 10 AS ?percent)
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/data>
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/ontology>
+WHERE {
+  { SELECT ?m (MIN(?hostOk) AS ?ok) WHERE {
+      ?m a ont:Municipality ; ont:websiteHost ?h .
+      VALUES ?t { ont:https_redirect ont:hsts }
+      ?a earl:subject ?h ; earl:test ?t ; earl:result/earl:outcome ?o .
+      BIND(IF(EXISTS { ?o a earl:Pass }, 1, 0) AS ?hostOk)
+    } GROUP BY ?m }
+  ?m ont:inProvince/rdfs:label ?province .
+}
+GROUP BY ?province
+ORDER BY DESC(?percent) ?province

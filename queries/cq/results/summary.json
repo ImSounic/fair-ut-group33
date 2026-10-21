@@ -1,0 +1,157 @@
+{
+ "graphs": {
+  "data": 280231,
+  "nora": 56,
+  "ontology": 587,
+  "specification-supplement": 13
+ },
+ "queries": {
+  "cq1": {
+   "rows": 20,
+   "seconds": 0.05
+  },
+  "cq2": {
+   "rows": 283,
+   "seconds": 0.26
+  },
+  "cq2_count": {
+   "rows": 1,
+   "seconds": 0.19
+  },
+  "cq2_per_test": {
+   "rows": 5,
+   "seconds": 0.18
+  },
+  "cq3": {
+   "rows": 12,
+   "seconds": 0.2
+  },
+  "cq4": {
+   "rows": 45,
+   "seconds": 0.16
+  }
+ },
+ "acceptance": {
+  "cq1_enschede": "enschede.nl passes HTTPS redirect and HSTS, www.enschede.nl fails both",
+  "cq2_municipalities": 129,
+  "cq3": "287/342"
+ },
+ "cq2_per_test": {
+  "DANE": 122,
+  "DNSSEC MX": 117,
+  "STARTTLS NCSC": 13,
+  "DMARC policy": 10,
+  "SPF policy": 8
+ },
+ "cq3": [
+  {
+   "province": "Friesland",
+   "municipalities": "18",
+   "passing": "18",
+   "percent": "100.0"
+  },
+  {
+   "province": "Utrecht",
+   "municipalities": "26",
+   "passing": "24",
+   "percent": "92.3"
+  },
+  {
+   "province": "Noord-Brabant",
+   "municipalities": "56",
+   "passing": "50",
+   "percent": "89.3"
+  },
+  {
+   "province": "Zuid-Holland",
+   "municipalities": "50",
+   "passing": "44",
+   "percent": "88.0"
+  },
+  {
+   "province": "Zeeland",
+   "municipalities": "13",
+   "passing": "11",
+   "percent": "84.6"
+  },
+  {
+   "province": "Noord-Holland",
+   "municipalities": "44",
+   "passing": "37",
+   "percent": "84.1"
+  },
+  {
+   "province": "Limburg",
+   "municipalities": "31",
+   "passing": "26",
+   "percent": "83.9"
+  },
+  {
+   "province": "Flevoland",
+   "municipalities": "6",
+   "passing": "5",
+   "percent": "83.3"
+  },
+  {
+   "province": "Groningen",
+   "municipalities": "10",
+   "passing": "8",
+   "percent": "80.0"
+  },
+  {
+   "province": "Gelderland",
+   "municipalities": "51",
+   "passing": "39",
+   "percent": "76.5"
+  },
+  {
+   "province": "Overijssel",
+   "municipalities": "25",
+   "passing": "17",
+   "percent": "68.0"
+  },
+  {
+   "province": "Drenthe",
+   "municipalities": "12",
+   "passing": "8",
+   "percent": "66.7"
+  }
+ ],
+ "cq4_top": [
+  {
+   "serviceDomain": "bestuurlijkeinformatie.nl",
+   "hosts": "98",
+   "hostsFailing": "98",
+   "failedResults": "198",
+   "municipalities": "Aa en Hunze, Aalsmeer, Achtkarspelen, Almelo, Alphen aan den Rijn, Ameland, Amersfoort, Amstelveen, Arnhem, Assen, Asten, Barneveld, Beek, Beekdaelen, Beesel, Bergen op Zoom, Beuningen, Blaricum, Borger-Odoorn, Borne, Buren, Culemborg, Dantumadeel, Druten, Duiven, Edam-Volendam, Eersel, Emmen, Enschede, Geertruidenberg, Geldrop-Mierlo, Gemert-Bakel, Gorinchem, Gouda, Gulpen-Wittem, Haarlemmermeer, Harderwijk, Hattem, Heiloo, Heusden, Hilversum, Hoorn, Kaag en Braassem, Krimpenerwaard, Landsmeer, Lansingerland, Lingewaard, Loon op Zand, Losser, Maastricht, Medemblik, Meppel, Moerdijk, Montfoort, Nederweert, Nieuwegein, Nieuwkoop, Nijmegen, Noardeast-Fryslân, Noordenveld, Noordwijk, Oirschot, Oldambt, Oldebroek, Oosterhout, Ooststellingwerf, Oostzaan, Opmeer, Opsterland, Oss, Reusel-De Mierden, Rijswijk, Simpelveld, Sint-Michielsgestel, Sittard-Geleen, Soest, Stadskanaal, Staphorst, Steenwijkerland, Stein, Tholen, Vijfheerenlanden, Vlieland, Voerendaal, Vught, Waterland, Westerkwartier, Westerveld, Westervoort, Westerwolde, Westland, Wijchen, Woensdrecht, Zaanstad, Zeewolde, Zevenaar, Zwolle"
+  },
+  {
+   "serviceDomain": "mijnafspraakmaken.nl",
+   "hosts": "71",
+   "hostsFailing": "71",
+   "failedResults": "144",
+   "municipalities": "Aa en Hunze, Aalsmeer, Aalten, Albrandswaard, Almelo, Amstelveen, Asten, Barendrecht, Beek, Dalfsen, De Ronde Venen, Deurne, Dronten, Duiven, Eijsden-Margraten, Elburg, Epe, Altena, Goirle, Gooise Meren, Gorinchem, Gouda, Halderberge, Hardinxveld-Giessendam, Heusden, Utrechtse Heuvelrug, Hilvarenbeek, Hoeksche Waard, IJsselstein, Kerkrade, Laarbeek, Land van Cuijk, Lansingerland, Leeuwarden, Lingewaard, Maasdriel, Maashorst, Mook en Middelaar, Neder-Betuwe, Nieuwkoop, Nijkerk, Noardeast-Fryslân, Noordwijk, Nuenen, Gerwen en Nederwetten, Oisterwijk, Oldenzaal, Ommen, Overbetuwe, Ridderkerk, Rijssen-Holten, Rucphen, Simpelveld, Sittard-Geleen, Son en Breugel, Steenwijkerland, Uithoorn, Urk, Veendam, Velsen, Vijfheerenlanden, Vlissingen, Waadhoeke, Westerveld, Westerwolde, West Maas en Waal, Wierden, Wijchen, Zaltbommel, Zevenaar, Zwartewaterland"
+  },
+  {
+   "serviceDomain": "raadsinformatie.nl",
+   "hosts": "46",
+   "hostsFailing": "46",
+   "failedResults": "92",
+   "municipalities": "Almere, Altena, Amsterdam, Baarn, Barendrecht, Borsele, Breda, Brummen, Capelle aan den IJssel, Castricum, Den Haag, Doesburg, Ede, Epe, Ermelo, Etten-Leur, Hardenberg, Helmond, Heumen, Horst aan de Maas, Kampen, Katwijk, Maassluis, Middelburg, Nissewaard, Nuenen, Gerwen en Nederwetten, Nunspeet, Ommen, Putten, Reimerswaal, Rhenen, Ridderkerk, Rucphen, 's-Hertogenbosch, Schouwen-Duiveland, Terneuzen, Tilburg, Uitgeest, Veendam, Veere, Velsen, Venray, Vlieland, Vlissingen, Wageningen, Zandvoort"
+  },
+  {
+   "serviceDomain": "notubiz.nl",
+   "hosts": "25",
+   "hostsFailing": "25",
+   "failedResults": "51",
+   "municipalities": "Almere, Amersfoort, Best, Blaricum, Breda, Dongen, Eemnes, Etten-Leur, Utrechtse Heuvelrug, Hilvarenbeek, Laren, Maassluis, Meerssen, Nissewaard, Oldenzaal, Oosterhout, Smallingerland, Someren, Son en Breugel, Tilburg, Veendam, Voorne aan Zee, Wierden, Zundert"
+  },
+  {
+   "serviceDomain": "begrotingsapp.nl",
+   "hosts": "13",
+   "hostsFailing": "13",
+   "failedResults": "39",
+   "municipalities": "Aa en Hunze, Baarn, Epe, Land van Cuijk, Lansingerland, Leusden, Ooststellingwerf, Opsterland, Ridderkerk, Schouwen-Duiveland, Waalwijk, Wageningen, Westerveld"
+  }
+ ]
+}

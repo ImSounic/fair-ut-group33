@@ -1,0 +1,27 @@
+# CQ1. Which tests did the bare and www hosts of the main website and the main mail domain of a
+# given municipality pass or fail on the reference date? (Example: Enschede.)
+PREFIX earl: <http://www.w3.org/ns/earl#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group33/ont#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX e:    <https://www.noraonline.nl/wiki/Eigenschap:>
+SELECT ?role ?host ?test ?code ?verdict ?date
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/data>
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/ontology>
+WHERE {
+  VALUES ?name { "Enschede"@nl }
+  ?m a ont:Municipality ; rdfs:label ?name .
+  { ?m ont:websiteHost ?h . ?t a ont:WebTest . BIND("website" AS ?role) }
+  UNION
+  { ?m ont:mainMailDomain ?h . ?t a ont:MailTest . BIND("mail domain" AS ?role) }
+  ?a earl:subject ?h ; earl:test ?t ; earl:result ?r .
+  ?r earl:outcome ?o ; dct:date ?date .
+  ?h ont:hostName ?host .
+  ?t rdfs:label ?test . FILTER(LANG(?test) = "en")
+  ?o skos:notation ?code ; a ?cls .
+  VALUES (?cls ?verdict) {
+    (earl:Pass "pass") (earl:Fail "fail") (earl:NotApplicable "not applicable")
+    (earl:NotTested "not tested") (earl:CannotTell "cannot tell") }
+}
+ORDER BY DESC(?role) ?host ?test

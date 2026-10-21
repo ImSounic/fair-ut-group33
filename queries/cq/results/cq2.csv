@@ -1,0 +1,284 @@
+municipality,mailDomain,test,standard,specifications
+Aa en Hunze,aaenhunze.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Aa en Hunze,aaenhunze.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Achtkarspelen,achtkarspelen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Achtkarspelen,achtkarspelen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Almelo,almelo.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Almelo,almelo.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Altena,gemeentealtena.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Altena,gemeentealtena.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Altena,gemeentealtena.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Altena,gemeentealtena.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Ameland,ameland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ameland,ameland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Amsterdam,amsterdam.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Amsterdam,amsterdam.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Arnhem,arnhem.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Arnhem,arnhem.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Assen,assen.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Asten,asten.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Asten,asten.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Barneveld,barneveld.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Barneveld,barneveld.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Beesel,beesel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Beesel,beesel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Bergen,bergen-nh.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bergen op Zoom,bergenopzoom.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bergen op Zoom,bergenopzoom.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Berkelland,gemeenteberkelland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Berkelland,gemeenteberkelland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Bernheze,bernheze.org,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bernheze,bernheze.org,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Blaricum,blaricum.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Blaricum,blaricum.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Blaricum,blaricum.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Bodegraven-Reeuwijk,bodegraven-reeuwijk.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bodegraven-Reeuwijk,bodegraven-reeuwijk.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Boekel,boekel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Boekel,boekel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Boxtel,boxtel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Boxtel,boxtel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Brummen,brummen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Brummen,brummen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Bunschoten,bunschoten.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Bunschoten,bunschoten.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Buren,buren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Buren,buren.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Buren,buren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Buren,buren.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Buren,buren.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Castricum,castricum.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Cranendonck,cranendonck.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Cranendonck,cranendonck.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Culemborg,culemborg.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Culemborg,culemborg.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Dalfsen,dalfsen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dalfsen,dalfsen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Dantumadeel,dantumadiel.frl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dantumadeel,dantumadiel.frl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+De Friese Meren,defryskemarren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+De Friese Meren,defryskemarren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+De Wolden,dewolden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+De Wolden,dewolden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Den Haag,denhaag.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Den Haag,denhaag.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Diemen,diemen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Diemen,diemen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Dinkelland,dinkelland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dinkelland,dinkelland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Dinkelland,dinkelland.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Dinkelland,dinkelland.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Drimmelen,drimmelen.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Duiven,duiven.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Duiven,duiven.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Duiven,duiven.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Echt-Susteren,echt-susteren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Echt-Susteren,echt-susteren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Eemnes,eemnes.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Eemnes,eemnes.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Eemnes,eemnes.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Eemsdelta,eemsdelta.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Eemsdelta,eemsdelta.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Epe,epe.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Epe,epe.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Ermelo,ermelo.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ermelo,ermelo.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Geldrop-Mierlo,geldrop-mierlo.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Geldrop-Mierlo,geldrop-mierlo.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Geldrop-Mierlo,geldrop-mierlo.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Geldrop-Mierlo,geldrop-mierlo.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Gooise Meren,gooisemeren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Gooise Meren,gooisemeren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Gorinchem,gorinchem.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Gorinchem,gorinchem.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Groningen,groningen.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Groningen,groningen.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Haarlemmermeer,haarlemmermeergemeente.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Haarlemmermeer,haarlemmermeergemeente.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Hardenberg,hardenberg.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hardenberg,hardenberg.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Harderwijk,harderwijk.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Harderwijk,harderwijk.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Heeze-Leende,heeze-leende.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Heeze-Leende,heeze-leende.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Heiloo,heiloo.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hellendoorn,hellendoorn.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hellendoorn,hellendoorn.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Hoeksche Waard,gemeentehw.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hoeksche Waard,gemeentehw.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Hof van Twente,hofvantwente.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hof van Twente,hofvantwente.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Hof van Twente,hofvantwente.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Hoogeveen,hoogeveen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Hoogeveen,hoogeveen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Horst aan de Maas,horstaandemaas.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Horst aan de Maas,horstaandemaas.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Huizen,huizen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Huizen,huizen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Kampen,kampen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Kampen,kampen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Katwijk,katwijk.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Land van Cuijk,gemeentelandvancuijk.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Land van Cuijk,gemeentelandvancuijk.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Land van Cuijk,gemeentelandvancuijk.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Land van Cuijk,gemeentelandvancuijk.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Lansingerland,lansingerland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lansingerland,lansingerland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Laren,laren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Laren,laren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Laren,laren.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Leeuwarden,leeuwarden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leeuwarden,leeuwarden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Leiden,leiden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leiden,leiden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Leiderdorp,leiderdorp.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leiderdorp,leiderdorp.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Leidschendam-Voorburg,lv.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Leidschendam-Voorburg,lv.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Lochem,lochem.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lochem,lochem.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Lochem,lochem.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lochem,lochem.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Lopik,lopik.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Lopik,lopik.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Maasgouw,gemeentemaasgouw.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maasgouw,gemeentemaasgouw.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Maashorst,gemeentemaashorst.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maashorst,gemeentemaashorst.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Maassluis,maassluis.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Maassluis,maassluis.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Maassluis,maassluis.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Molenlanden,molenlanden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Molenlanden,molenlanden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Montferland,montferland.info,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Montferland,montferland.info,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Montferland,montferland.info,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Montferland,montferland.info,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Neder-Betuwe,nederbetuwe.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Neder-Betuwe,nederbetuwe.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Nederweert,nederweert.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nederweert,nederweert.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Nieuwkoop,nieuwkoop.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nieuwkoop,nieuwkoop.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Nijkerk,nijkerk.eu,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Nijkerk,nijkerk.eu,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Nijkerk,nijkerk.eu,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Noardeast-Fryslân,noardeast-fryslan.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Noardeast-Fryslân,noardeast-fryslan.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Noordoostpolder,noordoostpolder.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Noordoostpolder,noordoostpolder.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+"Nuenen, Gerwen en Nederwetten",nuenen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+"Nuenen, Gerwen en Nederwetten",nuenen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+"Nuenen, Gerwen en Nederwetten",nuenen.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+"Nuenen, Gerwen en Nederwetten",nuenen.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Oegstgeest,oegstgeest.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Oegstgeest,oegstgeest.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Oldambt,gemeente-oldambt.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Ommen,ommen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ommen,ommen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Oost Gelre,oostgelre.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Oost Gelre,oostgelre.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Ooststellingwerf,ooststellingwerf.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ooststellingwerf,ooststellingwerf.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Opsterland,opsterland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Opsterland,opsterland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Ouder-Amstel,ouder-amstel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Ouder-Amstel,ouder-amstel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Putten,putten.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Putten,putten.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Renswoude,renswoude.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Renswoude,renswoude.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Rheden,rheden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rheden,rheden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Rhenen,rhenen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rhenen,rhenen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Roerdalen,roerdalen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Roerdalen,roerdalen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Roermond,roermond.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Roermond,roermond.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Rotterdam,rotterdam.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Rotterdam,rotterdam.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Scherpenzeel,scherpenzeel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Scherpenzeel,scherpenzeel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Schiedam,schiedam.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Schiedam,schiedam.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Schiermonnikoog,schiermonnikoog.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Schiermonnikoog,schiermonnikoog.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Sint-Michielsgestel,sint-michielsgestel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Sint-Michielsgestel,sint-michielsgestel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Someren,someren.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Someren,someren.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Son en Breugel,sonenbreugel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Son en Breugel,sonenbreugel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Son en Breugel,sonenbreugel.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Son en Breugel,sonenbreugel.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Terschelling,terschelling.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Terschelling,terschelling.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Tiel,tiel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tiel,tiel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Tietjerksteradeel,t-diel.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tietjerksteradeel,t-diel.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Tietjerksteradeel,t-diel.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Tubbergen,tubbergen.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tubbergen,tubbergen.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Tubbergen,tubbergen.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Tubbergen,tubbergen.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Uitgeest,uitgeest.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Uithoorn,uithoorn.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Uithoorn,uithoorn.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Vaals,vaals.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vaals,vaals.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Vaals,vaals.nl,STARTTLS NCSC,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vaals,vaals.nl,STARTTLS NCSC,TLS,https://datatracker.ietf.org/doc/draft-ietf-tls-tls13/ https://www.rfc-editor.org/rfc/rfc5246 https://www.rfc-editor.org/rfc/rfc8446
+Valkenswaard,valkenswaard.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Valkenswaard,valkenswaard.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Veenendaal,veenendaal.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Veenendaal,veenendaal.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Veldhoven,veldhoven.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Veldhoven,veldhoven.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Venlo,venlo.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Venlo,venlo.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Venray,venray.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Venray,venray.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Vijfheerenlanden,vijfheerenlanden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vijfheerenlanden,vijfheerenlanden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Vlieland,vlieland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Vlieland,vlieland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Voorst,voorst.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Voorst,voorst.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Waadhoeke,waadhoeke.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Waadhoeke,waadhoeke.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Waalre,waalre.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Waalre,waalre.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Weert,weert.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Weert,weert.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+West Betuwe,westbetuwe.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+West Betuwe,westbetuwe.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+West Maas en Waal,westmaasenwaal.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+West Maas en Waal,westmaasenwaal.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Westerveld,gemeentewesterveld.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Westerveld,gemeentewesterveld.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Westervoort,westervoort.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Westervoort,westervoort.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Westervoort,westervoort.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Weststellingwerf,weststellingwerf.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Weststellingwerf,weststellingwerf.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Wierden,wierden.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Wierden,wierden.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Woensdrecht,woensdrecht.nl,SPF policy,SPF,https://tools.ietf.org/html/rfc7208
+Woudenberg,woudenberg.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Woudenberg,woudenberg.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Woudenberg,woudenberg.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zeewolde,zeewolde.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zeewolde,zeewolde.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zeist,zeist.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zeist,zeist.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zevenaar,zevenaar.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zevenaar,zevenaar.nl,DMARC policy,DMARC,https://datatracker.ietf.org/doc/rfc7489/
+Zevenaar,zevenaar.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zoeterwoude,zoeterwoude.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zoeterwoude,zoeterwoude.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zwartewaterland,zwartewaterland.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zwartewaterland,zwartewaterland.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
+Zwolle,zwolle.nl,DANE,STARTTLS en DANE,https://tools.ietf.org/html/rfc3207 https://tools.ietf.org/html/rfc7672
+Zwolle,zwolle.nl,DNSSEC MX,DNSSEC,https://www.rfc-editor.org/rfc/rfc4033 https://www.rfc-editor.org/rfc/rfc4034 https://www.rfc-editor.org/rfc/rfc4035
