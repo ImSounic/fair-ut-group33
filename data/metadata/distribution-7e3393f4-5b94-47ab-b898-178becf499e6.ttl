@@ -10,7 +10,7 @@
   dcterms:title "Extracted municipal e-mail table (CSV)"@en, "GeÃ«xtraheerde gemeentelijke e-mailtabel (CSV)"@nl;
   dcat:version "1.0";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:44.977201068Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T23:49:12.918557851Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-22T01:04:40.850395214Z"^^xsd:dateTime;
   dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl>;
   dcterms:description "Section 4.15 of the appendix as CSV: 1,866 hosts and 8 e-mail tests; one host is excluded."@en,
     "Paragraaf 4.15 van de bijlage als CSV."@nl;
@@ -24,7 +24,7 @@
   <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>,
     <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
   dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161>;
-  dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime;
+  dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime;
   dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV>;
   <http://spdx.org/rdf/terms#checksum> [ a <http://spdx.org/rdf/terms#Checksum>;
       <http://spdx.org/rdf/terms#algorithm> <http://spdx.org/rdf/terms#checksumAlgorithm_sha256>;

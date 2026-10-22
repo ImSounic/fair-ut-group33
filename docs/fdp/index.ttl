@@ -11,7 +11,7 @@
     "FAIR Data Point van groep 33, FAIR Data Engineering (Universiteit Twente)"@nl;
   dcat:version "1.0"^^xsd:float;
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T22:59:29.700075361Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T23:49:13.235143144Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-22T01:04:41.117805199Z"^^xsd:dateTime;
   dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl>;
   dcterms:description "Metadata about the FAIRified municipal results of the Dutch information security standards measurement."@en,
     "Metadata over de FAIR gemaakte gemeentelijke resultaten van de Meting Informatieveiligheidstandaarden."@nl;

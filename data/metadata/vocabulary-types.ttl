@@ -36,7 +36,7 @@ spdx:checksumAlgorithm_sha256 a spdx:ChecksumAlgorithm .
 <https://w3id.org/FAIR-course-UT/2026/group33/ont> a dct:Standard .
 
 # Web pages referred to as documents (landing page, home page, documentation)
-<https://imsounic.github.io/fair-ut-group33/> a foaf:Document .
+<https://imsounic.github.io/fair-ut-group33> a foaf:Document .
 <https://github.com/ImSounic/fair-ut-group33> a foaf:Document .
 
 # The creator (described in the data's provenance as a foaf:Person, a subclass of foaf:Agent)

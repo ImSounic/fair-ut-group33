@@ -34,7 +34,7 @@ SPDX = Namespace("http://spdx.org/rdf/terms#")
 EU = "http://publications.europa.eu/resource/authority/"
 IANA = "https://www.iana.org/assignments/media-types/"
 CC0 = URIRef("http://creativecommons.org/publicdomain/zero/1.0/deed.nl")
-SITE = "https://imsounic.github.io/fair-ut-group33/"
+SITE = "https://imsounic.github.io/fair-ut-group33"  # no trailing slash: the FDP client labels links by their last path segment
 REPO = "https://github.com/ImSounic/fair-ut-group33"
 APPENDIX_URL = ("https://www.forumstandaardisatie.nl/sites/default/files/OBDO/2026/0611/"
                 "20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html")

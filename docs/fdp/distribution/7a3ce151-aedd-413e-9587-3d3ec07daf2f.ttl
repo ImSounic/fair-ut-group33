@@ -10,7 +10,7 @@
   dcterms:title "FAIRified data (RDF, Turtle)"@en, "FAIR gemaakte data (RDF, Turtle)"@nl;
   dcat:version "1.0";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:45.244767501Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T23:49:13.098193706Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-22T01:04:41.024001918Z"^^xsd:dateTime;
   dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl>;
   dcterms:description "26,064 EARL assertions and results, 1,867 hosts, 1,388 host attributions, 342 municipalities and the provenance of the measurement, extraction, correction and linking, in Turtle."@en,
     "26.064 EARL-beweringen met resultaten, hosts, toewijzingen, gemeenten en herkomst, in Turtle."@nl;
@@ -26,7 +26,7 @@
   <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/445c0a70d1e214e545b261559e2842f4>,
     <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
   dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161>;
-  dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime;
+  dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime;
   dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE>;
   <http://spdx.org/rdf/terms#checksum> [ a <http://spdx.org/rdf/terms#Checksum>;
       <http://spdx.org/rdf/terms#algorithm> <http://spdx.org/rdf/terms#checksumAlgorithm_sha256>;

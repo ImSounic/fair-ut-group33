@@ -1,37 +1,37 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://semanticscience.org/resource/> .
-@prefix ns2: <http://www.w3.org/ns/ldp#> .
-@prefix ns3: <http://spdx.org/rdf/terms#> .
-@prefix ns4: <https://w3id.org/fdp/fdp-o#> .
+@prefix ns1: <https://w3id.org/fdp/fdp-o#> .
+@prefix ns2: <http://semanticscience.org/resource/> .
+@prefix ns3: <http://www.re3data.org/schema/3-0#> .
+@prefix ns4: <http://spdx.org/rdf/terms#> .
 @prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns6: <http://www.re3data.org/schema/3-0#> .
+@prefix ns6: <http://www.w3.org/ns/ldp#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/> a ns2:DirectContainer ;
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/> a ns6:DirectContainer ;
     dcterms:title "Catalogs" ;
-    ns2:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> ;
-    ns2:hasMemberRelation ns4:metadataCatalog ;
-    ns2:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp> .
+    ns6:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> ;
+    ns6:hasMemberRelation ns1:metadataCatalog ;
+    ns6:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/> a ns2:DirectContainer ;
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/> a ns6:DirectContainer ;
     dcterms:title "Datasets" ;
-    ns2:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
-    ns2:hasMemberRelation dcat:dataset ;
-    ns2:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> .
+    ns6:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
+    ns6:hasMemberRelation dcat:dataset ;
+    ns6:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/> a ns2:DirectContainer ;
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/> a ns6:DirectContainer ;
     dcterms:title "Distributions" ;
-    ns2:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b>,
+    ns6:contains <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53> ;
-    ns2:hasMemberRelation dcat:distribution ;
-    ns2:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> .
+    ns6:hasMemberRelation dcat:distribution ;
+    ns6:membershipResource <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
@@ -42,20 +42,20 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
@@ -63,11 +63,11 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
@@ -75,11 +75,11 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
@@ -87,11 +87,11 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53#accessRights> a dcterms:RightsStatement ;
     dcterms:description "This resource has no access restriction" .
@@ -99,17 +99,17 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53#identifier> a <http://purl.org/spar/datacite/Identifier> ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53" .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/445c0a70d1e214e545b261559e2842f4> ns1:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
-    ns1:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/445c0a70d1e214e545b261559e2842f4> ns2:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt> ;
+    ns2:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
 
-<https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns1:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
-    ns1:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+<https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/5d27e854a9e78eb3f663331cd47cdc13> ns2:SIO_000332 <https://www.wikidata.org/wiki/Q8777> ;
+    ns2:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604> a prof:Profile ;
     rdfs:label "Dataset Profile" ;
@@ -165,7 +165,7 @@
         "De bijlage zoals gepubliceerd door Forum Standaardisatie, ongewijzigd gedeponeerd."@nl ;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
     dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
-    dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
@@ -173,19 +173,19 @@
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Source appendix (HTML snapshot)"@en,
         "Bronbijlage (HTML-momentopname)"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns3:checksum [ a ns3:Checksum ;
-            ns3:algorithm ns3:checksumAlgorithm_sha256 ;
-            ns3:checksumValue "27d0c4665a3b7bf15d9bbb6f7d44b0675a8eb2f988463ad89d55b03cd768ed04"^^xsd:hexBinary ] ;
+    ns4:checksum [ a ns4:Checksum ;
+            ns4:algorithm ns4:checksumAlgorithm_sha256 ;
+            ns4:checksumValue "27d0c4665a3b7bf15d9bbb6f7d44b0675a8eb2f988463ad89d55b03cd768ed04"^^xsd:hexBinary ] ;
     dcat:accessURL <https://w3id.org/FAIR-course-UT/2026/group33/source/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> ;
     dcat:byteSize "17164818"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://w3id.org/FAIR-course-UT/2026/group33/source/20260611-1b-bijlage-meting-informatieveiligheidstandaarden-begin-2026-OBDO.html> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> ;
     dcat:version "1.0" ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:44.483185+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:12.567533+00:00"^^xsd:dateTime .
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/422684f3-00de-4216-9db2-d18a03c6377b#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:44.483185+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:40.565825+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f> a dcat:Distribution,
         dcat:Resource ;
@@ -198,7 +198,7 @@
         "26.064 EARL-beweringen met resultaten, hosts, toewijzingen, gemeenten en herkomst, in Turtle."@nl ;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
     dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
-    dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
@@ -206,19 +206,19 @@
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "FAIRified data (RDF, Turtle)"@en,
         "FAIR gemaakte data (RDF, Turtle)"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns3:checksum [ a ns3:Checksum ;
-            ns3:algorithm ns3:checksumAlgorithm_sha256 ;
-            ns3:checksumValue "7d56b04d262f525dbe9c3da3456b29baee9464843f2ee3abce64f8d93af740a9"^^xsd:hexBinary ] ;
+    ns4:checksum [ a ns4:Checksum ;
+            ns4:algorithm ns4:checksumAlgorithm_sha256 ;
+            ns4:checksumValue "7d56b04d262f525dbe9c3da3456b29baee9464843f2ee3abce64f8d93af740a9"^^xsd:hexBinary ] ;
     dcat:accessURL <https://w3id.org/FAIR-course-UT/2026/group33/data> ;
     dcat:byteSize "12472240"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/fairified.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
     dcat:version "1.0" ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:45.244767+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:13.098193+00:00"^^xsd:dateTime .
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7a3ce151-aedd-413e-9587-3d3ec07daf2f#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:45.244767+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:41.024001+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6> a dcat:Distribution,
         dcat:Resource ;
@@ -229,7 +229,7 @@
         "Paragraaf 4.15 van de bijlage als CSV."@nl ;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
-    dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
@@ -237,19 +237,19 @@
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Extracted municipal e-mail table (CSV)"@en,
         "GeÃ«xtraheerde gemeentelijke e-mailtabel (CSV)"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns3:checksum [ a ns3:Checksum ;
-            ns3:algorithm ns3:checksumAlgorithm_sha256 ;
-            ns3:checksumValue "8eb36ac989828ee1c2844be56df76147822a0d9dd692bbd1478070867b48647e"^^xsd:hexBinary ] ;
+    ns4:checksum [ a ns4:Checksum ;
+            ns4:algorithm ns4:checksumAlgorithm_sha256 ;
+            ns4:checksumValue "8eb36ac989828ee1c2844be56df76147822a0d9dd692bbd1478070867b48647e"^^xsd:hexBinary ] ;
     dcat:accessURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_mail.csv> ;
     dcat:byteSize "146011"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_mail.csv> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ;
     dcat:version "1.0" ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:44.977201+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:12.918557+00:00"^^xsd:dateTime .
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:44.977201+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:40.850395+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53> a dcat:Distribution,
         dcat:Resource ;
@@ -260,7 +260,7 @@
         "Paragraaf 3.15 van de bijlage als CSV, met gecorrigeerde kolomnamen."@nl ;
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
     dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
-    dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
@@ -268,24 +268,24 @@
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Extracted municipal web table (CSV)"@en,
         "GeÃ«xtraheerde gemeentelijke webtabel (CSV)"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns3:checksum [ a ns3:Checksum ;
-            ns3:algorithm ns3:checksumAlgorithm_sha256 ;
-            ns3:checksumValue "5391fe4d3cf1e2cefa9cdf8df0c8d193d6d1fe3bc6327ad307b20dfc28597de0"^^xsd:hexBinary ] ;
+    ns4:checksum [ a ns4:Checksum ;
+            ns4:algorithm ns4:checksumAlgorithm_sha256 ;
+            ns4:checksumValue "5391fe4d3cf1e2cefa9cdf8df0c8d193d6d1fe3bc6327ad307b20dfc28597de0"^^xsd:hexBinary ] ;
     dcat:accessURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_web.csv> ;
     dcat:byteSize "116034"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://w3id.org/FAIR-course-UT/2026/group33/dist/municipal_web.csv> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ;
     dcat:version "1.0" ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:44.751761+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:12.755072+00:00"^^xsd:dateTime .
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:44.751761+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:40.712066+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp> a dcat:DataService,
         dcat:Resource,
-        ns4:FAIRDataPoint,
-        ns4:MetadataService ;
+        ns1:FAIRDataPoint,
+        ns1:MetadataService ;
     rdfs:label "Catalogs" ;
     dcterms:accessRights <https://w3id.org/FAIR-course-UT/2026/group33/fdp#accessRights> ;
     dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c> ;
@@ -298,18 +298,18 @@
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "FAIR Data Point of Group 33, FAIR Data Engineering (University of Twente)"@en,
         "FAIR Data Point van groep 33, FAIR Data Engineering (Universiteit Twente)"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
-    ns6:repositoryIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp#identifier> ;
+    ns3:repositoryIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp#identifier> ;
     dcat:endpointDescription <https://w3id.org/FAIR-course-UT/2026/group33/fdp/swagger-ui.html>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/v3/api-docs> ;
     dcat:endpointURL <https://w3id.org/FAIR-course-UT/2026/group33/fdp> ;
     dcat:version "1.0"^^xsd:float ;
-    ns4:fdpSoftwareVersion "FDP:v1.22.2~842c172" ;
-    ns4:metadataCatalog <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp#identifier> ;
-    ns4:metadataIssued "2026-10-21T22:59:29.700075+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:13.235143+00:00"^^xsd:dateTime .
+    ns1:fdpSoftwareVersion "FDP:v1.22.2~842c172" ;
+    ns1:metadataCatalog <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> ;
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp#identifier> ;
+    ns1:metadataIssued "2026-10-21T22:59:29.700075+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:41.117805+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> a dcat:Catalog,
         dcat:Resource ;
@@ -323,12 +323,12 @@
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
-    dcterms:modified "2026-10-21T23:49:12.173146+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-22T01:04:40.180509+00:00"^^xsd:dateTime ;
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Dutch government information security measurements, FAIRified"@en,
         "Metingen informatieveiligheid van de Nederlandse overheid, FAIR gemaakt"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
     dcat:contactPoint [ a ns5:Kind ;
             ns5:fn "Sounic Akkaraju (FAIR Data Engineering, Group 33)" ;
@@ -336,10 +336,10 @@
     dcat:dataset <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161> ;
     dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
     dcat:version "1.0" ;
-    foaf:homepage <https://imsounic.github.io/fair-ut-group33/> ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:43.819702+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:13.201306+00:00"^^xsd:dateTime .
+    foaf:homepage <https://imsounic.github.io/fair-ut-group33> ;
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:43.819702+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:41.091114+00:00"^^xsd:dateTime .
 
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/profile/02c649de-c579-43bb-b470-306abdc808c7> a prof:Profile ;
     rdfs:label "Distribution Profile" ;
@@ -362,11 +362,11 @@
         "Resultaten per host van de Meting Informatieveiligheidstandaarden begin 2026 van Forum Standaardisatie voor de internetdomeinen van Nederlandse gemeenten: 26.064 resultaten van 14 tests voor 1.867 hosts, peildatum 31 december 2025, als W3C EARL-beweringen, gekoppeld aan gemeenten (TOOI, Wikidata) en aan de standaarden die de tests toetsen (NORA)."@nl ;
     dcterms:identifier "https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161" ;
     dcterms:isPartOf <https://w3id.org/FAIR-course-UT/2026/group33/fdp/catalog/ff7b7f9d-38d9-4b51-9c1d-ea44399ca61d> ;
-    dcterms:issued "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:issued "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:language <http://publications.europa.eu/resource/authority/language/ENG>,
         <http://publications.europa.eu/resource/authority/language/NLD> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
-    dcterms:modified "2026-10-21T23:49:11+00:00"^^xsd:dateTime ;
+    dcterms:modified "2026-10-22T01:04:39+00:00"^^xsd:dateTime ;
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:spatial <http://publications.europa.eu/resource/authority/country/NLD> ;
@@ -375,7 +375,7 @@
             dcat:startDate "2025-12-31"^^xsd:date ] ;
     dcterms:title "Municipal results of the information security standards measurement, begin 2026"@en,
         "Gemeentelijke resultaten van de Meting Informatieveiligheidstandaarden begin 2026"@nl ;
-    ns1:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/445c0a70d1e214e545b261559e2842f4>,
+    ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
     dcat:contactPoint [ a ns5:Kind ;
             ns5:fn "Sounic Akkaraju (FAIR Data Engineering, Group 33)" ;
@@ -391,12 +391,12 @@
         "information security",
         "internet standards",
         "municipalities" ;
-    dcat:landingPage <https://imsounic.github.io/fair-ut-group33/> ;
+    dcat:landingPage <https://imsounic.github.io/fair-ut-group33> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
     dcat:version "1.0" ;
     prov:wasDerivedFrom <https://w3id.org/FAIR-course-UT/2026/group33/data#snapshot-appendix> ;
     foaf:page <https://github.com/ImSounic/fair-ut-group33> ;
-    ns4:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161#identifier> ;
-    ns4:metadataIssued "2026-10-21T23:46:44.012428+00:00"^^xsd:dateTime ;
-    ns4:metadataModified "2026-10-21T23:49:13.151086+00:00"^^xsd:dateTime .
+    ns1:metadataIdentifier <https://w3id.org/FAIR-course-UT/2026/group33/fdp/dataset/c1177570-7f8a-4c1d-af25-bbaea7bd4161#identifier> ;
+    ns1:metadataIssued "2026-10-21T23:46:44.012428+00:00"^^xsd:dateTime ;
+    ns1:metadataModified "2026-10-22T01:04:41.064736+00:00"^^xsd:dateTime .
 
