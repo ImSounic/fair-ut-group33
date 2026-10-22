@@ -20,15 +20,19 @@
   },
   "cq2_per_test": {
    "rows": 5,
-   "seconds": 0.18
+   "seconds": 0.19
   },
   "cq3": {
    "rows": 12,
-   "seconds": 0.2
+   "seconds": 0.21
   },
   "cq4": {
    "rows": 45,
-   "seconds": 0.16
+   "seconds": 0.17
+  },
+  "cq4_per_test": {
+   "rows": 153,
+   "seconds": 0.22
   }
  },
  "acceptance": {

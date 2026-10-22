@@ -61,7 +61,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     requests.get(f"{FUSEKI}/sparql", params={"query": "ASK {}"}, timeout=10).raise_for_status()
     report = {"graphs": load(), "queries": {}}
-    names = ["cq1", "cq2", "cq2_count", "cq2_per_test", "cq3", "cq4"]
+    names = ["cq1", "cq2", "cq2_count", "cq2_per_test", "cq3", "cq4", "cq4_per_test"]
     if "--federated" in sys.argv:
         names.append("cq2_federated")
     results = {}

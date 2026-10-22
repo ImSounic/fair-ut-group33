@@ -1,0 +1,154 @@
+serviceDomain,test,hostsFailing,hosts
+bestuurlijkeinformatie.nl,SPF policy,98,98
+bestuurlijkeinformatie.nl,TLS NCSC web,98,98
+bestuurlijkeinformatie.nl,HSTS,1,98
+bestuurlijkeinformatie.nl,HTTPS redirect,1,98
+mijnafspraakmaken.nl,DKIM,71,71
+mijnafspraakmaken.nl,SPF policy,71,71
+mijnafspraakmaken.nl,IPv6 web,2,71
+raadsinformatie.nl,DMARC policy,46,46
+raadsinformatie.nl,SPF policy,46,46
+notubiz.nl,DMARC policy,25,25
+notubiz.nl,SPF policy,25,25
+notubiz.nl,TLS NCSC web,1,25
+begrotingsapp.nl,DMARC policy,13,13
+begrotingsapp.nl,DNSSEC,13,13
+begrotingsapp.nl,SPF policy,13,13
+pcportal.nl,DKIM,12,12
+pcportal.nl,DNSSEC,12,12
+pcportal.nl,IPv6 web,12,12
+pcportal.nl,SPF policy,12,12
+incijfers.nl,SPF policy,5,11
+lokalelastenmeter.nl,DMARC policy,4,4
+lokalelastenmeter.nl,SPF policy,4,4
+lokalelastenmeter.nl,TLS NCSC web,4,4
+lokalelastenmeter.nl,HTTPS redirect,2,4
+begroting-2023.nl,DKIM,3,3
+begroting-2023.nl,DNSSEC,3,3
+begroting-2023.nl,SPF policy,3,3
+begroting-2023.nl,HTTPS redirect,2,3
+begroting-2023.nl,IPv6 web,2,3
+begroting-2023.nl,HSTS,1,3
+begroting-2023.nl,TLS NCSC web,1,3
+begrotingonline.nl,DMARC policy,3,3
+begrotingonline.nl,IPv6 web,3,3
+begrotingonline.nl,SPF policy,3,3
+jaarverslag-2022.nl,DKIM,3,3
+jaarverslag-2022.nl,DNSSEC,3,3
+jaarverslag-2022.nl,SPF policy,3,3
+jaarverslag-2022.nl,TLS NCSC web,2,3
+jaarverslag-2022.nl,HSTS,1,3
+jaarverslag-2022.nl,HTTPS redirect,1,3
+jaarverslag-2022.nl,IPv6 web,1,3
+qualigraf.nl,DKIM,3,3
+qualigraf.nl,DMARC policy,3,3
+qualigraf.nl,SPF policy,3,3
+archiefweb.eu,DMARC policy,2,2
+archiefweb.eu,IPv6 web,2,2
+archiefweb.eu,SPF policy,2,2
+begroting-2024.nl,DKIM,2,2
+begroting-2024.nl,DNSSEC,2,2
+begroting-2024.nl,SPF policy,2,2
+begroting-2024.nl,HSTS,1,2
+begroting-2024.nl,HTTPS redirect,1,2
+begroting-2024.nl,IPv6 web,1,2
+begroting-2024.nl,TLS NCSC web,1,2
+mantelzorgtest.nl,DKIM,2,2
+mantelzorgtest.nl,DMARC policy,2,2
+mantelzorgtest.nl,DNSSEC,2,2
+mantelzorgtest.nl,IPv6 web,2,2
+mantelzorgtest.nl,SPF policy,2,2
+parlaeus.nl,DKIM,2,2
+parlaeus.nl,IPv6 web,2,2
+parlaeus.nl,SPF policy,2,2
+accommodatiehuur.nl,DMARC policy,1,1
+accommodatiehuur.nl,SPF policy,1,1
+afvalstoffendienstkalender.nl,DMARC policy,1,1
+afvalstoffendienstkalender.nl,DNSSEC,1,1
+afvalstoffendienstkalender.nl,IPv6 web,1,1
+afvalstoffendienstkalender.nl,SPF policy,1,1
+afvalstoffendienstkalender.nl,TLS NCSC web,1,1
+arcgis.com,IPv6 web,1,1
+arcgis.com,SPF policy,1,1
+begroting-2017.nl,DKIM,1,1
+begroting-2017.nl,DNSSEC,1,1
+begroting-2017.nl,IPv6 web,1,1
+begroting-2017.nl,SPF policy,1,1
+begroting-2018.nl,DKIM,1,1
+begroting-2018.nl,DNSSEC,1,1
+begroting-2018.nl,IPv6 web,1,1
+begroting-2018.nl,SPF policy,1,1
+begroting-2019.nl,DKIM,1,1
+begroting-2019.nl,DNSSEC,1,1
+begroting-2019.nl,IPv6 web,1,1
+begroting-2019.nl,SPF policy,1,1
+begroting-2020.nl,DKIM,1,1
+begroting-2020.nl,DNSSEC,1,1
+begroting-2020.nl,IPv6 web,1,1
+begroting-2020.nl,SPF policy,1,1
+begroting-2021.nl,DKIM,1,1
+begroting-2021.nl,DNSSEC,1,1
+begroting-2021.nl,IPv6 web,1,1
+begroting-2021.nl,SPF policy,1,1
+begroting-2022.nl,DKIM,1,1
+begroting-2022.nl,DNSSEC,1,1
+begroting-2022.nl,IPv6 web,1,1
+begroting-2022.nl,SPF policy,1,1
+buurtmonitor.nl,SPF policy,1,1
+courant.nu,DMARC policy,1,1
+datab.nl,DKIM,1,1
+datab.nl,DMARC policy,1,1
+datab.nl,IPv6 web,1,1
+datab.nl,SPF policy,1,1
+dataplatform.nl,DKIM,1,1
+dataplatform.nl,IPv6 web,1,1
+dataplatform.nl,SPF policy,1,1
+dataplatform.nl,TLS NCSC web,1,1
+edataloket.nl,DMARC policy,1,1
+edataloket.nl,DNSSEC,1,1
+edataloket.nl,HSTS,1,1
+edataloket.nl,SPF policy,1,1
+edataloket.nl,TLS NCSC web,1,1
+embracecloud.nl,IPv6 web,1,1
+embracecloud.nl,SPF policy,1,1
+klimaatmonitor.net,IPv6 web,1,1
+klimaatmonitor.net,SPF policy,1,1
+langetermijnagenda.nl,DKIM,1,1
+langetermijnagenda.nl,HSTS,1,1
+langetermijnagenda.nl,SPF policy,1,1
+langetermijnagenda.nl,TLS NCSC web,1,1
+makelpunt.nl,DKIM,1,1
+makelpunt.nl,SPF policy,1,1
+nazca4u.nl,DKIM,1,1
+nazca4u.nl,DMARC policy,1,1
+nazca4u.nl,SPF policy,1,1
+parkeer.nl,DMARC policy,1,1
+parkeer.nl,IPv6 web,1,1
+parkeer.nl,SPF policy,1,1
+pgbscan.nl,DMARC policy,1,1
+pgbscan.nl,IPv6 web,1,1
+publicaties.app,DKIM,1,1
+publicaties.app,DMARC policy,1,1
+publicaties.app,DNSSEC,1,1
+publicaties.app,SPF policy,1,1
+publicaties.app,TLS NCSC web,1,1
+sharepoint.com,DKIM,1,1
+sharepoint.com,DNSSEC,1,1
+sharepoint.com,SPF policy,1,1
+smartmap.nl,DMARC policy,1,1
+smartmap.nl,HSTS,1,1
+smartmap.nl,SPF policy,1,1
+startersloket.nl,IPv6 web,1,1
+startersloket.nl,SPF policy,1,1
+vergunningen.info,DMARC policy,1,1
+vergunningen.info,IPv6 web,1,1
+vergunningen.info,SPF policy,1,1
+verkiezinginbeeld.nl,DMARC policy,1,1
+verkiezinginbeeld.nl,IPv6 web,1,1
+verkiezinginbeeld.nl,SPF policy,1,1
+webarchief.online,DMARC policy,1,1
+webarchief.online,DNSSEC,1,1
+webarchief.online,SPF policy,1,1
+zaaksysteem.nl,DANE,1,1
+zaaksysteem.nl,DMARC policy,1,1
+zaaksysteem.nl,DNSSEC MX,1,1

@@ -1,0 +1,18 @@
+# CQ4, per test: for each service domain, how many of its hosts fail each test. Shows that failures
+# are platform-wide (the same test fails on every municipality's host of a vendor).
+PREFIX earl: <http://www.w3.org/ns/earl#>
+PREFIX ont:  <https://w3id.org/FAIR-course-UT/2026/group33/ont#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?serviceDomain ?test (COUNT(DISTINCT ?h) AS ?hostsFailing) ?hosts
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/data>
+FROM <https://w3id.org/FAIR-course-UT/2026/group33/graph/ontology>
+WHERE {
+  { SELECT ?sd (COUNT(DISTINCT ?x) AS ?hosts) WHERE { ?b ont:viaServiceDomain ?sd ; ont:attributedHost ?x } GROUP BY ?sd }
+  ?att ont:viaServiceDomain ?sd ; ont:attributedHost ?h .
+  ?sd ont:hostName ?serviceDomain .
+  ?a earl:subject ?h ; earl:test ?t ; earl:result/earl:outcome ?o .
+  ?o a earl:Fail .
+  ?t rdfs:label ?test . FILTER(LANG(?test) = "en")
+}
+GROUP BY ?serviceDomain ?test ?hosts
+ORDER BY DESC(?hosts) ?serviceDomain DESC(?hostsFailing)
