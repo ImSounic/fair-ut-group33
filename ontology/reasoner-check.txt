@@ -1,0 +1,4 @@
+Reasoner check of ontology/ont.owl (SHA-256 a86213e8999ccb22662b7b7f070ecd36146adc677bd1e5ce6fe3cdeae0c93d0d)
+Date (UTC): 2026-10-29T22:52Z
+Reasoner: HermiT bundled with owlready2 0.51
+Result: consistent (no OwlReadyInconsistentOntologyError); unsatisfiable classes: 0 []
