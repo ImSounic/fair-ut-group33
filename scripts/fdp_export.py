@@ -32,7 +32,9 @@ META = C.ROOT / "data" / "metadata"
 def fetch(iri: str) -> str:
     r = requests.get(API + iri[len(FDP):] if iri != FDP else API + "/", headers={"Accept": "text/turtle"})
     r.raise_for_status()
-    return r.text
+    # The FDP sends text/turtle without a charset; requests would then decode
+    # it as ISO-8859-1 and double-encode non-ASCII characters.
+    return r.content.decode("utf-8")
 
 
 def main():

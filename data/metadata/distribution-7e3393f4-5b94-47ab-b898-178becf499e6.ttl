@@ -7,7 +7,7 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6>
   a dcat:Resource, dcat:Distribution;
   <http://www.w3.org/2000/01/rdf-schema#label> "Extracted municipal e-mail table (CSV)";
-  dcterms:title "Extracted municipal e-mail table (CSV)"@en, "GeÃ«xtraheerde gemeentelijke e-mailtabel (CSV)"@nl;
+  dcterms:title "Extracted municipal e-mail table (CSV)"@en, "Geëxtraheerde gemeentelijke e-mailtabel (CSV)"@nl;
   dcat:version "1.0";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:44.977201068Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-22T01:04:40.850395214Z"^^xsd:dateTime;

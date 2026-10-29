@@ -7,7 +7,7 @@
 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53>
   a dcat:Resource, dcat:Distribution;
   <http://www.w3.org/2000/01/rdf-schema#label> "Extracted municipal web table (CSV)";
-  dcterms:title "Extracted municipal web table (CSV)"@en, "GeÃ«xtraheerde gemeentelijke webtabel (CSV)"@nl;
+  dcterms:title "Extracted municipal web table (CSV)"@en, "Geëxtraheerde gemeentelijke webtabel (CSV)"@nl;
   dcat:version "1.0";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-21T23:46:44.751761865Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-22T01:04:40.712066257Z"^^xsd:dateTime;

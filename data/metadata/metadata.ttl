@@ -236,7 +236,7 @@
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Extracted municipal e-mail table (CSV)"@en,
-        "GeÃ«xtraheerde gemeentelijke e-mailtabel (CSV)"@nl ;
+        "Geëxtraheerde gemeentelijke e-mailtabel (CSV)"@nl ;
     ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/7e3393f4-5b94-47ab-b898-178becf499e6/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
     ns4:checksum [ a ns4:Checksum ;
@@ -267,7 +267,7 @@
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "Sounic Akkaraju, University of Twente (FAIR Data Engineering, Group 33)" ] ;
     dcterms:title "Extracted municipal web table (CSV)"@en,
-        "GeÃ«xtraheerde gemeentelijke webtabel (CSV)"@nl ;
+        "Geëxtraheerde gemeentelijke webtabel (CSV)"@nl ;
     ns2:SIO_000628 <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/445c0a70d1e214e545b261559e2842f4>,
         <https://w3id.org/FAIR-course-UT/2026/group33/fdp/distribution/c676dd3b-e9a2-420e-8503-07b0502eed53/metrics/5d27e854a9e78eb3f663331cd47cdc13> ;
     ns4:checksum [ a ns4:Checksum ;

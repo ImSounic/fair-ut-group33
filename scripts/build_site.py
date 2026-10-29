@@ -132,8 +132,8 @@ def landing_page() -> str:
     ns = C.BASE
     rows = [("Ontology", ns + "ont", "ont/"),
             ("FAIRified data (Turtle)", ns + "data", "dist/fairified.ttl"),
-            ("Extracted tables (CSV)", ns + "dist/municipal_web.csv", "dist/"),
-            ("Source snapshot", ns + "source/" + C.APPENDIX.name, "source/"),
+            ("Extracted tables (CSV)", ns + "dist/municipal_web.csv", "dist/municipal_web.csv"),
+            ("Source snapshot", ns + "source/" + C.APPENDIX.name, "source/" + C.APPENDIX.name),
             ("Metadata records (FAIR Data Point)", ns + "fdp", "metadata.html")]
     table = "".join(f"<tr><td>{html.escape(n)}</td><td><code>{html.escape(i)}</code></td>"
                     f'<td><a href="{html.escape(h)}">open</a></td></tr>' for n, i, h in rows)
