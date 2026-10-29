@@ -1,0 +1,5 @@
+# Python packages used by scripts/ (versions of the environment that produced the published files)
+lxml==6.1.3
+rdflib==7.6.0
+requests==2.34.2
+pyshacl==0.40.1

@@ -10,7 +10,7 @@
 @prefix org:    <http://www.w3.org/ns/org#> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 @prefix d3f:    <http://d3fend.mitre.org/ontologies/d3fend.owl#> .
-@prefix tooiont: <https://identifier.overheid.nl/tooi/def/ont#> .
+@prefix tooiont: <https://identifier.overheid.nl/tooi/def/ont/> .
 @prefix wd:     <http://www.wikidata.org/entity/> .
 
 # The ontology IRI and namespace are rewritten by scripts/build_ontology.py from config.BASE.

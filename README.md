@@ -37,9 +37,11 @@ Website: https://imsounic.github.io/fair-ut-group33/
 | `queries/cq/` | SPARQL for the competency questions and their results |
 | `w3id/` | Redirect rules and tests for the course PID relay |
 
-Run the scripts with Python 3.12+ and `rdflib`, `lxml`, `requests`, in this order: extract,
+Run the scripts with Python 3.12+ and the packages in `requirements.txt`, in this order: extract,
 freeze_linking (optional, re-fetches the exports), attribute, build_ontology, openrefine_rdf (needs
-OpenRefine 3.9 with the RDF extension 1.6), build_prov, merge_rdf, build_site.
+OpenRefine 3.9 with the RDF extension 1.6), build_linking_rdf, build_prov, merge_rdf, fdp_publish and
+fdp_export (need the FAIR Data Point in `fdp/`), validate_metadata, run_cqs (needs Apache Jena Fuseki),
+build_site.
 
 ## Licences
 
